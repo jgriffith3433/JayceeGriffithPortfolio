@@ -48,7 +48,7 @@ class LoginPage extends React.Component<Props, {}> {
         return <div id="loginPage">
 
             <Helmet>
-                <title>Login page - RCB</title>
+                <title>Login page - Jaycee Griffith</title>
             </Helmet>
             
             <Loader ref={x => this.elLoader = x} show={this.props.indicators.operationLoading} />

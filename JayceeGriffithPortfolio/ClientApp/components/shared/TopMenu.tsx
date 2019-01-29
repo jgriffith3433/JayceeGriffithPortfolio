@@ -31,9 +31,9 @@ class TopMenu extends React.Component<{}, { logoutAction: boolean }> {
     }
 
     render() {
-        if (this.state.logoutAction)
-            return <Redirect to="/login" />;
-
+        if (this.state.logoutAction) {
+            window.location.reload();
+        }
         return <div className="navbar navbar-default">
             <div className="container-fluid">
                 <div className="navbar-header">
@@ -43,19 +43,24 @@ class TopMenu extends React.Component<{}, { logoutAction: boolean }> {
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                     </button>
-                    <a className="navbar-brand" href="#">RCB</a>
+                    <a className="navbar-brand" href="#">Jaycee Griffith</a>
                 </div>
                 <div id="navbar" className="navbar-collapse collapse nav navbar-nav navbar-right">
                     <ul className="nav navbar-nav">
                         <li><NavLink exact to={'/'} activeClassName="active">Home</NavLink></li>
-                        <li><NavLink exact to={'/example'} activeClassName="active">Example</NavLink></li>
+                        <li><NavLink exact to={'/portfolio'} activeClassName="active">Portfolio</NavLink></li>
+                        <li><NavLink exact to={'/admin'} activeClassName="active">Admin</NavLink></li>
                         <li className="dropdown">
                             <a href="#" ref={x => this.elDropdown = x} className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                {Globals.serviceUser.login}&nbsp;
+                                {Globals.serviceUser ? Globals.serviceUser.login : null}&nbsp;
                                 <span className="caret"></span>
                             </a>
                             <ul className="dropdown-menu">
-                                <li><a href="#" onClick={this.onClickSignOut}>Sign out</a></li>
+                                {Globals.serviceUser ? (
+                                    <li><a href="#" onClick={this.onClickSignOut}>Sign out</a></li>
+                                ) : (
+                                    <li><a href="/login">Sign in</a></li>
+                                )}
                             </ul>
                         </li>
                     </ul>

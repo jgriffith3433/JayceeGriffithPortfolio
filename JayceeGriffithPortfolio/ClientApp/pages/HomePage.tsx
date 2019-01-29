@@ -13,10 +13,8 @@ export default class HomePage extends React.Component<Props, {}> {
     render() {
         return <div>
             <Helmet>
-                <title>Home page - RCB</title>
+                <title>Jaycee Griffith - Home</title>
             </Helmet>
-            <img style={{"margin": "0 auto", "display": "block", "width": "100%"}} src={logo} />
-            
             <p className="text-center" style={{"fontSize": "52px"}}>Happy coding!</p>
             </div>;
     }

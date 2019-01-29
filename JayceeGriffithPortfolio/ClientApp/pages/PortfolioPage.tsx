@@ -24,7 +24,7 @@ interface IState {
 }
 
 
-class ExamplePage extends React.Component<Props, IState> {
+class PortfolioPage extends React.Component<Props, IState> {
 
     private pagingBar: PagingBar;
 
@@ -149,7 +149,7 @@ class ExamplePage extends React.Component<Props, IState> {
 
         return <div>
             <Helmet>
-                <title>Example - RCB</title>
+                <title>Jaycee Griffith - Portfolio</title>
             </Helmet>
 
             <Loader show={this.props.indicators.operationLoading} />
@@ -239,6 +239,6 @@ class ExamplePage extends React.Component<Props, IState> {
 var component = connect(
     (state: ApplicationState) => state.person, // Selects which state properties are merged into the component's props.
     PersonStore.actionCreators // Selects which action creators are merged into the component's props.
-)(ExamplePage as any);
+)(PortfolioPage as any);
 
-export default (withRouter(component as any) as any as typeof ExamplePage)
+export default (withRouter(component as any) as any as typeof PortfolioPage)

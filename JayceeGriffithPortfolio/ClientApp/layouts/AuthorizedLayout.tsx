@@ -13,12 +13,14 @@ type Props = IProps;
 export default class AuthorizedLayout extends React.Component<Props, {}> {
     public render() {
 
-        return <div id="authorizedLayout" className="layout">
-            <TopMenu />
-            <div className="container container-content">
-                {this.props.children}
+        return <div>
+            <div id="authorizedLayout" className="layout">
+                <TopMenu />
+                <div className="container container-content">
+                    {this.props.children}
+                </div>
+                <ToastContainer />
             </div>
-            <ToastContainer />
             <Footer />
         </div>;
     }

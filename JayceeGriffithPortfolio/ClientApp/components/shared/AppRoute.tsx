@@ -8,13 +8,14 @@ export interface IProps extends RouteProps {
 
 export const AppRoute = ({ component: Component, layout: Layout, path: Path, ...rest }: IProps) => {
 
-    /*var isLoginPath = Path === "/login";
-    if (!Globals.isAuthenticated && !isLoginPath) {
+    var isAdminPath = Path === "/admin";
+    var isLoginPath = Path === "/login";
+    if (!Globals.isAuthenticated && isAdminPath) {
         return <Redirect to="/login" />;
     }
     if (Globals.isAuthenticated && isLoginPath) {
         return <Redirect to="/" />;
-    }*/
+    }
 
     return <Route {...rest} render={props => (
         <Layout>
