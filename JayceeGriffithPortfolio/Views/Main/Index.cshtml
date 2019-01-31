@@ -24,27 +24,30 @@
     {
         <link rel="stylesheet" href="~/dist/site.css" asp-append-version="true" />
     }
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <script>
-        window.publicSession = @Html.Raw(string.IsNullOrEmpty(publicSessionJson) ? "null" : publicSessionJson);    
+        window.publicSession = @Html.Raw(string.IsNullOrEmpty(publicSessionJson) ? "null" : publicSessionJson);
         window.initialReduxState = @Html.Raw(initialReduxStateJson);
         window.completedTasks = @Html.Raw(completedTasksJson);
     </script>
 </head>
 <body>
 
-<div id="preloader">
-    <div>Loading...</div>
-</div>
+    <div id="preloader">
+        <div>Loading...</div>
+    </div>
 
-@* Save the request token in a div. CORS needs to make sure this token can't be read by javascript from other sources than ours *@
-<div id="xsrf-token" data-xsrf-token="@ViewBag.AntiForgeryRequestToken"></div>
-<div id="access-token" data-access-token="@ViewBag.accessToken"></div>
+    @* Save the request token in a div. CORS needs to make sure this token can't be read by javascript from other sources than ours *@
+    <div id="xsrf-token" data-xsrf-token="@ViewBag.AntiForgeryRequestToken"></div>
+    <div id="access-token" data-access-token="@ViewBag.accessToken"></div>
 
-<div id="react-app">@Html.Raw(prerenderResult?.Html)</div>
+    <div id="react-app">@Html.Raw(prerenderResult?.Html)</div>
 
-<script src="~/dist/vendor.js" asp-append-version="true"></script>
-<script src="~/dist/main-client.js" asp-append-version="true"></script>
 
+    <script src="~/dist/vendor.js" asp-append-version="true"></script>
+    <script src="~/dist/main-client.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 </html>

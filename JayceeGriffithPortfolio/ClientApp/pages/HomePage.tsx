@@ -15,7 +15,7 @@ export default class HomePage extends React.Component<Props, {}> {
             <Helmet>
                 <title>Jaycee Griffith - Home</title>
             </Helmet>
-            <p className="text-center" style={{"fontSize": "52px"}}>Happy coding!</p>
+            <p className="text-center" style={{"fontSize": "22px"}}>Welcome to my website, it's bare bones right now. Feel free to check out my portfolio!</p>
             </div>;
     }
 }

@@ -1,244 +1,43 @@
-﻿import "@Styles/main.scss";
-import * as React from "react";
+﻿import * as React from "react";
+import { RouteComponentProps } from "react-router";
 import { Helmet } from "react-helmet";
-import { RouteComponentProps, withRouter } from "react-router";
-import { IPersonModel } from "@Models/IPersonModel";
-import { PersonStore } from "@Store/PersonStore";
-import { ApplicationState } from "@Store/index";
-import { connect } from "react-redux";
-import { PagingBar } from "@Components/shared/PagingBar";
-import PersonEditor from "@Components/person/PersonEditor";
-import Loader from "@Components/shared/Loader";
-import bind from 'bind-decorator';
-import { ModalComponent } from "@Components/shared/ModalComponent";
-import AwesomeDebouncePromise from "awesome-debounce-promise";
+import logo from "@Images/logo.png";
 
-type Props = RouteComponentProps<{}> & typeof PersonStore.actionCreators & PersonStore.IState;
+type Props = RouteComponentProps<{}>;
 
-interface IState {
-    searchTerm: string;
-    pageNum: number;
-    limitPerPage: number;
-    rowOffset: number;
-    modelForEdit: IPersonModel;
-}
-
-
-class PortfolioPage extends React.Component<Props, IState> {
-
-    private pagingBar: PagingBar;
-
-    private elModalAdd: ModalComponent;
-    private elModalEdit: ModalComponent;
-    private elModalDelete: ModalComponent;
-
-    private personEditorAdd: PersonEditor;
-    private personEditorEdit: PersonEditor;
-
-    private debouncedSearch: (term: string) => void;
-
-    constructor(props: Props) {
+export default class PortfolioPage extends React.Component<Props, {}> {
+    constructor(props) {
         super(props);
-
-        this.state = {
-            searchTerm: "",
-            pageNum: 1,
-            limitPerPage: 5,
-            rowOffset: 0,
-            modelForEdit: {}
-        };
-
-        this.debouncedSearch = AwesomeDebouncePromise((term: string) => {
-            props.searchRequest(term);
-        }, 500);
-    }
-
-    componentWillMount() {
-        this.props.searchRequest();
-    }
-
-    componentWillUnmount() {
-        if (this.elModalAdd) {
-            this.elModalAdd.hide();
-        }
-        if (this.elModalEdit) {
-            this.elModalEdit.hide();
-        }
-        if (this.elModalDelete) {
-            this.elModalDelete.hide();
-        }
-    }
-
-    @bind
-    onChangePage(pageNum: number): void {
-        let rowOffset = Math.ceil((pageNum - 1) * this.state.limitPerPage);
-        this.setState({ pageNum, rowOffset });
-    }
-
-    @bind
-    onClickShowAddModal(e: React.MouseEvent<HTMLButtonElement>) {
-        this.elModalAdd.show();
-    }
-
-    @bind
-    onClickShowEditModal(e: React.MouseEvent<HTMLButtonElement>, modelForEdit: IPersonModel) {
-        this.setState({ modelForEdit });
-        this.elModalEdit.show();
-    }
-
-    @bind
-    onClickShowDeleteModal(e: React.MouseEvent<HTMLButtonElement>, modelForEdit: IPersonModel) {
-        this.setState({ modelForEdit });
-        this.elModalDelete.show();
-    }
-
-    @bind
-    onClickPersonEditorAdd__saveBtn(e: React.MouseEvent<HTMLButtonElement>): void {
-        e.preventDefault();
-        if (!this.personEditorAdd.elForm.isValid()) {
-            return;
-        }
-        this.props.addRequest(this.personEditorAdd.elForm.getData());
-        this.pagingBar.setLastPage();
-        this.elModalAdd.hide();
-    }
-
-    @bind
-    onClickPersonEditorEdit__saveBtn(e: React.MouseEvent<HTMLButtonElement>): void {
-        if (!this.personEditorEdit.elForm.isValid()) {
-            return;
-        }
-        var data = this.personEditorEdit.elForm.getData();
-        this.props.updateRequest(data);
-        this.elModalEdit.hide();
-    }
-
-    @bind
-    onClickPersonEditorDelete__saveBtn(e: React.MouseEvent<HTMLButtonElement>): void {
-        this.props.deleteRequest(this.state.modelForEdit.id);
-        this.elModalDelete.hide();
-    }
-
-    @bind
-    renderRow(person: IPersonModel) {
-        return <tr key={person.id}>
-            <td>{person.firstName}</td>
-            <td>{person.lastName}</td>
-            <td>
-                <button className="btn btn-info" onClick={x => this.onClickShowEditModal(x, person)}>Edit</button>&nbsp;
-                <button className="btn btn-danger" onClick={x => this.onClickShowDeleteModal(x, person)}>Delete</button>
-            </td>
-        </tr>;
-    }
-
-    @bind
-    renderRows(data: IPersonModel[]) {
-        return data
-            .slice(this.state.rowOffset, this.state.rowOffset + this.state.limitPerPage)
-            .map(x => this.renderRow(x));
-    }
-
-    @bind
-    onChangeSearchInput(e: React.ChangeEvent<HTMLInputElement>) {
-        var val = e.currentTarget.value;
-        this.debouncedSearch(val);
-        this.pagingBar.setFirstPage();
     }
 
     render() {
-
         return <div>
             <Helmet>
                 <title>Jaycee Griffith - Portfolio</title>
             </Helmet>
-
-            <Loader show={this.props.indicators.operationLoading} />
-
-            <div className="panel panel-default">
-                <div className="panel-body row">
-                    <div className="col-sm-1">
-                        <button className="btn btn-success" onClick={this.onClickShowAddModal}>Add</button>
-                    </div>
-                    <div className="col-sm-11">
-                        <input
-                            type="text"
-                            className="form-control"
-                            defaultValue={""}
-                            onChange={this.onChangeSearchInput}
-                            placeholder={"Search for people..."}
-                        />
-                    </div>
-                </div>
+            <div className="text-center">
+                <h2>Here are a few things I've done</h2>
             </div>
-
-            <table className="table">
-                <thead>
-                    <tr>
-                        <th>First name</th><th>Last name</th><th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {this.renderRows(this.props.people)}
-                </tbody>
-            </table>
-
-            {/* Add modal */}
-            <ModalComponent
-                ref={x => this.elModalAdd = x}
-                buttons={<div>
-                    <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" className="btn btn-primary" onClick={this.onClickPersonEditorAdd__saveBtn}>Save</button>
-                </div>}
-                title="Add person"
-                onHide={() => {
-                    if (this.personEditorAdd) {
-                        this.personEditorAdd.emptyForm();
-                    }
-                }}>
-                <PersonEditor ref={x => this.personEditorAdd = x} data={{}} />
-            </ModalComponent>
-
-            {/* Edit modal */}
-            <ModalComponent
-                ref={x => this.elModalEdit = x}
-                buttons={<div>
-                    <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" className="btn btn-primary" onClick={this.onClickPersonEditorEdit__saveBtn}>Save</button>
-                </div>}
-                title={`Edit person: ${this.state.modelForEdit.firstName} ${this.state.modelForEdit.lastName}`}
-                onHide={() => {
-                    if (this.personEditorEdit) {
-                        this.setState({ modelForEdit: {} });
-                    }
-                }}>
-                <PersonEditor ref={x => this.personEditorEdit = x} data={this.state.modelForEdit} />
-            </ModalComponent>
-
-            {/* Delete modal */}
-            <ModalComponent
-                ref={x => this.elModalDelete = x}
-                buttons={<div>
-                    <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" className="btn btn-danger" onClick={this.onClickPersonEditorDelete__saveBtn}>Delete</button>
-                </div>}
-                title={`Delete person: ${this.state.modelForEdit.firstName} ${this.state.modelForEdit.lastName}`}>
-                <p>Do you really want to delete this person?</p>
-            </ModalComponent>
-
-            <PagingBar
-                ref={x => this.pagingBar = x}
-                totalResults={this.props.people.length}
-                limitPerPage={this.state.limitPerPage}
-                currentPage={this.state.pageNum}
-                onChangePage={this.onChangePage}
-            />
+            <div className="text-center externallinks">
+                <hr></hr>
+                <span><b>External links</b></span>
+            </div>
+            <p className="text-center">
+                <span>Github | </span>
+                <a href="https://github.com/jgriffith3433" target="_blank">http://github.com/jgriffith3433</a>
+            </p>
+            <p className="text-center">
+                <span>Sound Cloud | </span>
+                <a href="https://soundcloud.com/jacobsgriffith" target="_blank">https://soundcloud.com/jacobsgriffith</a>
+            </p>
+            <p className="text-center">
+                <span>Stack Overflow | </span>
+                <a href="https://stackoverflow.com/users/941632/jacobsgriffith" target="_blank">https://stackoverflow.com/users/941632/jacobsgriffith</a>
+            </p>
+            <p className="text-center">
+                <span>Itch.io | </span>
+                <a href="https://jgriffith3433.itch.io/lifeofgooba" target="_blank">https://jgriffith3433.itch.io/lifeofgooba</a>
+            </p>
         </div>;
     }
 }
-
-var component = connect(
-    (state: ApplicationState) => state.person, // Selects which state properties are merged into the component's props.
-    PersonStore.actionCreators // Selects which action creators are merged into the component's props.
-)(PortfolioPage as any);
-
-export default (withRouter(component as any) as any as typeof PortfolioPage)

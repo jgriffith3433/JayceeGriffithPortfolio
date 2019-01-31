@@ -3,7 +3,7 @@ import { withRouter } from "react-router";
 import { NavLink, Redirect } from "react-router-dom";
 import Globals from "@Globals";
 import AccountService from "@Services/AccountService";
-import { Dropdown } from "bootstrap3-native";
+
 import bind from 'bind-decorator';
 
 class TopMenu extends React.Component<{}, { logoutAction: boolean }> {
@@ -24,7 +24,7 @@ class TopMenu extends React.Component<{}, { logoutAction: boolean }> {
     private elDropdown: HTMLAnchorElement;
 
     componentDidMount() {
-        var dropdown = new Dropdown(this.elDropdown);
+        //var dropdown = new Dropdown(this.elDropdown);
     }
 
     componentDidUpdate() {
@@ -34,22 +34,21 @@ class TopMenu extends React.Component<{}, { logoutAction: boolean }> {
         if (this.state.logoutAction) {
             window.location.reload();
         }
-        return <div className="navbar navbar-default">
-            <div className="container-fluid">
-                <div className="navbar-header">
-                    <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span className="sr-only">Toggle navigation</span>
-                        <span className="icon-bar"></span>
-                        <span className="icon-bar"></span>
-                        <span className="icon-bar"></span>
-                    </button>
-                    <a className="navbar-brand" href="#">Jaycee Griffith</a>
-                </div>
-                <div id="navbar" className="navbar-collapse collapse nav navbar-nav navbar-right">
-                    <ul className="nav navbar-nav">
-                        <li><NavLink exact to={'/'} activeClassName="active">Home</NavLink></li>
-                        <li><NavLink exact to={'/portfolio'} activeClassName="active">Portfolio</NavLink></li>
-                        <li><NavLink exact to={'/admin'} activeClassName="active">Admin</NavLink></li>
+        return <nav className="navbar navbar-expand-md navbar-light bg-light">
+            <NavLink exact to={'/'} className="navbar-brand">Jaycee Griffith</NavLink>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav">
+                    <li className="nav-item active">
+                        <NavLink exact to={'/'} style={{ "fontSize": "18px" }} className="nav-link" activeClassName="active">Home</NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink exact to={'/portfolio'} style={{ "fontSize": "18px" }} className="nav-link" activeClassName="active">Portfolio</NavLink>
+                    </li>
+                    {
+                        /*<li><NavLink exact to={'/admin'} activeClassName="active">Admin</NavLink></li>
                         <li className="dropdown">
                             <a href="#" ref={x => this.elDropdown = x} className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 {Globals.serviceUser ? Globals.serviceUser.login : null}&nbsp;
@@ -62,11 +61,11 @@ class TopMenu extends React.Component<{}, { logoutAction: boolean }> {
                                     <li><a href="/login">Sign in</a></li>
                                 )}
                             </ul>
-                        </li>
-                    </ul>
-                </div>
+                        </li>*/
+                    }
+                </ul>
             </div>
-        </div>;
+        </nav>
     }
 }
 
