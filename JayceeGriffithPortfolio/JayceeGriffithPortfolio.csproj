@@ -23,12 +23,15 @@
     <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
     <Compile Remove="ClientApp\domain-task\**" />
     <Compile Remove="ClientApp\helpers\**" />
+    <Compile Remove="ClientApp\videos\**" />
     <Content Remove="ClientApp\**" />
     <Content Remove="ClientApp\domain-task\**" />
     <EmbeddedResource Remove="ClientApp\domain-task\**" />
     <EmbeddedResource Remove="ClientApp\helpers\**" />
+    <EmbeddedResource Remove="ClientApp\videos\**" />
     <None Remove="ClientApp\domain-task\**" />
     <None Remove="ClientApp\helpers\**" />
+    <None Remove="ClientApp\videos\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -43,6 +46,9 @@
     <None Remove="ClientApp\pages\HomePage.tsx" />
     <None Remove="ClientApp\pages\loginPage.tsx" />
     <None Remove="ClientApp\pages\PortfolioPage.tsx" />
+    <None Remove="ClientApp\pages\ReadingPage.tsx" />
+    <None Remove="ClientApp\pages\Summer2018Page.tsx" />
+    <None Remove="ClientApp\pages\TravelingPage.tsx" />
     <None Remove="ClientApp\services\AccountService.ts" />
     <None Remove="ClientApp\components\shared\ErrorBoundary.tsx" />
     <None Remove="ClientApp\components\shared\PagingBar.tsx" />
@@ -68,6 +74,9 @@
     <Content Include="ClientApp\components\shared\PagingBar.tsx" />
     <Content Include="ClientApp\components\shared\TopMenu.tsx" />
     <Content Include="ClientApp\layouts\AuthorizedLayout.tsx" />
+    <Content Include="ClientApp\pages\Summer2018Page.tsx" />
+    <Content Include="ClientApp\pages\ReadingPage.tsx" />
+    <Content Include="ClientApp\pages\TravelingPage.tsx" />
     <Content Include="ClientApp\pages\PortfolioPage.tsx" />
     <Content Include="ClientApp\styles\guestLayout.scss" />
     <Content Include="ClientApp\styles\authorizedLayout.scss" />
@@ -85,7 +94,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ClientApp\videos\" />
+    <Folder Include="ClientApp\zips\" />
   </ItemGroup>
 
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">

@@ -47,6 +47,12 @@ class TopMenu extends React.Component<{}, { logoutAction: boolean }> {
                     <li className="nav-item">
                         <NavLink exact to={'/portfolio'} style={{ "fontSize": "18px" }} className="nav-link" activeClassName="active">Portfolio</NavLink>
                     </li>
+                    <li className="nav-item">
+                        <NavLink exact to={'/reading'} style={{ "fontSize": "18px" }} className="nav-link" activeClassName="active">Reading</NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink exact to={'/traveling'} style={{ "fontSize": "18px" }} className="nav-link" activeClassName="active">Traveling</NavLink>
+                    </li>
                     {
                         /*<li><NavLink exact to={'/admin'} activeClassName="active">Admin</NavLink></li>
                         <li className="dropdown">

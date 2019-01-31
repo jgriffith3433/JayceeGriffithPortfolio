@@ -38,7 +38,7 @@ export default class PortfolioPage extends React.Component<Props, {}> {
                 }
             </div>
             <div className="text-center externallinks">
-                <span><b>External links</b></span>
+                <span><b>External profile links</b></span>
                 <p className="text-center">
                     <span>Github | </span>
                     <a href="https://github.com/jgriffith3433" target="_blank">http://github.com/jgriffith3433</a>
@@ -54,6 +54,10 @@ export default class PortfolioPage extends React.Component<Props, {}> {
                 <p className="text-center">
                     <span>Itch.io | </span>
                     <a href="https://jgriffith3433.itch.io/lifeofgooba" target="_blank">https://jgriffith3433.itch.io/lifeofgooba</a>
+                </p>
+                <p className="text-center">
+                    <span>Kickstarter | </span>
+                    <a href="https://www.kickstarter.com/profile/jgriffith3433" target="_blank">https://www.kickstarter.com/profile/jgriffith3433</a>
                 </p>
             </div>
         </div>;

@@ -2604,3 +2604,610 @@ Entrypoint main-client [big] = main-client.js main-client.e716bfff7a6f8b8da052.h
 2019-01-31 01:24:20.129 -08:00 [INF] No type errors found
 2019-01-31 01:24:20.132 -08:00 [INF] Version: typescript 3.0.1
 2019-01-31 01:24:20.134 -08:00 [INF] Time: 3692ms
+2019-01-31 12:20:45.309 -08:00 [INF] User profile is available. Using 'C:\Users\jgriffith3433\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-31 12:20:48.930 -08:00 [INF] Starting type checking service...
+2019-01-31 12:20:48.933 -08:00 [INF] Using 1 worker with 2048MB memory limit
+2019-01-31 12:20:49.000 -08:00 [INF] Starting type checking service...
+2019-01-31 12:20:49.005 -08:00 [INF] Using 1 worker with 2048MB memory limit
+2019-01-31 12:20:49.835 -08:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64098/  0
+2019-01-31 12:20:49.835 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/  
+2019-01-31 12:20:49.904 -08:00 [INF] Request finished in 74.6392ms 200 
+2019-01-31 12:20:50.620 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-01-31 12:20:50.648 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-01-31 12:20:50.667 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.0721ms.
+2019-01-31 12:20:50.713 -08:00 [INF] Executing ViewResult, running view Index.
+2019-01-31 12:20:51.605 -08:00 [INF] Executed ViewResult - view Index executed in 913.0475ms.
+2019-01-31 12:20:51.630 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.css?v=AHzJE41CMrCPD9M9p92DS34mVjzBRriZ1GW4jMfrBlQ  
+2019-01-31 12:20:51.655 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.js?v=3bMcNmnFZilPjjxqurGpC3g7YdW3fY4SXUl5YPCFwYE  
+2019-01-31 12:20:51.680 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.js?v=SO_Pei4V9tGpjA8nARBtkB5cqRCyLkhru3x9wcgXBgY  
+2019-01-31 12:20:51.684 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 1054.3088ms
+2019-01-31 12:20:51.733 -08:00 [INF] Request finished in 1900.4409ms 200 text/html; charset=utf-8
+2019-01-31 12:20:51.916 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.css?v=AHzJE41CMrCPD9M9p92DS34mVjzBRriZ1GW4jMfrBlQ
+2019-01-31 12:20:51.920 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.js?v=SO_Pei4V9tGpjA8nARBtkB5cqRCyLkhru3x9wcgXBgY
+2019-01-31 12:20:51.930 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/main-client.js?v=3bMcNmnFZilPjjxqurGpC3g7YdW3fY4SXUl5YPCFwYE
+2019-01-31 12:20:56.844 -08:00 [INF] Type checking in progress...
+2019-01-31 12:20:56.849 -08:00 [INF] Node will restart because file changed: C:\Users\jgriffith3433\Documents\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\main-client.js
+2019-01-31 12:20:56.867 -08:00 [INF] webpack built 582fe1d8bdb4b4f99351 in 7924ms
+2019-01-31 12:20:57.377 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 582fe1d8bdb4b4f99351
+Version: webpack 4.23.1
+Time: 7924ms
+Built at: 01/31/2019 12:20:56 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js   625 KiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-01-31 12:20:57.382 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:20:57.421 -08:00 [INF] Request finished in 5796.8944ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:20:57.464 -08:00 [INF] No type errors found
+2019-01-31 12:20:57.470 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:20:57.473 -08:00 [INF] Time: 8540ms
+2019-01-31 12:20:57.522 -08:00 [INF] Sending file. Request path: '/dist/vendor.js'. Physical path: 'C:\Users\jgriffith3433\Documents\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\vendor.js'
+2019-01-31 12:20:57.524 -08:00 [INF] Sending file. Request path: '/dist/vendor.css'. Physical path: 'C:\Users\jgriffith3433\Documents\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\vendor.css'
+2019-01-31 12:20:57.531 -08:00 [INF] Request finished in 5863.4977ms 200 application/javascript
+2019-01-31 12:20:57.533 -08:00 [INF] Request finished in 5909.9077ms 200 text/css
+2019-01-31 12:20:57.737 -08:00 [INF] No type errors found
+2019-01-31 12:20:57.740 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:20:57.745 -08:00 [INF] Time: 8722ms
+2019-01-31 12:20:57.947 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/__webpack_hmr  
+2019-01-31 12:22:24.946 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:22:24.951 -08:00 [INF] webpack building...
+2019-01-31 12:22:25.669 -08:00 [INF] Type checking in progress...
+2019-01-31 12:22:25.683 -08:00 [INF] webpack built f107130db38499996936 in 535ms
+2019-01-31 12:22:25.692 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: f107130db38499996936
+Version: webpack 4.23.1
+Time: 535ms
+Built at: 01/31/2019 12:22:25 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              582fe1d8bdb4b4f99351.hot-update.json   53 bytes               [emitted]         
+    main-client.582fe1d8bdb4b4f99351.hot-update.js   7.09 KiB  main-client  [emitted]         main-client
+main-client.582fe1d8bdb4b4f99351.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    626 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.582fe1d8bdb4b4f99351.hot-update.js main-client.js.map main-client.582fe1d8bdb4b4f99351.hot-update.js.map
+2019-01-31 12:22:25.700 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:22:25.712 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/582fe1d8bdb4b4f99351.hot-update.json  
+2019-01-31 12:22:25.910 -08:00 [INF] Request finished in 203.6489ms 200 application/json; charset=UTF-8
+2019-01-31 12:22:25.915 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.582fe1d8bdb4b4f99351.hot-update.js  
+2019-01-31 12:22:25.922 -08:00 [INF] Type checking in progress...
+2019-01-31 12:22:25.927 -08:00 [INF] Request finished in 11.9834ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:22:29.113 -08:00 [INF] No type errors found
+2019-01-31 12:22:29.131 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:22:29.167 -08:00 [INF] Time: 3982ms
+2019-01-31 12:22:29.204 -08:00 [INF] No type errors found
+2019-01-31 12:22:29.207 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:22:29.210 -08:00 [INF] Time: 4051ms
+2019-01-31 12:22:59.508 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:22:59.514 -08:00 [INF] webpack building...
+2019-01-31 12:22:59.972 -08:00 [INF] Type checking in progress...
+2019-01-31 12:23:00.006 -08:00 [INF] webpack built b8bf6ab6d7c6e12f9bc1 in 263ms
+2019-01-31 12:23:00.015 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: b8bf6ab6d7c6e12f9bc1
+Version: webpack 4.23.1
+Time: 263ms
+Built at: 01/31/2019 12:22:59 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              f107130db38499996936.hot-update.json   53 bytes               [emitted]         
+    main-client.f107130db38499996936.hot-update.js    2.6 KiB  main-client  [emitted]         main-client
+main-client.f107130db38499996936.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    626 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.f107130db38499996936.hot-update.js main-client.js.map main-client.f107130db38499996936.hot-update.js.map
+2019-01-31 12:23:00.019 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/f107130db38499996936.hot-update.json  
+2019-01-31 12:23:00.022 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:23:00.202 -08:00 [INF] Request finished in 185.4426ms 200 application/json; charset=UTF-8
+2019-01-31 12:23:00.207 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.f107130db38499996936.hot-update.js  
+2019-01-31 12:23:00.214 -08:00 [INF] Type checking in progress...
+2019-01-31 12:23:00.219 -08:00 [INF] Request finished in 11.2343ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:23:00.671 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:23:00.676 -08:00 [INF] webpack building...
+2019-01-31 12:23:01.068 -08:00 [INF] Type checking in progress...
+2019-01-31 12:23:01.075 -08:00 [INF] webpack built 81bd464caa80ef7249f1 in 193ms
+2019-01-31 12:23:01.084 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 81bd464caa80ef7249f1
+Version: webpack 4.23.1
+Time: 193ms
+Built at: 01/31/2019 12:23:01 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              b8bf6ab6d7c6e12f9bc1.hot-update.json   53 bytes               [emitted]         
+    main-client.b8bf6ab6d7c6e12f9bc1.hot-update.js   3.26 KiB  main-client  [emitted]         main-client
+main-client.b8bf6ab6d7c6e12f9bc1.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    626 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.b8bf6ab6d7c6e12f9bc1.hot-update.js main-client.js.map main-client.b8bf6ab6d7c6e12f9bc1.hot-update.js.map
+2019-01-31 12:23:01.090 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:23:01.094 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/b8bf6ab6d7c6e12f9bc1.hot-update.json  
+2019-01-31 12:23:01.332 -08:00 [INF] Request finished in 232.982ms 200 application/json; charset=UTF-8
+2019-01-31 12:23:01.341 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.b8bf6ab6d7c6e12f9bc1.hot-update.js  
+2019-01-31 12:23:01.348 -08:00 [INF] Type checking in progress...
+2019-01-31 12:23:01.354 -08:00 [INF] Request finished in 16.3281ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:23:01.823 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:23:01.833 -08:00 [INF] webpack building...
+2019-01-31 12:23:02.341 -08:00 [INF] Type checking in progress...
+2019-01-31 12:23:02.353 -08:00 [INF] webpack built 315c7720f1ea121a33fa in 333ms
+2019-01-31 12:23:02.385 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 315c7720f1ea121a33fa
+Version: webpack 4.23.1
+Time: 333ms
+Built at: 01/31/2019 12:23:02 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              81bd464caa80ef7249f1.hot-update.json   53 bytes               [emitted]         
+    main-client.81bd464caa80ef7249f1.hot-update.js    3.2 KiB  main-client  [emitted]         main-client
+main-client.81bd464caa80ef7249f1.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    626 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.81bd464caa80ef7249f1.hot-update.js main-client.js.map main-client.81bd464caa80ef7249f1.hot-update.js.map
+2019-01-31 12:23:02.389 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:23:02.397 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/81bd464caa80ef7249f1.hot-update.json  
+2019-01-31 12:23:02.398 -08:00 [INF] Type checking in progress...
+2019-01-31 12:23:02.418 -08:00 [INF] Request finished in 19.4862ms 200 application/json; charset=UTF-8
+2019-01-31 12:23:02.422 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.81bd464caa80ef7249f1.hot-update.js  
+2019-01-31 12:23:02.430 -08:00 [INF] Request finished in 5.7966ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:23:07.069 -08:00 [INF] No type errors found
+2019-01-31 12:23:07.089 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:23:07.094 -08:00 [INF] Time: 5029ms
+2019-01-31 12:23:07.165 -08:00 [INF] No type errors found
+2019-01-31 12:23:07.168 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:23:07.171 -08:00 [INF] Time: 5149ms
+2019-01-31 12:38:11.875 -08:00 [INF] User profile is available. Using 'C:\Users\jgriffith3433\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-31 12:38:14.159 -08:00 [INF] Starting type checking service...
+2019-01-31 12:38:14.162 -08:00 [INF] Using 1 worker with 2048MB memory limit
+2019-01-31 12:38:14.212 -08:00 [INF] Starting type checking service...
+2019-01-31 12:38:14.216 -08:00 [INF] Using 1 worker with 2048MB memory limit
+2019-01-31 12:38:14.639 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/  
+2019-01-31 12:38:14.639 -08:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64098/  0
+2019-01-31 12:38:14.670 -08:00 [INF] Request finished in 34.4076ms 200 
+2019-01-31 12:38:14.954 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-01-31 12:38:14.974 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-01-31 12:38:14.991 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.2972ms.
+2019-01-31 12:38:15.032 -08:00 [INF] Executing ViewResult, running view Index.
+2019-01-31 12:38:15.817 -08:00 [INF] Executed ViewResult - view Index executed in 804.19360000000006ms.
+2019-01-31 12:38:15.839 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.js?v=hXkTxMs9ySPXVmYh0L43roIVmBZ86N4EoeU3TcNnGqM  
+2019-01-31 12:38:15.841 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 879.58800000000008ms
+2019-01-31 12:38:15.875 -08:00 [INF] Request finished in 1229.0742ms 200 text/html; charset=utf-8
+2019-01-31 12:38:16.545 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/main-client.js?v=hXkTxMs9ySPXVmYh0L43roIVmBZ86N4EoeU3TcNnGqM
+2019-01-31 12:38:22.337 -08:00 [INF] Type checking in progress...
+2019-01-31 12:38:22.344 -08:00 [INF] Node will restart because file changed: C:\Users\jgriffith3433\Documents\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\main-client.js
+2019-01-31 12:38:22.360 -08:00 [INF] webpack built f5ce6cc88352be000b81 in 8188ms
+2019-01-31 12:38:22.676 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: f5ce6cc88352be000b81
+Version: webpack 4.23.1
+Time: 8188ms
+Built at: 01/31/2019 12:38:22 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js   631 KiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-01-31 12:38:22.683 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:38:22.734 -08:00 [INF] Request finished in 6893.9ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:38:23.105 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/__webpack_hmr  
+2019-01-31 12:38:23.161 -08:00 [INF] Type checking in progress...
+2019-01-31 12:38:23.332 -08:00 [INF] No type errors found
+2019-01-31 12:38:23.337 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:38:23.341 -08:00 [INF] Time: 9174ms
+2019-01-31 12:38:23.496 -08:00 [INF] No type errors found
+2019-01-31 12:38:23.498 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:38:23.501 -08:00 [INF] Time: 9288ms
+2019-01-31 12:38:34.944 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:38:34.950 -08:00 [INF] webpack building...
+2019-01-31 12:38:35.578 -08:00 [INF] Type checking in progress...
+2019-01-31 12:38:35.585 -08:00 [INF] webpack built cc6b641bf85099c718d4 in 424ms
+2019-01-31 12:38:35.628 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: cc6b641bf85099c718d4
+Version: webpack 4.23.1
+Time: 424ms
+Built at: 01/31/2019 12:38:35 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              f5ce6cc88352be000b81.hot-update.json   53 bytes               [emitted]         
+    main-client.f5ce6cc88352be000b81.hot-update.js    7.4 KiB  main-client  [emitted]         main-client
+main-client.f5ce6cc88352be000b81.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    632 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.f5ce6cc88352be000b81.hot-update.js main-client.js.map main-client.f5ce6cc88352be000b81.hot-update.js.map
+2019-01-31 12:38:35.637 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:38:35.640 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/f5ce6cc88352be000b81.hot-update.json  
+2019-01-31 12:38:35.642 -08:00 [INF] Type checking in progress...
+2019-01-31 12:38:35.669 -08:00 [INF] Request finished in 28.8931ms 200 application/json; charset=UTF-8
+2019-01-31 12:38:35.673 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.f5ce6cc88352be000b81.hot-update.js  
+2019-01-31 12:38:35.680 -08:00 [INF] Request finished in 4.7079ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:38:38.944 -08:00 [INF] No type errors found
+2019-01-31 12:38:38.947 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:38:38.950 -08:00 [INF] Time: 3779ms
+2019-01-31 12:38:38.997 -08:00 [INF] No type errors found
+2019-01-31 12:38:38.999 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:38:39.001 -08:00 [INF] Time: 3848ms
+2019-01-31 12:38:50.871 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:38:50.876 -08:00 [INF] webpack building...
+2019-01-31 12:38:51.346 -08:00 [INF] Type checking in progress...
+2019-01-31 12:38:51.358 -08:00 [INF] webpack built b86126a9c2f9755d411f in 241ms
+2019-01-31 12:38:51.371 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: b86126a9c2f9755d411f
+Version: webpack 4.23.1
+Time: 241ms
+Built at: 01/31/2019 12:38:51 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              cc6b641bf85099c718d4.hot-update.json   53 bytes               [emitted]         
+    main-client.cc6b641bf85099c718d4.hot-update.js   5.27 KiB  main-client  [emitted]         main-client
+main-client.cc6b641bf85099c718d4.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    632 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.cc6b641bf85099c718d4.hot-update.js main-client.js.map main-client.cc6b641bf85099c718d4.hot-update.js.map
+2019-01-31 12:38:51.379 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/cc6b641bf85099c718d4.hot-update.json  
+2019-01-31 12:38:51.402 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:38:51.704 -08:00 [INF] Request finished in 329.3931ms 200 application/json; charset=UTF-8
+2019-01-31 12:38:51.708 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.cc6b641bf85099c718d4.hot-update.js  
+2019-01-31 12:38:51.717 -08:00 [INF] Request finished in 5.3654ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:38:51.719 -08:00 [INF] Type checking in progress...
+2019-01-31 12:38:54.477 -08:00 [INF] No type errors found
+2019-01-31 12:38:54.481 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:38:54.484 -08:00 [INF] Time: 3373ms
+2019-01-31 12:38:54.542 -08:00 [INF] No type errors found
+2019-01-31 12:38:54.544 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:38:54.546 -08:00 [INF] Time: 3467ms
+2019-01-31 12:38:58.508 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:38:58.516 -08:00 [INF] webpack building...
+2019-01-31 12:38:59.094 -08:00 [INF] Type checking in progress...
+2019-01-31 12:38:59.101 -08:00 [INF] webpack built ce4521d6d1d00083bc45 in 388ms
+2019-01-31 12:38:59.107 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: ce4521d6d1d00083bc45
+Version: webpack 4.23.1
+Time: 388ms
+Built at: 01/31/2019 12:38:59 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              b86126a9c2f9755d411f.hot-update.json   53 bytes               [emitted]         
+    main-client.b86126a9c2f9755d411f.hot-update.js    5.3 KiB  main-client  [emitted]         main-client
+main-client.b86126a9c2f9755d411f.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    632 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.b86126a9c2f9755d411f.hot-update.js main-client.js.map main-client.b86126a9c2f9755d411f.hot-update.js.map
+2019-01-31 12:38:59.110 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:38:59.118 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/b86126a9c2f9755d411f.hot-update.json  
+2019-01-31 12:38:59.121 -08:00 [INF] Type checking in progress...
+2019-01-31 12:38:59.126 -08:00 [INF] Request finished in 10.2817ms 200 application/json; charset=UTF-8
+2019-01-31 12:38:59.130 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.b86126a9c2f9755d411f.hot-update.js  
+2019-01-31 12:38:59.137 -08:00 [INF] Request finished in 4.0565ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:39:02.097 -08:00 [INF] No type errors found
+2019-01-31 12:39:02.099 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:39:02.102 -08:00 [INF] Time: 3390ms
+2019-01-31 12:39:02.153 -08:00 [INF] No type errors found
+2019-01-31 12:39:02.156 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:39:02.158 -08:00 [INF] Time: 3426ms
+2019-01-31 12:41:40.370 -08:00 [INF] User profile is available. Using 'C:\Users\jgriffith3433\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-31 12:41:42.698 -08:00 [INF] Starting type checking service...
+2019-01-31 12:41:42.701 -08:00 [INF] Using 1 worker with 2048MB memory limit
+2019-01-31 12:41:42.750 -08:00 [INF] Starting type checking service...
+2019-01-31 12:41:42.753 -08:00 [INF] Using 1 worker with 2048MB memory limit
+2019-01-31 12:41:43.118 -08:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64098/  0
+2019-01-31 12:41:43.118 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/  
+2019-01-31 12:41:43.143 -08:00 [INF] Request finished in 29.406ms 200 
+2019-01-31 12:41:43.482 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-01-31 12:41:43.508 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-01-31 12:41:43.525 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.3249ms.
+2019-01-31 12:41:43.564 -08:00 [INF] Executing ViewResult, running view Index.
+2019-01-31 12:41:44.346 -08:00 [INF] Executed ViewResult - view Index executed in 785.9316ms.
+2019-01-31 12:41:44.347 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.js?v=1beuXIIUqL0FqFf78ZRXVnswLFWXxeQlJi78K11ZSVY  
+2019-01-31 12:41:44.361 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 875.42450000000008ms
+2019-01-31 12:41:44.389 -08:00 [INF] Request finished in 1274.0874ms 200 text/html; charset=utf-8
+2019-01-31 12:41:44.425 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/main-client.js?v=1beuXIIUqL0FqFf78ZRXVnswLFWXxeQlJi78K11ZSVY
+2019-01-31 12:41:52.542 -08:00 [INF] No type errors found
+2019-01-31 12:41:52.545 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:41:52.548 -08:00 [INF] Time: 9060ms
+2019-01-31 12:41:52.554 -08:00 [INF] Node will restart because file changed: C:\Users\jgriffith3433\Documents\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\main-client.js
+2019-01-31 12:41:52.558 -08:00 [INF] webpack built 08827df2fe2169e9b8ac in 9853ms
+2019-01-31 12:41:52.833 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 08827df2fe2169e9b8ac
+Version: webpack 4.23.1
+Time: 9853ms
+Built at: 01/31/2019 12:41:52 PM
+                               Asset      Size       Chunks                    Chunk Names
+6a50cb30e6d0464aba45ec14263058d2.jpg   425 KiB               [emitted]  [big]  
+                      main-client.js   633 KiB  main-client  [emitted]  [big]  main-client
+                  main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-01-31 12:41:52.840 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:41:52.882 -08:00 [INF] Request finished in 8531.5901ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:41:53.120 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/__webpack_hmr  
+2019-01-31 12:41:53.202 -08:00 [INF] No type errors found
+2019-01-31 12:41:53.204 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:41:53.207 -08:00 [INF] Time: 8964ms
+2019-01-31 12:41:55.736 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/6a50cb30e6d0464aba45ec14263058d2.jpg  
+2019-01-31 12:41:55.747 -08:00 [INF] Request finished in 11.6617ms 200 image/jpeg; charset=UTF-8
+2019-01-31 12:42:23.424 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:42:23.431 -08:00 [INF] webpack building...
+2019-01-31 12:42:24.250 -08:00 [INF] Type checking in progress...
+2019-01-31 12:42:24.259 -08:00 [INF] webpack built be03dda95fbf1270cd76 in 631ms
+2019-01-31 12:42:24.267 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: be03dda95fbf1270cd76
+Version: webpack 4.23.1
+Time: 631ms
+Built at: 01/31/2019 12:42:24 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              08827df2fe2169e9b8ac.hot-update.json   53 bytes               [emitted]         
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+    main-client.08827df2fe2169e9b8ac.hot-update.js   5.83 KiB  main-client  [emitted]         main-client
+main-client.08827df2fe2169e9b8ac.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    633 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.08827df2fe2169e9b8ac.hot-update.js main-client.js.map main-client.08827df2fe2169e9b8ac.hot-update.js.map
+2019-01-31 12:42:24.270 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:42:24.279 -08:00 [INF] Type checking in progress...
+2019-01-31 12:42:24.280 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/08827df2fe2169e9b8ac.hot-update.json  
+2019-01-31 12:42:24.286 -08:00 [INF] Request finished in 7.7576ms 200 application/json; charset=UTF-8
+2019-01-31 12:42:24.294 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.08827df2fe2169e9b8ac.hot-update.js  
+2019-01-31 12:42:24.304 -08:00 [INF] Request finished in 4.2685ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:42:27.754 -08:00 [INF] No type errors found
+2019-01-31 12:42:27.758 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:42:27.767 -08:00 [INF] Time: 4128ms
+2019-01-31 12:42:27.770 -08:00 [INF] No type errors found
+2019-01-31 12:42:27.773 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:42:27.851 -08:00 [INF] Time: 4115ms
+2019-01-31 12:43:31.686 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:43:31.691 -08:00 [INF] webpack building...
+2019-01-31 12:43:32.199 -08:00 [INF] Type checking in progress...
+2019-01-31 12:43:32.217 -08:00 [INF] webpack built b0ad3b66897a135e616d in 317ms
+2019-01-31 12:43:32.225 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: b0ad3b66897a135e616d
+Version: webpack 4.23.1
+Time: 317ms
+Built at: 01/31/2019 12:43:32 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              be03dda95fbf1270cd76.hot-update.json   53 bytes               [emitted]         
+    main-client.be03dda95fbf1270cd76.hot-update.js   4.29 KiB  main-client  [emitted]         main-client
+main-client.be03dda95fbf1270cd76.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    631 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.be03dda95fbf1270cd76.hot-update.js main-client.js.map main-client.be03dda95fbf1270cd76.hot-update.js.map
+2019-01-31 12:43:32.228 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:43:32.239 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/be03dda95fbf1270cd76.hot-update.json  
+2019-01-31 12:43:32.466 -08:00 [INF] Request finished in 227.3003ms 200 application/json; charset=UTF-8
+2019-01-31 12:43:32.471 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.be03dda95fbf1270cd76.hot-update.js  
+2019-01-31 12:43:32.486 -08:00 [INF] Request finished in 6.63ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:43:32.491 -08:00 [INF] Type checking in progress...
+2019-01-31 12:43:35.808 -08:00 [INF] No type errors found
+2019-01-31 12:43:35.811 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:43:35.815 -08:00 [INF] Time: 3929ms
+2019-01-31 12:43:35.989 -08:00 [INF] No type errors found
+2019-01-31 12:43:35.993 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:43:35.996 -08:00 [INF] Time: 4094ms
+2019-01-31 12:44:48.761 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:44:48.774 -08:00 [INF] webpack building...
+2019-01-31 12:44:49.324 -08:00 [INF] Type checking in progress...
+2019-01-31 12:44:49.351 -08:00 [INF] webpack built d03b3859999bc2f352d7 in 365ms
+2019-01-31 12:44:49.360 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: d03b3859999bc2f352d7
+Version: webpack 4.23.1
+Time: 365ms
+Built at: 01/31/2019 12:44:49 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              b0ad3b66897a135e616d.hot-update.json   53 bytes               [emitted]         
+    main-client.b0ad3b66897a135e616d.hot-update.js   6.74 KiB  main-client  [emitted]         main-client
+main-client.b0ad3b66897a135e616d.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    633 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.b0ad3b66897a135e616d.hot-update.js main-client.js.map main-client.b0ad3b66897a135e616d.hot-update.js.map
+2019-01-31 12:44:49.366 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:44:49.369 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/b0ad3b66897a135e616d.hot-update.json  
+2019-01-31 12:44:49.646 -08:00 [INF] Request finished in 279.2974ms 200 application/json; charset=UTF-8
+2019-01-31 12:44:49.650 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.b0ad3b66897a135e616d.hot-update.js  
+2019-01-31 12:44:49.656 -08:00 [INF] Type checking in progress...
+2019-01-31 12:44:49.660 -08:00 [INF] Request finished in 6.6092ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:44:52.646 -08:00 [INF] No type errors found
+2019-01-31 12:44:52.653 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:44:52.656 -08:00 [INF] Time: 3687ms
+2019-01-31 12:44:52.696 -08:00 [INF] No type errors found
+2019-01-31 12:44:52.717 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:44:52.720 -08:00 [INF] Time: 3709ms
+2019-01-31 12:45:19.538 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:45:19.548 -08:00 [INF] webpack building...
+2019-01-31 12:45:20.028 -08:00 [INF] Type checking in progress...
+2019-01-31 12:45:20.040 -08:00 [INF] webpack built 082f7a9720140c2fb86a in 255ms
+2019-01-31 12:45:20.044 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 082f7a9720140c2fb86a
+Version: webpack 4.23.1
+Time: 255ms
+Built at: 01/31/2019 12:45:19 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              d03b3859999bc2f352d7.hot-update.json   53 bytes               [emitted]         
+    main-client.d03b3859999bc2f352d7.hot-update.js   6.86 KiB  main-client  [emitted]         main-client
+main-client.d03b3859999bc2f352d7.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    634 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.d03b3859999bc2f352d7.hot-update.js main-client.js.map main-client.d03b3859999bc2f352d7.hot-update.js.map
+2019-01-31 12:45:20.048 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:45:20.064 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/d03b3859999bc2f352d7.hot-update.json  
+2019-01-31 12:45:20.375 -08:00 [INF] Request finished in 312.1199ms 200 application/json; charset=UTF-8
+2019-01-31 12:45:20.380 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.d03b3859999bc2f352d7.hot-update.js  
+2019-01-31 12:45:20.399 -08:00 [INF] Type checking in progress...
+2019-01-31 12:45:20.406 -08:00 [INF] Request finished in 12.7619ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:45:23.424 -08:00 [INF] No type errors found
+2019-01-31 12:45:23.427 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:45:23.430 -08:00 [INF] Time: 3695ms
+2019-01-31 12:45:23.675 -08:00 [INF] No type errors found
+2019-01-31 12:45:23.679 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:45:23.683 -08:00 [INF] Time: 3938ms
+2019-01-31 12:45:57.822 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:45:57.826 -08:00 [INF] webpack building...
+2019-01-31 12:45:58.402 -08:00 [INF] Type checking in progress...
+2019-01-31 12:45:58.416 -08:00 [INF] webpack built 647ebb9ca48a53c19a51 in 390ms
+2019-01-31 12:45:58.422 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 647ebb9ca48a53c19a51
+Version: webpack 4.23.1
+Time: 390ms
+Built at: 01/31/2019 12:45:58 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              082f7a9720140c2fb86a.hot-update.json   53 bytes               [emitted]         
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+    main-client.082f7a9720140c2fb86a.hot-update.js      7 KiB  main-client  [emitted]         main-client
+main-client.082f7a9720140c2fb86a.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    634 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.082f7a9720140c2fb86a.hot-update.js main-client.js.map main-client.082f7a9720140c2fb86a.hot-update.js.map
+2019-01-31 12:45:58.433 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:45:58.438 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/082f7a9720140c2fb86a.hot-update.json  
+2019-01-31 12:45:58.677 -08:00 [INF] Request finished in 237.88ms 200 application/json; charset=UTF-8
+2019-01-31 12:45:58.680 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.082f7a9720140c2fb86a.hot-update.js  
+2019-01-31 12:45:58.693 -08:00 [INF] Type checking in progress...
+2019-01-31 12:45:58.699 -08:00 [INF] Request finished in 7.6401ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:46:01.787 -08:00 [INF] No type errors found
+2019-01-31 12:46:01.851 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:46:01.876 -08:00 [INF] Time: 3753ms
+2019-01-31 12:46:01.881 -08:00 [INF] No type errors found
+2019-01-31 12:46:01.885 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:46:01.888 -08:00 [INF] Time: 3789ms
+2019-01-31 12:46:37.032 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:46:37.036 -08:00 [INF] webpack building...
+2019-01-31 12:46:37.421 -08:00 [INF] Type checking in progress...
+2019-01-31 12:46:37.437 -08:00 [INF] webpack built 1b5b314fcb85166472ee in 193ms
+2019-01-31 12:46:37.443 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 1b5b314fcb85166472ee
+Version: webpack 4.23.1
+Time: 193ms
+Built at: 01/31/2019 12:46:37 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              647ebb9ca48a53c19a51.hot-update.json   53 bytes               [emitted]         
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+    main-client.647ebb9ca48a53c19a51.hot-update.js   7.07 KiB  main-client  [emitted]         main-client
+main-client.647ebb9ca48a53c19a51.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    634 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.647ebb9ca48a53c19a51.hot-update.js main-client.js.map main-client.647ebb9ca48a53c19a51.hot-update.js.map
+2019-01-31 12:46:37.446 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:46:37.453 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/647ebb9ca48a53c19a51.hot-update.json  
+2019-01-31 12:46:37.737 -08:00 [INF] Request finished in 282.5528ms 200 application/json; charset=UTF-8
+2019-01-31 12:46:37.747 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.647ebb9ca48a53c19a51.hot-update.js  
+2019-01-31 12:46:37.749 -08:00 [INF] Type checking in progress...
+2019-01-31 12:46:37.755 -08:00 [INF] Request finished in 9.5252ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:46:40.961 -08:00 [INF] No type errors found
+2019-01-31 12:46:40.985 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:46:40.987 -08:00 [INF] Time: 3680ms
+2019-01-31 12:46:41.008 -08:00 [INF] No type errors found
+2019-01-31 12:46:41.017 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:46:41.024 -08:00 [INF] Time: 3772ms
+2019-01-31 12:47:33.405 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:47:33.411 -08:00 [INF] webpack building...
+2019-01-31 12:47:34.053 -08:00 [INF] Type checking in progress...
+2019-01-31 12:47:34.069 -08:00 [INF] webpack built 15eab267a308be262f82 in 454ms
+2019-01-31 12:47:34.085 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/1b5b314fcb85166472ee.hot-update.json  
+2019-01-31 12:47:34.088 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 15eab267a308be262f82
+Version: webpack 4.23.1
+Time: 454ms
+Built at: 01/31/2019 12:47:34 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              1b5b314fcb85166472ee.hot-update.json   53 bytes               [emitted]         
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+    main-client.1b5b314fcb85166472ee.hot-update.js   7.21 KiB  main-client  [emitted]         main-client
+main-client.1b5b314fcb85166472ee.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    634 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.1b5b314fcb85166472ee.hot-update.js main-client.js.map main-client.1b5b314fcb85166472ee.hot-update.js.map
+2019-01-31 12:47:34.093 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:47:34.401 -08:00 [INF] Request finished in 316.0412ms 200 application/json; charset=UTF-8
+2019-01-31 12:47:34.416 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.1b5b314fcb85166472ee.hot-update.js  
+2019-01-31 12:47:34.417 -08:00 [INF] Type checking in progress...
+2019-01-31 12:47:34.426 -08:00 [INF] Request finished in 17.2795ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:47:37.573 -08:00 [INF] No type errors found
+2019-01-31 12:47:37.577 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:47:37.580 -08:00 [INF] Time: 3959ms
+2019-01-31 12:47:37.664 -08:00 [INF] No type errors found
+2019-01-31 12:47:37.688 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:47:37.695 -08:00 [INF] Time: 4032ms
+2019-01-31 12:48:36.385 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:48:36.389 -08:00 [INF] webpack building...
+2019-01-31 12:48:36.873 -08:00 [INF] Type checking in progress...
+2019-01-31 12:48:36.884 -08:00 [INF] webpack built 3e2939c33b7c02af37dd in 297ms
+2019-01-31 12:48:36.889 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 3e2939c33b7c02af37dd
+Version: webpack 4.23.1
+Time: 297ms
+Built at: 01/31/2019 12:48:36 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              15eab267a308be262f82.hot-update.json   53 bytes               [emitted]         
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+    main-client.15eab267a308be262f82.hot-update.js   7.43 KiB  main-client  [emitted]         main-client
+main-client.15eab267a308be262f82.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    634 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.15eab267a308be262f82.hot-update.js main-client.js.map main-client.15eab267a308be262f82.hot-update.js.map
+2019-01-31 12:48:36.892 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:48:36.902 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/15eab267a308be262f82.hot-update.json  
+2019-01-31 12:48:37.052 -08:00 [INF] Request finished in 148.4542ms 200 application/json; charset=UTF-8
+2019-01-31 12:48:37.057 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.15eab267a308be262f82.hot-update.js  
+2019-01-31 12:48:37.065 -08:00 [INF] Type checking in progress...
+2019-01-31 12:48:37.070 -08:00 [INF] Request finished in 6.1108ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:48:39.896 -08:00 [INF] No type errors found
+2019-01-31 12:48:39.907 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:48:39.911 -08:00 [INF] Time: 3307ms
+2019-01-31 12:48:40.011 -08:00 [INF] No type errors found
+2019-01-31 12:48:40.015 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:48:40.018 -08:00 [INF] Time: 3423ms
+2019-01-31 12:50:26.549 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:50:26.557 -08:00 [INF] webpack building...
+2019-01-31 12:50:27.139 -08:00 [INF] Type checking in progress...
+2019-01-31 12:50:27.150 -08:00 [INF] webpack built 564cc112015b4ffe716b in 384ms
+2019-01-31 12:50:27.178 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 564cc112015b4ffe716b
+Version: webpack 4.23.1
+Time: 384ms
+Built at: 01/31/2019 12:50:27 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              3e2939c33b7c02af37dd.hot-update.json   53 bytes               [emitted]         
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+    main-client.3e2939c33b7c02af37dd.hot-update.js   8.89 KiB  main-client  [emitted]         main-client
+main-client.3e2939c33b7c02af37dd.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    636 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.3e2939c33b7c02af37dd.hot-update.js main-client.js.map main-client.3e2939c33b7c02af37dd.hot-update.js.map
+2019-01-31 12:50:27.187 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:50:27.198 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/3e2939c33b7c02af37dd.hot-update.json  
+2019-01-31 12:50:27.441 -08:00 [INF] Request finished in 237.386ms 200 application/json; charset=UTF-8
+2019-01-31 12:50:27.448 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.3e2939c33b7c02af37dd.hot-update.js  
+2019-01-31 12:50:27.450 -08:00 [INF] Type checking in progress...
+2019-01-31 12:50:27.456 -08:00 [INF] Request finished in 10.0766ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:50:30.531 -08:00 [INF] No type errors found
+2019-01-31 12:50:30.533 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:50:30.535 -08:00 [INF] Time: 3779ms
+2019-01-31 12:50:30.590 -08:00 [INF] No type errors found
+2019-01-31 12:50:30.593 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:50:30.597 -08:00 [INF] Time: 3821ms
+2019-01-31 12:51:43.835 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:51:43.839 -08:00 [INF] webpack building...
+2019-01-31 12:51:44.386 -08:00 [INF] Type checking in progress...
+2019-01-31 12:51:44.407 -08:00 [INF] webpack built 4a416ccd475fc9990bf5 in 356ms
+2019-01-31 12:51:44.412 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 4a416ccd475fc9990bf5
+Version: webpack 4.23.1
+Time: 356ms
+Built at: 01/31/2019 12:51:44 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              564cc112015b4ffe716b.hot-update.json   53 bytes               [emitted]         
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+    main-client.564cc112015b4ffe716b.hot-update.js   8.88 KiB  main-client  [emitted]         main-client
+main-client.564cc112015b4ffe716b.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    636 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.564cc112015b4ffe716b.hot-update.js main-client.js.map main-client.564cc112015b4ffe716b.hot-update.js.map
+2019-01-31 12:51:44.419 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:51:44.438 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/564cc112015b4ffe716b.hot-update.json  
+2019-01-31 12:51:44.609 -08:00 [INF] Request finished in 178.0774ms 200 application/json; charset=UTF-8
+2019-01-31 12:51:44.614 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.564cc112015b4ffe716b.hot-update.js  
+2019-01-31 12:51:44.626 -08:00 [INF] Request finished in 6.1451ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:51:44.630 -08:00 [INF] Type checking in progress...
+2019-01-31 12:51:47.329 -08:00 [INF] No type errors found
+2019-01-31 12:51:47.333 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:51:47.338 -08:00 [INF] Time: 3299ms
+2019-01-31 12:51:47.459 -08:00 [INF] No type errors found
+2019-01-31 12:51:47.463 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:51:47.466 -08:00 [INF] Time: 3413ms
+2019-01-31 12:52:07.865 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-01-31 12:52:07.869 -08:00 [INF] webpack building...
+2019-01-31 12:52:08.692 -08:00 [INF] Type checking in progress...
+2019-01-31 12:52:08.708 -08:00 [INF] webpack built 2dae5034666145ff201d in 634ms
+2019-01-31 12:52:08.722 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 2dae5034666145ff201d
+Version: webpack 4.23.1
+Time: 634ms
+Built at: 01/31/2019 12:52:08 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              4a416ccd475fc9990bf5.hot-update.json   53 bytes               [emitted]         
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+    main-client.4a416ccd475fc9990bf5.hot-update.js   8.88 KiB  main-client  [emitted]         main-client
+main-client.4a416ccd475fc9990bf5.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    636 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.4a416ccd475fc9990bf5.hot-update.js main-client.js.map main-client.4a416ccd475fc9990bf5.hot-update.js.map
+2019-01-31 12:52:08.725 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-01-31 12:52:08.729 -08:00 [INF] Type checking in progress...
+2019-01-31 12:52:08.732 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/4a416ccd475fc9990bf5.hot-update.json  
+2019-01-31 12:52:08.739 -08:00 [INF] Request finished in 10.5275ms 200 application/json; charset=UTF-8
+2019-01-31 12:52:08.744 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.4a416ccd475fc9990bf5.hot-update.js  
+2019-01-31 12:52:08.756 -08:00 [INF] Request finished in 4.9871ms 200 application/javascript; charset=UTF-8
+2019-01-31 12:52:11.734 -08:00 [INF] No type errors found
+2019-01-31 12:52:11.739 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:52:11.744 -08:00 [INF] Time: 3606ms
+2019-01-31 12:52:11.831 -08:00 [INF] No type errors found
+2019-01-31 12:52:11.835 -08:00 [INF] Version: typescript 3.0.1
+2019-01-31 12:52:11.841 -08:00 [INF] Time: 3755ms
