@@ -6,8 +6,7 @@ export default class Footer extends React.Component<{}, {}> {
     }
     render() {
         return <footer className="footer text-center">
-            <p>View on <a href="https://github.com/jgriffith3433">GitHub</a></p>
-            <p>Copyright (c) 2019 Jaycee Griffith</p>
+            <p>Copyright (C) 2019 Jaycee Griffith</p>
         </footer>;
     }
 }

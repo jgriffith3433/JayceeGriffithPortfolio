@@ -21,8 +21,8 @@ export default class GuestLayout extends React.Component<Props, {}> {
                     {this.props.children}
                 </div>
                 <ToastContainer />
+                <Footer />
             </div>
-            <Footer />
         </div>;
     }
 }

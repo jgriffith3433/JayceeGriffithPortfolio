@@ -25,6 +25,7 @@ module.exports = (env) => {
                 'react-paginating',
                 'axios',
                 './ClientApp/styles/preloader.css',
+                'video-react/dist/video-react.css',
                 'react-toastify/dist/ReactToastify.css',
                 'react-toastify',
                 'nserializejson',
