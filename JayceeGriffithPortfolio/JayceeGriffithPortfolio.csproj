@@ -94,6 +94,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="ClientApp\unitygames\" />
     <Folder Include="ClientApp\zips\" />
   </ItemGroup>
 

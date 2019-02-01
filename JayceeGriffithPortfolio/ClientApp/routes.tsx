@@ -18,5 +18,6 @@ export const routes = <Switch>
     <AppRoute layout={GuestLayout} exact path="/traveling" component={TravelingPage} />
     <AppRoute layout={GuestLayout} exact path="/traveling/summer2018" component={Summer2018Page} />
     <AppRoute layout={GuestLayout} exact path="/reading" component={ReadingPage} />
+    <AppRoute layout={GuestLayout} exact path="/unitygames/spaceshooter/WebPlayer.html" />
     <AppRoute layout={AuthorizedLayout} exact path="/admin" component={AdminPage} />
 </Switch>;

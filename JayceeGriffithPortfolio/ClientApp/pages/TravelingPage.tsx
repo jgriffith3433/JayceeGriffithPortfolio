@@ -2,8 +2,6 @@
 import { RouteComponentProps } from "react-router";
 import { Helmet } from "react-helmet";
 import { NavLink, Redirect } from "react-router-dom";
-import logo from "@Images/logo.png";
-import { Player } from 'video-react';
 
 type Props = RouteComponentProps<{}>;
 

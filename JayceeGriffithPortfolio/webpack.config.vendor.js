@@ -26,6 +26,7 @@ module.exports = (env) => {
                 'axios',
                 './ClientApp/styles/preloader.css',
                 'video-react/dist/video-react.css',
+                'react-responsive-carousel/lib/styles/carousel.css',
                 'react-toastify/dist/ReactToastify.css',
                 'react-toastify',
                 'nserializejson',
