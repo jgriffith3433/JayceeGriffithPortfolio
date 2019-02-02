@@ -12,6 +12,7 @@ using JayceeGriffithPortfolio.Extensions.Microsoft.Extensions.DependencyInjectio
 using JayceeGriffithPortfolio.Infrastructure;
 using JayceeGriffithPortfolio.Services;
 using Serilog;
+using Microsoft.AspNetCore.StaticFiles;
 
 namespace JayceeGriffithPortfolio
 {
@@ -75,8 +76,13 @@ namespace JayceeGriffithPortfolio
             {
                 app.UseExceptionHandler("/Main/Error");
             }
+            app.UseFileServer();
 
-            app.UseStaticFiles();
+            var options = new StaticFileOptions();
+            var contentTypeProvider = (FileExtensionContentTypeProvider)options.ContentTypeProvider ?? new FileExtensionContentTypeProvider();
+            contentTypeProvider.Mappings.Add(".unityweb", "application/octet-stream");
+            options.ContentTypeProvider = contentTypeProvider;
+            app.UseStaticFiles(options);
 
             app.UseMvc(routes =>
             {

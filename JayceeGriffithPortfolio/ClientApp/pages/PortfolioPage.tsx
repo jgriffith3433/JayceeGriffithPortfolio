@@ -10,7 +10,6 @@ import niccolo from "@Images/niccolo.png";
 import boy from "@Images/boy.jpg";
 import gooba from "@Images/gooba.jpg";
 import swattrainer from "@Images/swattrainer.jpg";
-import unity from "@Images/unity.jpg";
 
 
 type Props = RouteComponentProps<{}>;

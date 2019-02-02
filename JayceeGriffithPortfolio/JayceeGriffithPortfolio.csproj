@@ -23,14 +23,17 @@
     <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
     <Compile Remove="ClientApp\domain-task\**" />
     <Compile Remove="ClientApp\helpers\**" />
+    <Compile Remove="ClientApp\unitygames\**" />
     <Compile Remove="ClientApp\videos\**" />
     <Content Remove="ClientApp\**" />
     <Content Remove="ClientApp\domain-task\**" />
     <EmbeddedResource Remove="ClientApp\domain-task\**" />
     <EmbeddedResource Remove="ClientApp\helpers\**" />
+    <EmbeddedResource Remove="ClientApp\unitygames\**" />
     <EmbeddedResource Remove="ClientApp\videos\**" />
     <None Remove="ClientApp\domain-task\**" />
     <None Remove="ClientApp\helpers\**" />
+    <None Remove="ClientApp\unitygames\**" />
     <None Remove="ClientApp\videos\**" />
   </ItemGroup>
 
@@ -94,7 +97,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ClientApp\unitygames\" />
     <Folder Include="ClientApp\zips\" />
   </ItemGroup>
 

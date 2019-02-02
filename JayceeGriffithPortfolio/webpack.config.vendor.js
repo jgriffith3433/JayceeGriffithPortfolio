@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const merge = require('webpack-merge');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = (env) => {
     const isDevBuild = !(env && env.prod);
@@ -58,7 +59,10 @@ module.exports = (env) => {
             new webpack.NormalModuleReplacementPlugin(/\/iconv-loader$/, require.resolve('node-noop')), // Workaround for https://github.com/andris9/encoding/issues/16
             new webpack.DefinePlugin({
                 'process.env.NODE_ENV': isDevBuild ? '"development"' : '"production"'
-            })
+            }),
+            new CopyWebpackPlugin([
+                { from: 'JayceeGriffithWebsiteGame', to: '../JayceeGriffithWebsiteGame' }
+            ])
         ].concat(isDevBuild ? [
             // Add module names to factory functions so they appear in browser profiler.
             new webpack.NamedModulesPlugin()
