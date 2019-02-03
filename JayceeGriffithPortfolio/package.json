@@ -79,6 +79,7 @@
     "react-router-config": "4.4.0-beta.6",
     "react-router-dom": "4.3.1",
     "react-router-redux": "5.0.0-alpha.9",
+    "react-scroll-box": "^0.3.5",
     "react-toastify": "4.4.3",
     "react-unity-webgl": "^7.0.8",
     "redux": "^4.0.1",

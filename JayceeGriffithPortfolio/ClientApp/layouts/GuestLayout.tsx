@@ -5,6 +5,7 @@ import * as H from 'history';
 import { RouteComponentProps } from "react-router";
 import { ToastContainer } from "react-toastify";
 import Footer from "@Components/shared/Footer";
+import { GenericScrollBox } from 'react-scroll-box';
 import UnityGame from "@Components/shared/UnityGame";
 
 interface IProps {
@@ -20,7 +21,11 @@ export default class GuestLayout extends React.Component<Props, {}> {
             <div id="guestLayout" className="layout">
                 <TopMenu />
                 <div className="container container-content">
-                    {this.props.children}
+                    <GenericScrollBox style={{ height: '75%' }}>
+                        <div className="scroll-box__viewport">
+                            {this.props.children}
+                        </div>
+                    </GenericScrollBox>
                 </div>
                 <ToastContainer />
                 <UnityGame />

@@ -29,7 +29,7 @@ class PortfolioPage extends React.Component<Props, {}> {
                 <h2>Here is a few things that I've done</h2>
             </div>
             <div>
-                <Carousel className="col-md" showArrows={true} showThumbs={false}>
+                <Carousel className="col-md" showArrows={true} showThumbs={false} infiniteLoop={true} autoPlay={true} stopOnHover={false} swipeable={false}>
                     <div>
                         <img src={kittenfull} />
                         <p className="legend">

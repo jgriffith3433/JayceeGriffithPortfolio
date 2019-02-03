@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { withRouter } from 'react-router-dom';
 import Unity, { UnityContent } from "react-unity-webgl";
 import Globals from "@Globals";
+import { debug } from "util";
 
 interface IUnityGameProps {
     match,
@@ -30,6 +31,7 @@ class UnityGame extends React.Component<IUnityGameProps, {}> {
                 "nextLocation: " + Globals.nextLocation + ", " +
                 "prevLocation: " + Globals.prevLocation +
                 " }");
+                this.JGWGame.send("GameController", "UpdatePageWidth", document.getElementsByClassName("scroll-box")[0].clientWidth.toString());
         })
     }
     unlisten: any;
@@ -66,7 +68,11 @@ class UnityGame extends React.Component<IUnityGameProps, {}> {
                     "currentLocation: " + Globals.currentLocation + ", " +
                     "nextLocation: " + Globals.nextLocation + ", " +
                     "prevLocation: " + Globals.prevLocation +
-                " }");
+                    " }");
+            });
+            this.JGWGame.on("GetPageWidth", () => {
+                this.JGWGame.send("GameController", "UpdatePageWidth", document.getElementsByClassName("scroll-box")[0].clientWidth.toString());
+                console.log(document.getElementsByClassName("scroll-box")[0].clientWidth.toString());
             });
             this.JGWGame.on("SetPage", page => {
                 if (page != Globals.currentLocation) {
