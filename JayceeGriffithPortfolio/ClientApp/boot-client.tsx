@@ -25,10 +25,10 @@ if (!isNode()) {
     Globals.init({ public: window["publicSession"] as IPublicSession, private: {} as IPrivateSession });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+/*document.addEventListener('DOMContentLoaded', () => {
     var preloader = document.getElementById("preloader");
     preloader.classList.add("hidden");
-});
+});*/
 
 // Create browser history to use in the Redux store
 const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href')!;

@@ -5,7 +5,7 @@ import * as H from 'history';
 import { RouteComponentProps } from "react-router";
 import { ToastContainer } from "react-toastify";
 import Footer from "@Components/shared/Footer";
-import UnityGame from "@Components/shared/UnityGame"
+import UnityGame from "@Components/shared/UnityGame";
 
 interface IProps {
     children: any;

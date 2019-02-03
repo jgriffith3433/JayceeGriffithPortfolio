@@ -1,7 +1,7 @@
 ﻿import * as React from "react";
 import { RouteComponentProps } from "react-router";
 import { Helmet } from "react-helmet";
-import { NavLink, Redirect } from "react-router-dom";
+import { withRouter, NavLink, Redirect } from "react-router-dom";
 var ReactDOM = require('react-dom');
 var Carousel = require('react-responsive-carousel').Carousel;
 import kittenface from "@Images/kittenface.jpg";
@@ -10,11 +10,12 @@ import niccolo from "@Images/niccolo.png";
 import boy from "@Images/boy.jpg";
 import gooba from "@Images/gooba.jpg";
 import swattrainer from "@Images/swattrainer.jpg";
+import Globals from "@Globals";
 
 
 type Props = RouteComponentProps<{}>;
 
-export default class PortfolioPage extends React.Component<Props, {}> {
+class PortfolioPage extends React.Component<Props, {}> {
     constructor(props) {
         super(props);
     }
@@ -106,3 +107,5 @@ export default class PortfolioPage extends React.Component<Props, {}> {
         </div>;
     }
 }
+
+export default withRouter(PortfolioPage);

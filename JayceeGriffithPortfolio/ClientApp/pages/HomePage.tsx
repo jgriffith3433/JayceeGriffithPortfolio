@@ -1,6 +1,7 @@
 import * as React from "react";
 import { RouteComponentProps } from "react-router";
 import { Helmet } from "react-helmet";
+import Globals from "@Globals";
 
 type Props = RouteComponentProps<{}>;
 

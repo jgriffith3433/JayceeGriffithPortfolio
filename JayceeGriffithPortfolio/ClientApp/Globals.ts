@@ -8,11 +8,16 @@ import { INodeSession } from "@Models/INodeSession";
 export default class Globals {
 
     private static isInitialized: boolean = false;
+    private static gameReady: boolean = false;
+    public static currentLocation: string;
+    public static nextLocation: string;
+    public static prevLocation: string;
 
     private static data: INodeSession = {};
 
     public static reset(): void {
         this.isInitialized = false;
+        this.gameReady = false;
         this.data = {};
     }
 
@@ -27,6 +32,14 @@ export default class Globals {
 
         // Use dot notation in name of the form inputs.
         NSerializeJson.options.useDotSeparatorInPath = true;
+    }
+
+    public static setGameReady(b:boolean): void {
+        this.gameReady = b;
+    }
+
+    public static isGameReady(): boolean {
+        return this.gameReady;
     }
 
     private static throwIfNotInitialized() {

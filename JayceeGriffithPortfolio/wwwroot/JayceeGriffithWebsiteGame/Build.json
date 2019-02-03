@@ -1,5 +1,5 @@
 {
-"companyName": "DefaultCompany",
+"companyName": "JayceeGriffith",
 "productName": "JayceeGriffithWebsiteGame",
 "dataUrl": "Build.data.unityweb",
 "wasmCodeUrl": "Build.wasm.code.unityweb",
@@ -8,6 +8,6 @@
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
 "splashScreenStyle": "Dark",
-"backgroundColor": "#231F20",
+"backgroundColor": "transparent",
 "cacheControl": {"default": "must-revalidate"}
 }
