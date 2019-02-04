@@ -25,15 +25,17 @@ class PortfolioPage extends React.Component<Props, {}> {
             <Helmet>
                 <title>Jaycee Griffith - Portfolio</title>
             </Helmet>
+            <br />
+            <br />
             <div className="text-center">
                 <h2>Here is a few things that I've done</h2>
             </div>
             <div>
-                <Carousel className="col-md" showArrows={true} showThumbs={false} infiniteLoop={true} autoPlay={true} stopOnHover={false} swipeable={false}>
+                <Carousel className="col-md" showArrows={true} showThumbs={false} infiniteLoop={true} swipeable={false}>
                     <div>
                         <img src={kittenfull} />
                         <p className="legend">
-                            <span>Kitten Fully Rigged </span>
+                            <span>Cinema 4D Kitten Fully Rigged </span>
                             <span>Feel free to download the kitten | </span>
                             <a href="https://drive.google.com/open?id=1w56ctmWSgPDhRB7fKY-v-waFzBPImjZy" target="_blank">Kitten Red_Final.zip</a>
                         </p>
@@ -41,7 +43,7 @@ class PortfolioPage extends React.Component<Props, {}> {
                     <div>
                         <img src={kittenface} />
                         <p className="legend">
-                            <span>3ds Max Kitten Fur </span>
+                            <span>Cinema 4D Kitten Fully Rigged </span>
                             <span>Feel free to download the kitten | </span>
                             <a href="https://drive.google.com/open?id=1w56ctmWSgPDhRB7fKY-v-waFzBPImjZy" target="_blank">Kitten Red_Final.zip</a>
                         </p>

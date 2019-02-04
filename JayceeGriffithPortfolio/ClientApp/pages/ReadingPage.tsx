@@ -16,6 +16,8 @@ export default class ReadingPage extends React.Component<Props, {}> {
             <Helmet>
                 <title>Jaycee Griffith - Reading</title>
             </Helmet>
+            <br />
+            <br />
             <div className="text-center">
                 <h2>I love the star wars books</h2>
             </div>

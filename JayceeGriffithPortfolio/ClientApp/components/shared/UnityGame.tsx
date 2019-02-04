@@ -31,7 +31,7 @@ class UnityGame extends React.Component<IUnityGameProps, {}> {
                 "nextLocation: " + Globals.nextLocation + ", " +
                 "prevLocation: " + Globals.prevLocation +
                 " }");
-                this.JGWGame.send("GameController", "UpdatePageWidth", document.getElementsByClassName("scroll-box")[0].clientWidth.toString());
+            this.JGWGame.send("GameController", "UpdatePageWidth", document.getElementsByClassName("scrollbar-container")[0].clientWidth.toString());
         })
     }
     unlisten: any;
@@ -71,8 +71,8 @@ class UnityGame extends React.Component<IUnityGameProps, {}> {
                     " }");
             });
             this.JGWGame.on("GetPageWidth", () => {
-                this.JGWGame.send("GameController", "UpdatePageWidth", document.getElementsByClassName("scroll-box")[0].clientWidth.toString());
-                console.log(document.getElementsByClassName("scroll-box")[0].clientWidth.toString());
+                this.JGWGame.send("GameController", "UpdatePageWidth", document.getElementsByClassName("scrollbar-container")[0].clientWidth.toString());
+                console.log(document.getElementsByClassName("scrollbar-container")[0].clientWidth.toString());
             });
             this.JGWGame.on("SetPage", page => {
                 if (page != Globals.currentLocation) {

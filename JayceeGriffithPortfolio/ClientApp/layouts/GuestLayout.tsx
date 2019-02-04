@@ -5,15 +5,15 @@ import * as H from 'history';
 import { RouteComponentProps } from "react-router";
 import { ToastContainer } from "react-toastify";
 import Footer from "@Components/shared/Footer";
-import { GenericScrollBox } from 'react-scroll-box';
 import UnityGame from "@Components/shared/UnityGame";
+import PerfectScrollbar from 'react-perfect-scrollbar'
 
 interface IProps {
     children: any;
     path: string;
 }
 
-type Props = IProps & RouteComponentProps<any> ;
+type Props = IProps & RouteComponentProps<any>;
 
 export default class GuestLayout extends React.Component<Props, {}> {
     public render() {
@@ -21,11 +21,11 @@ export default class GuestLayout extends React.Component<Props, {}> {
             <div id="guestLayout" className="layout">
                 <TopMenu />
                 <div className="container container-content">
-                    <GenericScrollBox style={{ height: '75%' }}>
-                        <div className="scroll-box__viewport">
+                    <div style={{ height: '75%;' }}>
+                        <PerfectScrollbar>
                             {this.props.children}
-                        </div>
-                    </GenericScrollBox>
+                        </PerfectScrollbar>
+                    </div>
                 </div>
                 <ToastContainer />
                 <UnityGame />
