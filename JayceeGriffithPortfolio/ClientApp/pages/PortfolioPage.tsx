@@ -33,7 +33,7 @@ class PortfolioPage extends React.Component<Props, {}> {
             <div>
                 <Carousel className="col-md" showArrows={true} showThumbs={false} infiniteLoop={true} swipeable={false}>
                     <div>
-                        <img src={kittenfull} />
+                        <img src={kittenfull} className="w-75" />
                         <p className="legend">
                             <span>Cinema 4D Kitten Fully Rigged </span>
                             <span>Feel free to download the kitten | </span>
@@ -41,7 +41,7 @@ class PortfolioPage extends React.Component<Props, {}> {
                         </p>
                     </div>
                     <div>
-                        <img src={kittenface} />
+                        <img src={kittenface} className="w-75" />
                         <p className="legend">
                             <span>Cinema 4D Kitten Fully Rigged </span>
                             <span>Feel free to download the kitten | </span>
@@ -49,22 +49,22 @@ class PortfolioPage extends React.Component<Props, {}> {
                         </p>
                     </div>
                     <div>
-                        <img src={gooba} />
+                        <img src={gooba} className="w-75" />
                         <p className="legend">
                             <span>Download and play Life of Gooba | </span>
                             <a href="https://jgriffith3433.itch.io/lifeofgooba" target="_blank">Itch.io game page</a>
                         </p>
                     </div>
                     <div>
-                        <img src={niccolo} />
+                        <img src={niccolo} className="w-75" />
                         <p className="legend">Low Poly Character Modeling</p>
                     </div>
                     <div>
-                        <img src={swattrainer} />
+                        <img src={swattrainer} className="w-75" />
                         <p className="legend">UDK training simulation</p>
                     </div>
                     <div>
-                        <img src={boy} />
+                        <img src={boy} className="w-75" />
                         <p className="legend">3ds Max Smiling Boy</p>
                     </div>
                     <div>
