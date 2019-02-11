@@ -3,6 +3,7 @@ import { withRouter } from "react-router";
 import { NavLink, Redirect } from "react-router-dom";
 import Globals from "@Globals";
 import AccountService from "@Services/AccountService";
+import { Dropdown } from "bootstrap3-native";
 
 import bind from 'bind-decorator';
 
@@ -21,10 +22,12 @@ class TopMenu extends React.Component<{}, { logoutAction: boolean }> {
         this.setState({ logoutAction: true });
     }
 
-    private elDropdown: HTMLAnchorElement;
+    private aboutDropdown: HTMLAnchorElement;
+    //private blogDropdown: HTMLAnchorElement;
 
     componentDidMount() {
-        //var dropdown = new Dropdown(this.elDropdown);
+        var aboutMeDropdown = new Dropdown(this.aboutDropdown);
+        //var blogDropdown = new Dropdown(this.blogDropdown);
     }
 
     componentDidUpdate() {
@@ -47,16 +50,42 @@ class TopMenu extends React.Component<{}, { logoutAction: boolean }> {
                     <li className="nav-item">
                         <NavLink exact to={'/portfolio'} style={{ "fontSize": "18px" }} className="nav-link" activeClassName="active">Portfolio</NavLink>
                     </li>
-                    <li className="nav-item">
-                        <NavLink exact to={'/reading'} style={{ "fontSize": "18px" }} className="nav-link" activeClassName="active">Reading</NavLink>
+                    
+                    <li className="dropdown">
+                        <a href="#" ref={x => this.aboutDropdown = x} className="dropdown-toggle nav-link" style={{ "fontSize": "18px" }} data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span className="">About</span>
+                        </a>
+                        <ul className="dropdown-menu">
+                            <li className="nav-item">
+                                <NavLink exact to={'/about/me'} style={{ "fontSize": "18px" }} className="nav-link" activeClassName="active">About Me</NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink exact to={'/about/music'} style={{ "fontSize": "18px" }} className="nav-link" activeClassName="active">Music</NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink exact to={'/about/reading'} style={{ "fontSize": "18px" }} className="nav-link" activeClassName="active">Reading</NavLink>
+                            </li>
+                        </ul>
                     </li>
+
                     {
-                        //<li className="nav-item">
-                        //    <NavLink exact to={'/traveling'} style={{ "fontSize": "18px" }} className="nav-link" activeClassName="active">Traveling</NavLink>
-                        //</li>
-                    }
-                    {
-                        /*<li><NavLink exact to={'/admin'} activeClassName="active">Admin</NavLink></li>
+                        /*
+                        <li className="dropdown">
+                            <a href="#" ref={x => this.blogDropdown = x} className="dropdown-toggle nav-link" style={{ "fontSize": "18px" }} data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <span className="">Blog</span>
+                            </a>
+                            <ul className="dropdown-menu">
+                                <li className="nav-item">
+                                    <NavLink exact to={'/blog/traveling'} style={{ "fontSize": "18px" }} className="nav-link" activeClassName="active">Traveling</NavLink>
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink exact to={'/blog/traveling/summer2018'} style={{ "fontSize": "18px" }} className="nav-link" activeClassName="active">Summer 2018</NavLink>
+                                </li>
+                            </ul>
+                        </li>
+                        */
+                        /*
+                        <li><NavLink exact to={'/admin'} activeClassName="active">Admin</NavLink></li>
                         <li className="dropdown">
                             <a href="#" ref={x => this.elDropdown = x} className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 {Globals.serviceUser ? Globals.serviceUser.login : null}&nbsp;
@@ -69,7 +98,8 @@ class TopMenu extends React.Component<{}, { logoutAction: boolean }> {
                                     <li><a href="/login">Sign in</a></li>
                                 )}
                             </ul>
-                        </li>*/
+                        </li>
+                        */
                     }
                 </ul>
             </div>

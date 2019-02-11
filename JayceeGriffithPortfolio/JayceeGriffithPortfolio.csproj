@@ -45,13 +45,13 @@
     <None Remove="ClientApp\models\IPersonModel.ts" />
     <None Remove="ClientApp\models\IServiceUser.ts" />
     <None Remove="ClientApp\models\Result.ts" />
+    <None Remove="ClientApp\pages\AboutMePage.tsx" />
     <None Remove="ClientApp\pages\AdminPage.tsx" />
     <None Remove="ClientApp\pages\HomePage.tsx" />
     <None Remove="ClientApp\pages\loginPage.tsx" />
+    <None Remove="ClientApp\pages\MusicPage.tsx" />
     <None Remove="ClientApp\pages\PortfolioPage.tsx" />
     <None Remove="ClientApp\pages\ReadingPage.tsx" />
-    <None Remove="ClientApp\pages\Summer2018Page.tsx" />
-    <None Remove="ClientApp\pages\TravelingPage.tsx" />
     <None Remove="ClientApp\services\AccountService.ts" />
     <None Remove="ClientApp\components\shared\ErrorBoundary.tsx" />
     <None Remove="ClientApp\components\shared\PagingBar.tsx" />
@@ -70,6 +70,7 @@
     <Content Include="ClientApp\models\Result.ts" />
     <Content Include="ClientApp\components\shared\AppRoute.tsx" />
     <Content Include="ClientApp\layouts\GuestLayout.tsx" />
+    <Content Include="ClientApp\pages\AboutMePage.tsx" />
     <Content Include="ClientApp\pages\HomePage.tsx" />
     <Content Include="ClientApp\pages\AdminPage.tsx" />
     <Content Include="ClientApp\pages\LoginPage.tsx" />
@@ -77,9 +78,8 @@
     <Content Include="ClientApp\components\shared\PagingBar.tsx" />
     <Content Include="ClientApp\components\shared\TopMenu.tsx" />
     <Content Include="ClientApp\layouts\AuthorizedLayout.tsx" />
-    <Content Include="ClientApp\pages\Summer2018Page.tsx" />
+    <Content Include="ClientApp\pages\MusicPage.tsx" />
     <Content Include="ClientApp\pages\ReadingPage.tsx" />
-    <Content Include="ClientApp\pages\TravelingPage.tsx" />
     <Content Include="ClientApp\pages\PortfolioPage.tsx" />
     <Content Include="ClientApp\styles\guestLayout.scss" />
     <Content Include="ClientApp\styles\authorizedLayout.scss" />
