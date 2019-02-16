@@ -21,7 +21,7 @@ export default class HomePage extends React.Component<Props, {}> {
                     <h1 className="display-4 font-italic">Welcome to my Web<del>site</del> game.</h1>
                     <p className="lead my-3">Navigate by <b>tilting</b> your device</p>
                     <p className="lead mb-0">
-                        <span>Make sure to check out my <NavLink exact to={'/portfolio'}>portfolio</NavLink></span>
+                        <span>Make sure to check out my <a href="https://drive.google.com/open?id=189OkI7YVJyKv6PILqvEt_hRamQplSjr3" target="_blank">Resume</a>.</span>
                     </p>
                 </div>
                 <div className="desktop-only-content col-md-6 px-0">
@@ -35,7 +35,7 @@ export default class HomePage extends React.Component<Props, {}> {
                         <span>Too slow? Hold <b>shift</b>.</span>
                     </p>
                     <p className="lead mb-0">
-                        <span>Make sure to check out my <NavLink exact to={'/portfolio'}>portfolio</NavLink></span>
+                        <span>Make sure to check out my <a href="https://drive.google.com/open?id=189OkI7YVJyKv6PILqvEt_hRamQplSjr3" target="_blank">Resume</a>.</span>
                     </p>
                 </div>
             </div>

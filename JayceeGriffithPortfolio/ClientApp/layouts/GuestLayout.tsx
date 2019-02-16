@@ -6,7 +6,7 @@ import { RouteComponentProps } from "react-router";
 import { ToastContainer } from "react-toastify";
 import Footer from "@Components/shared/Footer";
 import UnityGame from "@Components/shared/UnityGame";
-import PerfectScrollbar from 'react-perfect-scrollbar'
+import PerfectScrollbar from "react-perfect-scrollbar"
 
 interface IProps {
     children: any;
@@ -22,7 +22,7 @@ export default class GuestLayout extends React.Component<Props, {}> {
                 <TopMenu />
                 <div className="container container-content">
                     <div style={{ height: '75%;' }}>
-                        <PerfectScrollbar>
+                        <PerfectScrollbar option={{ suppressScrollX: "true" }}>
                             {this.props.children}
                         </PerfectScrollbar>
                     </div>

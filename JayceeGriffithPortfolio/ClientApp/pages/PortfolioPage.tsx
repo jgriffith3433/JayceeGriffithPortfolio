@@ -26,15 +26,14 @@ class PortfolioPage extends React.Component<Props, {}> {
             <Helmet>
                 <title>Jaycee Griffith - Portfolio</title>
             </Helmet>
-            <br />
-            <br />
-            <div className="text-center">
-                <h2>Here is a few things that I've done</h2>
+            <div className="text-center lead mb-0 mt-5">
+                <h2>Make sure to check out my <a href="https://drive.google.com/open?id=189OkI7YVJyKv6PILqvEt_hRamQplSjr3" target="_blank">Resume</a>.</h2>
             </div>
             <div>
                 <Carousel className="col-md" showArrows={true} showThumbs={false} infiniteLoop={true} swipeable={false}>
                     <div>
-                        <img src={kittenfull} className="w-75" />
+                        <img src={kittenfull} className="w-50 desktop-only-content-inline" />
+                        <img src={kittenfull} className="w-75 mobile-only-content-inline" />
                         <p className="legend">
                             <span>Cinema 4D Kitten Fully Rigged </span>
                             <span>Feel free to download the kitten | </span>
@@ -42,7 +41,8 @@ class PortfolioPage extends React.Component<Props, {}> {
                         </p>
                     </div>
                     <div>
-                        <img src={kittenface} className="w-75" />
+                        <img src={kittenface} className="w-50 desktop-only-content-inline" />
+                        <img src={kittenface} className="w-50 mobile-only-content-inline" />
                         <p className="legend">
                             <span>Cinema 4D Kitten Fully Rigged </span>
                             <span>Feel free to download the kitten | </span>
@@ -50,40 +50,47 @@ class PortfolioPage extends React.Component<Props, {}> {
                         </p>
                     </div>
                     <div>
-                        <img src={gooba} className="w-75" />
+                        <img src={gooba} className="w-50 desktop-only-content-inline" />
+                        <img src={gooba} className="w-50 mobile-only-content-inline" />
                         <p className="legend">
                             <span>Download and play Life of Gooba | </span>
                             <a href="https://jgriffith3433.itch.io/lifeofgooba" target="_blank">Itch.io game page</a>
                         </p>
                     </div>
                     <div>
-                        <img src={niccolo} className="w-75" />
+                        <img src={niccolo} className="w-50 desktop-only-content-inline" />
+                        <img src={niccolo} className="w-50 mobile-only-content-inline" />
                         <p className="legend">Low Poly Character Modeling</p>
                     </div>
                     <div>
-                        <img src={boy} className="w-75" />
+                        <img src={boy} className="w-50 desktop-only-content-inline" />
+                        <img src={boy} className="w-50 mobile-only-content-inline" />
                         <p className="legend">3ds Max Smiling Boy</p>
                     </div>
                     <div>
-                        <iframe style={{ marginTop: '50px' }} width="560" height="400" src="https://www.youtube.com/embed/j2jXD46B4Vw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe className="w-75 h-50 mt-5 desktop-only-content-inline" src="https://www.youtube.com/embed/j2jXD46B4Vw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe className="w-75 h-50 mt-5 mobile-only-content-inline" src="https://www.youtube.com/embed/j2jXD46B4Vw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         <p className="legend">
                             <span>To play the Space Shooter Game, download and extract the zip file. Then use internet explorer and download the web player, don't worry it's safe and comes directly from Unity3d.com | </span>
                             <a href="https://drive.google.com/open?id=1Y2UwkA_pACRiDt2OCTH38uRfwbM_1AZW" target="_blank">spaceshooter.zip</a>
                         </p>
                     </div>
                     <div>
-                        <iframe style={{ marginTop: '50px' }} width="560" height="400" src="https://www.youtube.com/embed/ns9sM42IP-I" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe className="w-75 h-50 mt-5 desktop-only-content-inline" src="https://www.youtube.com/embed/ns9sM42IP-I" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe className="w-75 h-50 mt-5 mobile-only-content-inline" src="https://www.youtube.com/embed/ns9sM42IP-I" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         <p className="legend">
                             <span>To play the Hoop Jones Game, download and extract the zip file. Then use internet explorer and download the web player, don't worry it's safe and comes directly from Unity3d.com | </span>
                             <a href="https://drive.google.com/open?id=1hyRouxDJZufhvFK6tULyUaqJVrcTnrkw" target="_blank">hoopjones.zip</a>
                         </p>
                     </div>
                     <div>
-                        <img src={swattrainer} className="w-75" />
+                        <img src={swattrainer} className="w-50 desktop-only-content-inline" />
+                        <img src={swattrainer} className="w-50 mobile-only-content-inline" />
                         <p className="legend">UDK training simulation</p>
                     </div>
                     <div>
-                        <img src={zelda} className="w-75" />
+                        <img src={zelda} className="w-50 desktop-only-content-inline" />
+                        <img src={zelda} className="w-50 mobile-only-content-inline" />
                         <p className="legend">
                             <span>Zelda-style camera | </span>
                             <span>Feel free to download the project | </span>

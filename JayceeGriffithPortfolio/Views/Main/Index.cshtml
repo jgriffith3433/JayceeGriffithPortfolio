@@ -35,10 +35,64 @@
     <div id="preloader">
         <div>
             <div class="mobile-only-content" style="font-size:8px">*Note: not supported on mobile safari</div>
+            <div style=" position: absolute; display: inline-block; top: 20%; bottom: 20%; right: 20%; left: 20%; text-align: center;">
+                <div style="display: inline-block; height: 75%; vertical-align: middle;"></div>
+                <div style="position: relative; color: #FFFFFF; display: inline-block; vertical-align: middle;">
+                    <div id="excerpt"></div>
+                </div>
+            </div>
             <br />
             <img src="JayceeGriffithWebsiteGame/loading.gif" />
         </div>
     </div>
+    <script>
+        var currentEx = -1;
+        var excerpts = [
+            "C#",
+            "JavaScript",
+            "HTML5",
+            "REST",
+            "Visual Studio",
+            "SQL",
+            "MS SQL Server",
+            "C++",
+            "IIS",
+            "Unity3D",
+            "3DS Max",
+            "MVC ASP.NET",
+            "BreezeJs",
+            "Knockout",
+            "DurandalJs",
+            "Ninject",
+            "jQuery",
+            ".NET",
+            "Active Directory",
+            "Azure Services",
+            "Entity Framework",
+            "Adobe suite"
+        ];
+        var waitTime = 350;
+        var showNextLoadingExcerpt = function () {
+            var preloader = document.getElementById("preloader");
+            if (preloader) {
+                currentEx++;
+                if (currentEx > excerpts.length - 1) {
+                    currentEx = 0;
+                }
+                if ((' ' + preloader.className + ' ').indexOf(' hidden ') <= -1) {
+                    var excerpt = document.getElementById("excerpt");
+                    if (excerpt) {
+                        excerpt.innerHTML = excerpts[currentEx];
+                        setTimeout(showNextLoadingExcerpt, waitTime);
+                    }
+                }
+            }
+            else {
+                setTimeout(showNextLoadingExcerpt, 50);
+            }
+        }
+        setTimeout(showNextLoadingExcerpt, 200);
+    </script>
 
     @* Save the request token in a div. CORS needs to make sure this token can't be read by javascript from other sources than ours *@
     <div id="xsrf-token" data-xsrf-token="@ViewBag.AntiForgeryRequestToken"></div>

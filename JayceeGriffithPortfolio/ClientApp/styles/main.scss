@@ -1,8 +1,4 @@
-﻿.externallinks {
-    margin:50px;
-}
-
-.videocontainer {
+﻿.videocontainer {
     margin: 25px;
 }
 
@@ -17,6 +13,7 @@
     z-index: 1;
     left: 0;
     top: 0;
+    z-index: 10;
 }
 
 .disablepointer {
@@ -47,6 +44,35 @@
 @media screen and (min-width: 0px) and (max-width: 600px) {
     .desktop-only-content {
         display: none;
+    }
+    /* hide it elsewhere */
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .mobile-only-content-inline {
+        display: inline !important;
+    }
+    /* show it on small screens */
+}
+
+@media screen and (min-width: 601px) and (max-width: 2024px) {
+    .mobile-only-content-inline {
+        display: none !important;
+    }
+    /* hide it elsewhere */
+}
+
+@media screen and (min-width: 601px) and (max-width: 2024px) {
+    .desktop-only-content-inline {
+        display: inline !important;
+    }
+    /* show it on large screens */
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .desktop-only-content-inline {
+        display: none !important;
     }
     /* hide it elsewhere */
 }

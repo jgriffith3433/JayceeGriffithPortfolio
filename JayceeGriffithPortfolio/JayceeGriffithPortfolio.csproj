@@ -25,16 +25,19 @@
     <Compile Remove="ClientApp\helpers\**" />
     <Compile Remove="ClientApp\unitygames\**" />
     <Compile Remove="ClientApp\videos\**" />
+    <Compile Remove="ClientApp\zips\**" />
     <Content Remove="ClientApp\**" />
     <Content Remove="ClientApp\domain-task\**" />
     <EmbeddedResource Remove="ClientApp\domain-task\**" />
     <EmbeddedResource Remove="ClientApp\helpers\**" />
     <EmbeddedResource Remove="ClientApp\unitygames\**" />
     <EmbeddedResource Remove="ClientApp\videos\**" />
+    <EmbeddedResource Remove="ClientApp\zips\**" />
     <None Remove="ClientApp\domain-task\**" />
     <None Remove="ClientApp\helpers\**" />
     <None Remove="ClientApp\unitygames\**" />
     <None Remove="ClientApp\videos\**" />
+    <None Remove="ClientApp\zips\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -94,10 +97,6 @@
     <TypeScriptCompile Include="ClientApp\services\AccountService.ts" />
     <TypeScriptCompile Include="ClientApp\store\PersonStore.ts" />
     <TypeScriptCompile Include="ClientApp\store\LoginStore.ts" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ClientApp\zips\" />
   </ItemGroup>
 
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">

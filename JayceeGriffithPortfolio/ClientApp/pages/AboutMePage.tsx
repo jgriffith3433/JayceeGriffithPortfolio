@@ -3,6 +3,7 @@ import { RouteComponentProps } from "react-router";
 import { NavLink, Redirect } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Globals from "@Globals";
+import profilepic from "@Images/profilepic.jpg";
 
 type Props = RouteComponentProps<{}>;
 
@@ -16,35 +17,45 @@ export default class AboutMePage extends React.Component<Props, {}> {
             <Helmet>
                 <title>Jaycee Griffith - About Me</title>
             </Helmet>
-            <div className="jumbotron p-3 p-md-5 rounded bg-white">
-                <div className="col-md-12 px-0">
-                    <h1 className="display-4 font-italic">I enjoy computers, music, and reading.</h1>
-                    <p className="lead my-3">I have lived in <b>Oklahom City, OK</b> and <b>Albuquerque, NM</b>. I currently live in <b>Reno, NV</b>.</p>
-                    <p className="lead mb-0">
-                        <div className="text-center externallinks">
-                            <span><b>External profile links</b></span>
-                            <p className="text-center">
-                                <span>Github | </span>
-                                <a href="https://github.com/jgriffith3433" target="_blank">http://github.com/jgriffith3433</a>
-                            </p>
-                            <p className="text-center">
-                                <span>Sound Cloud | </span>
-                                <a href="https://soundcloud.com/jacobsgriffith" target="_blank">https://soundcloud.com/jacobsgriffith</a>
-                            </p>
-                            <p className="text-center">
-                                <span>Stack Overflow | </span>
-                                <a href="https://stackoverflow.com/users/941632/jacobsgriffith" target="_blank">https://stackoverflow.com/users/941632/jacobsgriffith</a>
-                            </p>
-                            <p className="text-center">
-                                <span>Itch.io | </span>
-                                <a href="https://jgriffith3433.itch.io/lifeofgooba" target="_blank">https://jgriffith3433.itch.io/lifeofgooba</a>
-                            </p>
-                            <p className="text-center">
-                                <span>Kickstarter | </span>
-                                <a href="https://www.kickstarter.com/profile/jgriffith3433" target="_blank">https://www.kickstarter.com/profile/jgriffith3433</a>
-                            </p>
+            <div className="mt-5">
+                <div className="row">
+                    <div className="col-md-4">
+                        <img src={profilepic} className="w-100" />
+                    </div>
+                    <div className="col-md-8">
+                        <h1 className="display-4 font-italic">I enjoy computers, reading, and music.</h1>
+                        <h2 className="lead my-3">I have lived in <b>Oklahom City, OK</b> and <b>Albuquerque, NM</b>. I currently live in <b>Reno, NV</b>.</h2>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-12">
+                        <div className="lead mt-5">
+                            <div>
+                                <span><b>External profile links</b></span>
+                                <p>
+                                    <a href="https://github.com/jgriffith3433" target="_blank">Github</a>
+                                </p>
+                                <p>
+                                    <a href="https://jgriffith3433.itch.io/lifeofgooba" target="_blank">Itch.io</a>
+                                </p>
+                                <p>
+                                    <a href="https://www.kickstarter.com/profile/jgriffith3433" target="_blank">Kickstarter</a>
+                                </p>
+                                <p>
+                                    <a href="https://www.linkedin.com/in/jaycee-griffith-760bb7116/" target="_blank">LinkedIn</a>
+                                </p>
+                                <p>
+                                    <a href="https://soundcloud.com/jacobsgriffith" target="_blank">Sound Cloud</a>
+                                </p>
+                                <p>
+                                    <a href="https://stackoverflow.com/users/941632/jacobsgriffith" target="_blank">Stack Overflow</a>
+                                </p>
+                                <p>
+                                    <a href="https://trello.com/jayceegriffith" target="_blank">Trello</a>
+                                </p>
+                            </div>
                         </div>
-                    </p>
+                    </div>
                 </div>
             </div>
             </div>;
