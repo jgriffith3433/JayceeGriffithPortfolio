@@ -537,3 +537,77 @@ Entrypoint main-client [big] = main-client.js main-client.js.map
 2019-02-19 19:44:07.721 -08:00 [INF] Request finished in 24.3876ms 200 image/jpeg; charset=UTF-8
 2019-02-19 19:44:07.723 -08:00 [INF] Request finished in 8.6903ms 200 image/jpeg; charset=UTF-8
 2019-02-19 19:44:07.725 -08:00 [INF] Request finished in 10.9801ms 200 image/jpeg; charset=UTF-8
+2019-02-19 22:26:04.899 -08:00 [INF] User profile is available. Using 'C:\Users\jgrif\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-02-19 22:26:08.808 -08:00 [INF] Starting type checking service...
+2019-02-19 22:26:08.811 -08:00 [INF] Using 1 worker with 2048MB memory limit
+2019-02-19 22:26:08.880 -08:00 [INF] Starting type checking service...
+2019-02-19 22:26:08.882 -08:00 [INF] Using 1 worker with 2048MB memory limit
+2019-02-19 22:26:11.087 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-19 22:26:11.441 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-19 22:26:11.463 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-19 22:26:11.480 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.0220000000000002ms.
+2019-02-19 22:26:11.527 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-19 22:26:12.773 -08:00 [INF] Executed ViewResult - view Index executed in 1262.2517ms.
+2019-02-19 22:26:12.808 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 1351.2199ms
+2019-02-19 22:26:12.812 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/loading.gif  
+2019-02-19 22:26:12.816 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/vendor.css?v=0wnqM4WbJPSfF26FTDFb_NtpkBf-MiQeohFs45QkYEA  
+2019-02-19 22:26:12.818 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/vendor.js?v=74o1R0R8QWSgfIj19QsZFblHKVq9Bb_uLJB-zGkAbs8  
+2019-02-19 22:26:12.831 -08:00 [INF] Request finished in 1766.693ms 200 text/html; charset=utf-8
+2019-02-19 22:26:12.896 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/loading.gif'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\loading.gif'
+2019-02-19 22:26:12.899 -08:00 [INF] Request finished in 89.9343ms 200 image/gif
+2019-02-19 22:26:12.901 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=5g4ycIAuPh6kS3DEaK1rjpJrJHVFrVwprUVTdougzNo  
+2019-02-19 22:26:13.855 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.js?v=74o1R0R8QWSgfIj19QsZFblHKVq9Bb_uLJB-zGkAbs8
+2019-02-19 22:26:13.859 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.css?v=0wnqM4WbJPSfF26FTDFb_NtpkBf-MiQeohFs45QkYEA
+2019-02-19 22:26:13.864 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/main-client.js?v=5g4ycIAuPh6kS3DEaK1rjpJrJHVFrVwprUVTdougzNo
+2019-02-19 22:26:19.624 -08:00 [INF] No type errors found
+2019-02-19 22:26:19.626 -08:00 [INF] Version: typescript 3.0.1
+2019-02-19 22:26:19.629 -08:00 [INF] Time: 8920ms
+2019-02-19 22:26:19.638 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\main-client.js
+2019-02-19 22:26:19.651 -08:00 [INF] webpack built 44c46c59e67b27092980 in 10826ms
+2019-02-19 22:26:19.867 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 44c46c59e67b27092980
+Version: webpack 4.23.1
+Time: 10826ms
+Built at: 02/19/2019 10:26:19 PM
+                               Asset      Size       Chunks                    Chunk Names
+6254da913578421dc62065fede06f3e9.jpg   118 KiB               [emitted]         
+6a50cb30e6d0464aba45ec14263058d2.jpg   425 KiB               [emitted]  [big]  
+6b7dcfac373293aa5eadf6eb0a29418e.jpg  18.4 KiB               [emitted]         
+a1d58cf19b77fb6f6917befb472cdc8d.jpg  27.5 KiB               [emitted]         
+ca6e18d297f499728270623baa09432b.jpg   114 KiB               [emitted]         
+d1c37ec98e69508cb302acdd4e208240.jpg   177 KiB               [emitted]         
+e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg  35.2 KiB               [emitted]         
+f215b8ab565c09e3da83575440569612.jpg  28.8 KiB               [emitted]         
+f2f30dc7704b93cd414dba2533f7a0f7.jpg   120 KiB               [emitted]         
+                      main-client.js   859 KiB  main-client  [emitted]  [big]  main-client
+                  main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-02-19 22:26:19.870 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-19 22:26:19.887 -08:00 [INF] Request finished in 6984.8845ms 200 application/javascript; charset=UTF-8
+2019-02-19 22:26:19.924 -08:00 [INF] Sending file. Request path: '/dist/vendor.css'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\vendor.css'
+2019-02-19 22:26:19.928 -08:00 [INF] Request finished in 7116.5948ms 200 text/css
+2019-02-19 22:26:19.929 -08:00 [INF] Sending file. Request path: '/dist/vendor.js'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\vendor.js'
+2019-02-19 22:26:19.932 -08:00 [INF] Request finished in 7124.241ms 200 application/javascript
+2019-02-19 22:26:19.945 -08:00 [INF] No type errors found
+2019-02-19 22:26:19.949 -08:00 [INF] Version: typescript 3.0.1
+2019-02-19 22:26:19.952 -08:00 [INF] Time: 8843ms
+2019-02-19 22:26:20.214 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-19 22:26:20.218 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/UnityLoader.js  
+2019-02-19 22:26:20.290 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/UnityLoader.js'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\UnityLoader.js'
+2019-02-19 22:26:20.292 -08:00 [INF] Request finished in 75.873ms 200 application/javascript
+2019-02-19 22:26:20.334 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.json  
+2019-02-19 22:26:20.343 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.json'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.json'
+2019-02-19 22:26:20.346 -08:00 [INF] Request finished in 13.1766ms 200 application/json
+2019-02-19 22:26:20.429 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-19 22:26:20.432 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-19 22:26:20.439 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-19 22:26:20.464 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.framework.unityweb'
+2019-02-19 22:26:20.467 -08:00 [INF] Request finished in 34.8955ms 200 application/octet-stream
+2019-02-19 22:26:20.546 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.data.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.data.unityweb'
+2019-02-19 22:26:20.549 -08:00 [INF] Request finished in 110.4755ms 200 application/octet-stream
+2019-02-19 22:26:20.552 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.code.unityweb'
+2019-02-19 22:26:20.555 -08:00 [INF] Request finished in 125.6086ms 200 application/octet-stream
+2019-02-19 22:26:48.198 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-19 22:26:48.203 -08:00 [INF] Request finished in 5.5499ms 200 application/json; charset=UTF-8
+2019-02-19 22:26:51.787 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6a50cb30e6d0464aba45ec14263058d2.jpg  
+2019-02-19 22:26:51.794 -08:00 [INF] Request finished in 5.5534ms 200 image/jpeg; charset=UTF-8
+2019-02-19 22:27:14.024 -08:00 [INF] Request finished in 53811.3533ms 200 text/event-stream; charset=utf-8
