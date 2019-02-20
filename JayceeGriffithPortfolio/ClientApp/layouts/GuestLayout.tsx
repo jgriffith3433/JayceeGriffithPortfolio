@@ -22,14 +22,16 @@ export default class GuestLayout extends React.Component<Props, {}> {
                 <TopMenu />
                 <div className="container container-content">
                     <div style={{ height: '75%;' }}>
-                        <PerfectScrollbar option={{ suppressScrollX: "true" }}>
-                            {this.props.children}
-                        </PerfectScrollbar>
+                        {/*this.props.children*/}
+                        {
+                            <PerfectScrollbar option={{ suppressScrollX: "true" }}>
+                                {this.props.children}
+                            </PerfectScrollbar>
+                        }
                     </div>
                 </div>
                 <ToastContainer />
                 <UnityGame />
-                <Footer />
             </div>
         </div>;
     }

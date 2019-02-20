@@ -17,9 +17,9 @@
         display: table-cell;
         vertical-align: middle;
     }
-    #preloader > div > img {
-        width: 100%;
-    }
+        #preloader > div > img {
+            width: 100%;
+        }
 
     #preloader.loaded {
         transition: opacity 0.5s ease;

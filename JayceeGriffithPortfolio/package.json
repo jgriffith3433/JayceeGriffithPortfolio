@@ -84,6 +84,7 @@
     "react-slidez": "0.0.31",
     "react-toastify": "4.4.3",
     "react-unity-webgl": "^7.0.8",
+    "react-youtube": "^7.9.0",
     "redux": "^4.0.1",
     "redux-thunk": "2.3.0",
     "tippy.js": "3.3.0"

@@ -87,6 +87,20 @@ export default class ReadingPage extends React.Component<Props, {}> {
                     </li>
                 </ul>
             </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         </div>;
     }
 }

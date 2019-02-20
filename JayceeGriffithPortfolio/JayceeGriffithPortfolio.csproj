@@ -55,6 +55,7 @@
     <None Remove="ClientApp\pages\MusicPage.tsx" />
     <None Remove="ClientApp\pages\PortfolioPage.tsx" />
     <None Remove="ClientApp\pages\ReadingPage.tsx" />
+    <None Remove="ClientApp\pages\SocialPage.tsx" />
     <None Remove="ClientApp\services\AccountService.ts" />
     <None Remove="ClientApp\components\shared\ErrorBoundary.tsx" />
     <None Remove="ClientApp\components\shared\PagingBar.tsx" />
@@ -73,6 +74,7 @@
     <Content Include="ClientApp\models\Result.ts" />
     <Content Include="ClientApp\components\shared\AppRoute.tsx" />
     <Content Include="ClientApp\layouts\GuestLayout.tsx" />
+    <Content Include="ClientApp\pages\SocialPage.tsx" />
     <Content Include="ClientApp\pages\AboutMePage.tsx" />
     <Content Include="ClientApp\pages\HomePage.tsx" />
     <Content Include="ClientApp\pages\AdminPage.tsx" />

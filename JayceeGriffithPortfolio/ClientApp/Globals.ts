@@ -9,11 +9,6 @@ export default class Globals {
 
     private static isInitialized: boolean = false;
     private static gameReady: boolean = false;
-    public static currentLocation: string;
-    public static nextLocation: string;
-    public static prevLocation: string;
-    public static nextDropDown: boolean;
-    public static prevDropDown: boolean;
 
     private static data: INodeSession = {};
 

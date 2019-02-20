@@ -4,6 +4,7 @@ import { NavLink, Redirect } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Globals from "@Globals";
 import profilepic from "@Images/profilepic.jpg";
+import YouTube from "react-youtube";
 
 type Props = RouteComponentProps<{}>;
 
@@ -23,12 +24,21 @@ export default class AboutMePage extends React.Component<Props, {}> {
                         <img src={profilepic} className="w-100" />
                     </div>
                     <div className="col-md-8">
-                        <h1 className="display-4 font-italic">I enjoy computers, reading, and music.</h1>
+                        <h1 className="display-4 font-italic">I enjoy computers, reading, making vidoes and music.</h1>
                         <h2 className="lead my-3">I have lived in <b>Oklahom City, OK</b> and <b>Albuquerque, NM</b>. I currently live in <b>Reno, NV</b>.</h2>
                     </div>
                 </div>
+                {
+                    /*
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-md-12 text-center">
+                        <h2>Video of me growing up</h2>
+                        <YouTube videoId="6BgYMTZVwiM" opts={{ height: '390', width: '640' }} />
+                    </div>
+                </div>*/
+                }
+                <div className="row">
+                    <div className="col-md-12 text-center">
                         <div className="lead mt-5">
                             <div>
                                 <span><b>External profile links</b></span>
@@ -58,6 +68,20 @@ export default class AboutMePage extends React.Component<Props, {}> {
                     </div>
                 </div>
             </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             </div>;
     }
 }

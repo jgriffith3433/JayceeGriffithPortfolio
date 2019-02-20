@@ -12,6 +12,7 @@ import gooba from "@Images/gooba.jpg";
 import swattrainer from "@Images/swattrainer.jpg";
 import zelda from "@Images/zelda.jpg";
 import Globals from "@Globals";
+import YouTube from "react-youtube";
 
 
 type Props = RouteComponentProps<{}>;
@@ -27,7 +28,7 @@ class PortfolioPage extends React.Component<Props, {}> {
                 <title>Jaycee Griffith - Portfolio</title>
             </Helmet>
             <div className="text-center lead mb-0 mt-5">
-                <h2>Make sure to check out my <a href="https://drive.google.com/open?id=189OkI7YVJyKv6PILqvEt_hRamQplSjr3" target="_blank">Resume</a>.</h2>
+                <h2>Make sure to check out my <a href="https://drive.google.com/open?id=1x_J0KD_UN28wIOzOdzOprr4PpcYHh22x" target="_blank">Resume</a>.</h2>
             </div>
             <div>
                 <Carousel className="col-md" showArrows={true} showThumbs={false} infiniteLoop={true} swipeable={false}>
@@ -67,22 +68,22 @@ class PortfolioPage extends React.Component<Props, {}> {
                         <img src={boy} className="w-50 mobile-only-content-inline" />
                         <p className="legend">3ds Max Smiling Boy</p>
                     </div>
-                    <div>
-                        <iframe className="w-75 h-50 mt-5 desktop-only-content-inline" src="https://www.youtube.com/embed/j2jXD46B4Vw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        <iframe className="w-75 h-50 mt-5 mobile-only-content-inline" src="https://www.youtube.com/embed/j2jXD46B4Vw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        <p className="legend">
-                            <span>To play the Space Shooter Game, download and extract the zip file. Then use internet explorer and download the web player, don't worry it's safe and comes directly from Unity3d.com | </span>
-                            <a href="https://drive.google.com/open?id=1Y2UwkA_pACRiDt2OCTH38uRfwbM_1AZW" target="_blank">spaceshooter.zip</a>
-                        </p>
-                    </div>
-                    <div>
-                        <iframe className="w-75 h-50 mt-5 desktop-only-content-inline" src="https://www.youtube.com/embed/ns9sM42IP-I" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        <iframe className="w-75 h-50 mt-5 mobile-only-content-inline" src="https://www.youtube.com/embed/ns9sM42IP-I" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        <p className="legend">
-                            <span>To play the Hoop Jones Game, download and extract the zip file. Then use internet explorer and download the web player, don't worry it's safe and comes directly from Unity3d.com | </span>
-                            <a href="https://drive.google.com/open?id=1hyRouxDJZufhvFK6tULyUaqJVrcTnrkw" target="_blank">hoopjones.zip</a>
-                        </p>
-                    </div>
+                    {
+                        /*<div>
+                            <YouTube videoId="j2jXD46B4Vw" className="w-75 h-50 mt-5" />
+                            <p className="legend">
+                                <span>To play the Space Shooter Game, download and extract the zip file. Then use internet explorer and download the web player, don't worry it's safe and comes directly from Unity3d.com | </span>
+                                <a href="https://drive.google.com/open?id=1Y2UwkA_pACRiDt2OCTH38uRfwbM_1AZW" target="_blank">spaceshooter.zip</a>
+                            </p>
+                        </div>
+                        <div>
+                            <YouTube videoId="ns9sM42IP-I" className="w-75 h-50 mt-5" />
+                            <p className="legend">
+                                <span>To play the Hoop Jones Game, download and extract the zip file. Then use internet explorer and download the web player, don't worry it's safe and comes directly from Unity3d.com | </span>
+                                <a href="https://drive.google.com/open?id=1hyRouxDJZufhvFK6tULyUaqJVrcTnrkw" target="_blank">hoopjones.zip</a>
+                            </p>
+                        </div>*/
+                    }
                     <div>
                         <img src={swattrainer} className="w-50 desktop-only-content-inline" />
                         <img src={swattrainer} className="w-50 mobile-only-content-inline" />

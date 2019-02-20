@@ -10,14 +10,39 @@
     height: 100%;
     width: 100%;
     position: fixed;
-    z-index: 1;
     left: 0;
     top: 0;
     z-index: 10;
 }
 
+.unityGame > div {
+    z-index: 10;
+}
+
+.unityGame > div > canvas {
+    z-index: 10;
+}
+
+.layeriframe {
+    position: relative;
+    z-index: 999;
+}
+
 .disablepointer {
     pointer-events: none;
+}
+
+.fakehidden {
+    z-index: -999;
+    visibility: hidden;
+}
+
+.mouseTest {
+    /*position: absolute;
+    z-index: 99;
+    background-color: #cccccc;
+    width: 20px;
+    height: 20px;*/
 }
 
 @media screen and (min-width: 0px) and (max-width: 600px) {
@@ -89,12 +114,12 @@
     }
 }
 
-.layout{
-    height:100%;
+.layout {
+    height: 100%;
 }
 
-ul.pagination{
-    &> li > span {
+ul.pagination {
+    & > li > span {
         cursor: pointer;
     }
 }
@@ -117,11 +142,11 @@ label {
     }
 }
 
-.navbar-default .navbar-nav > li > a.active { 
+.navbar-default .navbar-nav > li > a.active {
     &,
-    &:hover, 
+    &:hover,
     &:focus {
         color: #555;
         background-color: #e7e7e7;
-    }    
+    }
 }
