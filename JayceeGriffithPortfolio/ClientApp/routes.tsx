@@ -9,6 +9,8 @@ import PortfolioPage from '@Pages/PortfolioPage';
 import ReadingPage from '@Pages/ReadingPage';
 import AboutMePage from '@Pages/AboutMePage';
 import MusicPage from '@Pages/MusicPage';
+import GamingPage from '@Pages/GamingPage';
+import VideosPage from '@Pages/VideosPage';
 import AdminPage from '@Pages/AdminPage';
 
 export const routes = <Switch>
@@ -17,6 +19,8 @@ export const routes = <Switch>
     <AppRoute layout={GuestLayout} exact path="/portfolio" component={PortfolioPage} />
     <AppRoute layout={GuestLayout} exact path="/about/me" component={AboutMePage} />
     <AppRoute layout={GuestLayout} exact path="/about/music" component={MusicPage} />
+    <AppRoute layout={GuestLayout} exact path="/about/gaming" component={GamingPage} />
+    <AppRoute layout={GuestLayout} exact path="/about/videos" component={VideosPage} />
     <AppRoute layout={GuestLayout} exact path="/about/reading" component={ReadingPage} />
     <AppRoute layout={AuthorizedLayout} exact path="/admin" component={AdminPage} />
 </Switch>;

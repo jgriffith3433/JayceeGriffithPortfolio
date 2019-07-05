@@ -1,0 +1,1153 @@
+2019-02-21 16:44:30.826 -08:00 [INF] User profile is available. Using 'C:\Users\jgrif\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-02-21 16:44:45.266 -08:00 [INF] Starting type checking service...
+2019-02-21 16:44:45.268 -08:00 [INF] Using 1 worker with 2048MB memory limit
+2019-02-21 16:44:45.405 -08:00 [INF] Starting type checking service...
+2019-02-21 16:44:45.408 -08:00 [INF] Using 1 worker with 2048MB memory limit
+2019-02-21 16:44:47.606 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 16:44:47.852 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 16:44:47.870 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 16:44:47.885 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.3009ms.
+2019-02-21 16:44:48.008 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 16:44:49.101 -08:00 [INF] Executed ViewResult - view Index executed in 1199.8285ms.
+2019-02-21 16:44:49.112 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 1256.9586000000002ms
+2019-02-21 16:44:49.124 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/vendor.js?v=74o1R0R8QWSgfIj19QsZFblHKVq9Bb_uLJB-zGkAbs8  
+2019-02-21 16:44:49.126 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/loading.gif  
+2019-02-21 16:44:49.127 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/vendor.css?v=0wnqM4WbJPSfF26FTDFb_NtpkBf-MiQeohFs45QkYEA  
+2019-02-21 16:44:49.143 -08:00 [INF] Request finished in 1551.3935ms 200 text/html; charset=utf-8
+2019-02-21 16:44:49.174 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/loading.gif'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\loading.gif'
+2019-02-21 16:44:49.176 -08:00 [INF] Request finished in 57.9933ms 200 image/gif
+2019-02-21 16:44:49.179 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=DaIuqRFqKuCfEwojP6921Pohg5aVdLBXn9ZPS7_iiU4  
+2019-02-21 16:44:50.477 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.css?v=0wnqM4WbJPSfF26FTDFb_NtpkBf-MiQeohFs45QkYEA
+2019-02-21 16:44:50.482 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.js?v=74o1R0R8QWSgfIj19QsZFblHKVq9Bb_uLJB-zGkAbs8
+2019-02-21 16:44:50.488 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/main-client.js?v=DaIuqRFqKuCfEwojP6921Pohg5aVdLBXn9ZPS7_iiU4
+2019-02-21 16:44:56.794 -08:00 [INF] No type errors found
+2019-02-21 16:44:56.797 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 16:44:56.811 -08:00 [INF] Time: 8184ms
+2019-02-21 16:44:56.815 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\main-client.js
+2019-02-21 16:44:56.817 -08:00 [INF] webpack built 1db3b81717ddb4defbe3 in 11535ms
+2019-02-21 16:44:57.025 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 1db3b81717ddb4defbe3
+Version: webpack 4.23.1
+Time: 11535ms
+Built at: 02/21/2019 4:44:56 PM
+                               Asset      Size       Chunks                    Chunk Names
+6254da913578421dc62065fede06f3e9.jpg   118 KiB               [emitted]         
+6a50cb30e6d0464aba45ec14263058d2.jpg   425 KiB               [emitted]  [big]  
+6b7dcfac373293aa5eadf6eb0a29418e.jpg  18.4 KiB               [emitted]         
+a1d58cf19b77fb6f6917befb472cdc8d.jpg  27.5 KiB               [emitted]         
+ca6e18d297f499728270623baa09432b.jpg   114 KiB               [emitted]         
+d1c37ec98e69508cb302acdd4e208240.jpg   177 KiB               [emitted]         
+e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg  35.2 KiB               [emitted]         
+f215b8ab565c09e3da83575440569612.jpg  28.8 KiB               [emitted]         
+f2f30dc7704b93cd414dba2533f7a0f7.jpg   120 KiB               [emitted]         
+                      main-client.js   871 KiB  main-client  [emitted]  [big]  main-client
+                  main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-02-21 16:44:57.034 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-21 16:44:57.051 -08:00 [INF] Request finished in 7871.5249ms 200 application/javascript; charset=UTF-8
+2019-02-21 16:44:57.099 -08:00 [INF] Sending file. Request path: '/dist/vendor.css'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\vendor.css'
+2019-02-21 16:44:57.102 -08:00 [INF] Request finished in 7975.9375ms 200 text/css
+2019-02-21 16:44:57.104 -08:00 [INF] Sending file. Request path: '/dist/vendor.js'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\vendor.js'
+2019-02-21 16:44:57.106 -08:00 [INF] Request finished in 7988.8264ms 200 application/javascript
+2019-02-21 16:44:57.146 -08:00 [INF] No type errors found
+2019-02-21 16:44:57.149 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 16:44:57.152 -08:00 [INF] Time: 8041ms
+2019-02-21 16:44:57.402 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/UnityLoader.js  
+2019-02-21 16:44:57.403 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 16:44:57.460 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/UnityLoader.js'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\UnityLoader.js'
+2019-02-21 16:44:57.463 -08:00 [INF] Request finished in 62.3603ms 200 application/javascript
+2019-02-21 16:44:57.491 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.json  
+2019-02-21 16:44:57.500 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.json'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.json'
+2019-02-21 16:44:57.502 -08:00 [INF] Request finished in 10.5364ms 200 application/json
+2019-02-21 16:44:57.591 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-21 16:44:57.596 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-21 16:44:57.599 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-21 16:44:57.614 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.framework.unityweb'
+2019-02-21 16:44:57.617 -08:00 [INF] Request finished in 22.6683ms 200 application/octet-stream
+2019-02-21 16:44:57.704 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.data.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.data.unityweb'
+2019-02-21 16:44:57.707 -08:00 [INF] Request finished in 107.554ms 200 application/octet-stream
+2019-02-21 16:44:57.726 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.code.unityweb'
+2019-02-21 16:44:57.728 -08:00 [INF] Request finished in 137.0374ms 200 application/octet-stream
+2019-02-21 16:45:05.346 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 16:45:05.350 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 16:45:05.353 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 16:45:05.356 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1642ms.
+2019-02-21 16:45:05.359 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 16:45:05.836 -08:00 [INF] Executed ViewResult - view Index executed in 477.8801ms.
+2019-02-21 16:45:05.839 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 486.7088ms
+2019-02-21 16:45:05.842 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/vendor.css?v=0wnqM4WbJPSfF26FTDFb_NtpkBf-MiQeohFs45QkYEA  
+2019-02-21 16:45:05.843 -08:00 [INF] Request finished in 495.9893ms 200 text/html; charset=utf-8
+2019-02-21 16:45:05.850 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/vendor.js?v=74o1R0R8QWSgfIj19QsZFblHKVq9Bb_uLJB-zGkAbs8  
+2019-02-21 16:45:05.852 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/loading.gif  
+2019-02-21 16:45:05.857 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=X5Uq0E1vvdOaVEytxHuPYwU3hv2FzCt8d60BQ7P2-Wk  
+2019-02-21 16:45:05.870 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/loading.gif'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\loading.gif'
+2019-02-21 16:45:05.877 -08:00 [INF] Request finished in 28.3225ms 200 image/gif
+2019-02-21 16:45:05.884 -08:00 [INF] Sending file. Request path: '/dist/vendor.css'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\vendor.css'
+2019-02-21 16:45:05.890 -08:00 [INF] Request finished in 45.2183ms 200 text/css
+2019-02-21 16:45:05.895 -08:00 [INF] Request finished in 35.65ms 200 application/javascript; charset=UTF-8
+2019-02-21 16:45:05.900 -08:00 [INF] Sending file. Request path: '/dist/vendor.js'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\vendor.js'
+2019-02-21 16:45:05.903 -08:00 [INF] Request finished in 53.782ms 200 application/javascript
+2019-02-21 16:45:06.325 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 16:45:06.580 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/UnityLoader.js  
+2019-02-21 16:45:06.583 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/UnityLoader.js'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\UnityLoader.js'
+2019-02-21 16:45:06.586 -08:00 [INF] Request finished in 6.2413ms 200 application/javascript
+2019-02-21 16:45:06.646 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-21 16:45:06.667 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-21 16:45:06.672 -08:00 [INF] Request finished in 24.6751ms 200 image/x-icon
+2019-02-21 16:45:14.156 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/vendor.css?v=0wnqM4WbJPSfF26FTDFb_NtpkBf-MiQeohFs45QkYEA  
+2019-02-21 16:45:14.197 -08:00 [INF] Sending file. Request path: '/dist/vendor.css'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\vendor.css'
+2019-02-21 16:45:14.200 -08:00 [INF] Request finished in 43.6709ms 200 text/css
+2019-02-21 16:45:14.205 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-21 16:45:14.216 -08:00 [INF] Request finished in 11.2236ms 200 application/json; charset=UTF-8
+2019-02-21 16:45:34.540 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-21 16:45:34.545 -08:00 [INF] Request finished in 5.4465ms 200 application/json; charset=UTF-8
+2019-02-21 17:00:47.271 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\UnityLoader.js
+2019-02-21 17:01:00.892 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:01:00.898 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:01:00.900 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:01:00.903 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0356ms.
+2019-02-21 17:01:00.906 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:01:01.186 -08:00 [INF] Executed ViewResult - view Index executed in 279.9366ms.
+2019-02-21 17:01:01.188 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 288.1864ms
+2019-02-21 17:01:01.191 -08:00 [INF] Request finished in 300.3834ms 200 text/html; charset=utf-8
+2019-02-21 17:01:01.194 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/vendor.css?v=0wnqM4WbJPSfF26FTDFb_NtpkBf-MiQeohFs45QkYEA  
+2019-02-21 17:01:01.201 -08:00 [INF] The file /dist/vendor.css was not modified
+2019-02-21 17:01:01.206 -08:00 [INF] Request finished in 11.3842ms 304 text/css
+2019-02-21 17:01:01.273 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/loading.gif  
+2019-02-21 17:01:01.278 -08:00 [INF] The file /JayceeGriffithWebsiteGame/loading.gif was not modified
+2019-02-21 17:01:01.280 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/vendor.js?v=74o1R0R8QWSgfIj19QsZFblHKVq9Bb_uLJB-zGkAbs8  
+2019-02-21 17:01:01.282 -08:00 [INF] Request finished in 8.066ms 304 image/gif
+2019-02-21 17:01:01.288 -08:00 [INF] The file /dist/vendor.js was not modified
+2019-02-21 17:01:01.292 -08:00 [INF] Request finished in 12.7465ms 304 application/javascript
+2019-02-21 17:01:01.379 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=X5Uq0E1vvdOaVEytxHuPYwU3hv2FzCt8d60BQ7P2-Wk  
+2019-02-21 17:01:01.387 -08:00 [INF] Request finished in 9.1868ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:01:01.419 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 17:01:01.651 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/UnityLoader.js  
+2019-02-21 17:01:01.655 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/UnityLoader.js'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\UnityLoader.js'
+2019-02-21 17:01:01.658 -08:00 [INF] Request finished in 6.899ms 200 application/javascript
+2019-02-21 17:01:55.700 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\UnityLoader.js
+2019-02-21 17:01:58.963 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:01:58.967 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:01:58.969 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:01:58.971 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.020300000000000002ms.
+2019-02-21 17:01:58.972 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:01:59.256 -08:00 [INF] Executed ViewResult - view Index executed in 283.18190000000004ms.
+2019-02-21 17:01:59.260 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 289.8888ms
+2019-02-21 17:01:59.263 -08:00 [INF] Request finished in 299.4843ms 200 text/html; charset=utf-8
+2019-02-21 17:01:59.274 -08:00 [INF] Request finished in 1021871.2203ms 200 text/event-stream; charset=utf-8
+2019-02-21 17:01:59.288 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=X5Uq0E1vvdOaVEytxHuPYwU3hv2FzCt8d60BQ7P2-Wk  
+2019-02-21 17:01:59.297 -08:00 [INF] Request finished in 10.1636ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:01:59.537 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-21 17:01:59.541 -08:00 [INF] Request finished in 3.6785ms 200 application/json; charset=UTF-8
+2019-02-21 17:01:59.585 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 17:01:59.635 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-21 17:01:59.638 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-21 17:01:59.640 -08:00 [INF] Request finished in 5.5134ms 200 image/x-icon
+2019-02-21 17:01:59.667 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-21 17:01:59.672 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.code.unityweb was not modified
+2019-02-21 17:01:59.674 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-21 17:01:59.676 -08:00 [INF] Request finished in 8.8443ms 304 application/octet-stream
+2019-02-21 17:01:59.678 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb was not modified
+2019-02-21 17:01:59.680 -08:00 [INF] Request finished in 7.1531ms 304 application/octet-stream
+2019-02-21 17:01:59.731 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-21 17:01:59.733 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.data.unityweb was not modified
+2019-02-21 17:01:59.736 -08:00 [INF] Request finished in 4.6972ms 304 application/octet-stream
+2019-02-21 17:04:23.836 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\UnityLoader.js
+2019-02-21 17:04:26.275 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:04:26.278 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:04:26.280 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:04:26.282 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0371ms.
+2019-02-21 17:04:26.284 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:04:26.571 -08:00 [INF] Executed ViewResult - view Index executed in 286.0873ms.
+2019-02-21 17:04:26.574 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 292.9871ms
+2019-02-21 17:04:26.578 -08:00 [INF] Request finished in 302.2358ms 200 text/html; charset=utf-8
+2019-02-21 17:04:26.600 -08:00 [INF] Request finished in 147014.7237ms 200 text/event-stream; charset=utf-8
+2019-02-21 17:04:26.637 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=X5Uq0E1vvdOaVEytxHuPYwU3hv2FzCt8d60BQ7P2-Wk  
+2019-02-21 17:04:26.646 -08:00 [INF] Request finished in 8.7175ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:04:26.951 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 17:04:26.984 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-21 17:04:26.991 -08:00 [INF] Request finished in 4.2113ms 200 application/json; charset=UTF-8
+2019-02-21 17:04:26.995 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-21 17:04:26.998 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-21 17:04:27.002 -08:00 [INF] Request finished in 5.0694ms 200 image/x-icon
+2019-02-21 17:04:27.027 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-21 17:04:27.030 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-21 17:04:27.032 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.code.unityweb was not modified
+2019-02-21 17:04:27.034 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb was not modified
+2019-02-21 17:04:27.036 -08:00 [INF] Request finished in 9.6227ms 304 application/octet-stream
+2019-02-21 17:04:27.038 -08:00 [INF] Request finished in 7.093ms 304 application/octet-stream
+2019-02-21 17:04:27.040 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-21 17:04:27.043 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.data.unityweb was not modified
+2019-02-21 17:04:27.045 -08:00 [INF] Request finished in 4.8585ms 304 application/octet-stream
+2019-02-21 17:04:57.245 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\UnityLoader.js
+2019-02-21 17:05:04.931 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:05:04.933 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:05:04.935 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:05:04.938 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0247ms.
+2019-02-21 17:05:04.940 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:05:05.218 -08:00 [INF] Executed ViewResult - view Index executed in 277.0615ms.
+2019-02-21 17:05:05.221 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 284.48470000000003ms
+2019-02-21 17:05:05.229 -08:00 [INF] Request finished in 292.9896ms 200 text/html; charset=utf-8
+2019-02-21 17:05:05.238 -08:00 [INF] Request finished in 38286.6046ms 200 text/event-stream; charset=utf-8
+2019-02-21 17:05:05.281 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=X5Uq0E1vvdOaVEytxHuPYwU3hv2FzCt8d60BQ7P2-Wk  
+2019-02-21 17:05:05.296 -08:00 [INF] Request finished in 14.9091ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:05:05.583 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-21 17:05:05.586 -08:00 [INF] Request finished in 3.4515ms 200 application/json; charset=UTF-8
+2019-02-21 17:05:05.622 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 17:05:05.656 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-21 17:05:05.660 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-21 17:05:05.663 -08:00 [INF] Request finished in 6.2703ms 200 image/x-icon
+2019-02-21 17:05:05.695 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-21 17:05:05.698 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-21 17:05:05.699 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.code.unityweb was not modified
+2019-02-21 17:05:05.701 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb was not modified
+2019-02-21 17:05:05.704 -08:00 [INF] Request finished in 7.9384ms 304 application/octet-stream
+2019-02-21 17:05:05.705 -08:00 [INF] Request finished in 6.8637ms 304 application/octet-stream
+2019-02-21 17:05:05.759 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-21 17:05:05.761 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.data.unityweb was not modified
+2019-02-21 17:05:05.764 -08:00 [INF] Request finished in 4.494ms 304 application/octet-stream
+2019-02-21 17:05:10.668 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:05:11.126 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:05:11.263 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:05:11.268 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.06720000000000001ms.
+2019-02-21 17:05:11.271 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:05:11.286 -08:00 [INF] Executed ViewResult - view Index executed in 15.5126ms.
+2019-02-21 17:05:11.290 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 160.2952ms
+2019-02-21 17:05:11.293 -08:00 [INF] Request finished in 997.3313ms 200 text/html; charset=utf-8
+2019-02-21 17:05:11.439 -08:00 [INF] Request finished in 250019.9382ms 200 text/event-stream; charset=utf-8
+2019-02-21 17:05:11.605 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 17:05:11.817 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/UnityLoader.js  
+2019-02-21 17:05:11.821 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/UnityLoader.js'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\UnityLoader.js'
+2019-02-21 17:05:11.824 -08:00 [INF] Request finished in 6.6346ms 200 application/javascript
+2019-02-21 17:05:11.857 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.json  
+2019-02-21 17:05:11.867 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.json'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.json'
+2019-02-21 17:05:11.870 -08:00 [INF] Request finished in 13.6436ms 200 application/json
+2019-02-21 17:07:51.599 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:07:51.602 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:07:51.605 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:07:51.607 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0327ms.
+2019-02-21 17:07:53.392 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:07:53.418 -08:00 [INF] Executed ViewResult - view Index executed in 1807.7961ms.
+2019-02-21 17:07:53.421 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 1816.0605ms
+2019-02-21 17:07:53.424 -08:00 [INF] Request finished in 1824.9779ms 200 text/html; charset=utf-8
+2019-02-21 17:07:53.548 -08:00 [INF] Request finished in 161959.3947ms 200 text/event-stream; charset=utf-8
+2019-02-21 17:07:53.687 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 17:07:53.902 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/UnityLoader.js  
+2019-02-21 17:07:53.904 -08:00 [INF] The file /JayceeGriffithWebsiteGame/UnityLoader.js was not modified
+2019-02-21 17:07:53.907 -08:00 [INF] Request finished in 4.9627ms 304 application/javascript
+2019-02-21 17:08:41.251 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\components\shared\UnityGame.tsx
+2019-02-21 17:08:41.253 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-21 17:08:41.256 -08:00 [INF] webpack building...
+2019-02-21 17:08:42.018 -08:00 [INF] Type checking in progress...
+2019-02-21 17:08:42.035 -08:00 [INF] webpack built 0521d4f7c6ca4bde7cc8 in 563ms
+2019-02-21 17:08:42.043 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 0521d4f7c6ca4bde7cc8
+Version: webpack 4.23.1
+Time: 563ms
+Built at: 02/21/2019 5:08:42 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              1db3b81717ddb4defbe3.hot-update.json   53 bytes               [emitted]         
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.1db3b81717ddb4defbe3.hot-update.js   8.96 KiB  main-client  [emitted]         main-client
+main-client.1db3b81717ddb4defbe3.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.1db3b81717ddb4defbe3.hot-update.js main-client.js.map main-client.1db3b81717ddb4defbe3.hot-update.js.map
+2019-02-21 17:08:42.046 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-21 17:08:42.057 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/1db3b81717ddb4defbe3.hot-update.json  
+2019-02-21 17:08:42.058 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/1db3b81717ddb4defbe3.hot-update.json  
+2019-02-21 17:08:42.336 -08:00 [INF] Request finished in 279.2365ms 200 application/json; charset=UTF-8
+2019-02-21 17:08:42.338 -08:00 [INF] Request finished in 277.7501ms 200 application/json; charset=UTF-8
+2019-02-21 17:08:42.341 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.1db3b81717ddb4defbe3.hot-update.js  
+2019-02-21 17:08:42.374 -08:00 [INF] Type checking in progress...
+2019-02-21 17:08:42.386 -08:00 [INF] Request finished in 35.372ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:08:42.388 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.1db3b81717ddb4defbe3.hot-update.js  
+2019-02-21 17:08:42.395 -08:00 [INF] Request finished in 13.2712ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:08:42.431 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.1db3b81717ddb4defbe3.hot-update.js.map  
+2019-02-21 17:08:42.436 -08:00 [INF] Request finished in 5.9629ms 200 application/json; charset=UTF-8
+2019-02-21 17:08:42.458 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.1db3b81717ddb4defbe3.hot-update.js.map  
+2019-02-21 17:08:42.462 -08:00 [INF] Request finished in 4.9259ms 200 application/json; charset=UTF-8
+2019-02-21 17:08:43.015 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:08:43.018 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:08:43.022 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:08:43.027 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.030600000000000002ms.
+2019-02-21 17:08:43.292 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:08:43.877 -08:00 [INF] Executed ViewResult - view Index executed in 847.6267ms.
+2019-02-21 17:08:43.880 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 859.26910000000009ms
+2019-02-21 17:08:43.883 -08:00 [INF] Request finished in 868.1062ms 200 text/html; charset=utf-8
+2019-02-21 17:08:43.888 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=Zf2jm8qx1zLp5lpLULfjCp3_WrkJBKUBxJdCNMi8HSo  
+2019-02-21 17:08:43.897 -08:00 [INF] Request finished in 10.2705ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:08:44.073 -08:00 [INF] Request finished in 50387.3455ms 200 text/event-stream; charset=utf-8
+2019-02-21 17:08:44.235 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 17:08:45.949 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:08:45.952 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(191,24):
+2019-02-21 17:08:45.966 -08:00 [INF] Time: 4500ms
+2019-02-21 17:08:45.968 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:08:45.996 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:08:45.998 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(191,24):
+2019-02-21 17:08:46.000 -08:00 [INF] Time: 4545ms
+2019-02-21 17:08:46.002 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:10:04.534 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:10:04.536 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:10:04.539 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:10:04.542 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0297ms.
+2019-02-21 17:10:04.772 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:10:04.801 -08:00 [INF] Executed ViewResult - view Index executed in 257.6314ms.
+2019-02-21 17:10:04.804 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 264.9109ms
+2019-02-21 17:10:04.806 -08:00 [INF] Request finished in 272.0421ms 200 text/html; charset=utf-8
+2019-02-21 17:10:04.810 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/vendor.css?v=0wnqM4WbJPSfF26FTDFb_NtpkBf-MiQeohFs45QkYEA  
+2019-02-21 17:10:04.815 -08:00 [INF] The file /dist/vendor.css was not modified
+2019-02-21 17:10:04.817 -08:00 [INF] Request finished in 8.4184ms 304 text/css
+2019-02-21 17:10:05.093 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/loading.gif  
+2019-02-21 17:10:05.097 -08:00 [INF] The file /JayceeGriffithWebsiteGame/loading.gif was not modified
+2019-02-21 17:10:05.099 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/vendor.js?v=74o1R0R8QWSgfIj19QsZFblHKVq9Bb_uLJB-zGkAbs8  
+2019-02-21 17:10:05.103 -08:00 [INF] Request finished in 8.3692ms 304 image/gif
+2019-02-21 17:10:05.105 -08:00 [INF] The file /dist/vendor.js was not modified
+2019-02-21 17:10:05.108 -08:00 [INF] Request finished in 11.1608ms 304 application/javascript
+2019-02-21 17:10:05.209 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=Zf2jm8qx1zLp5lpLULfjCp3_WrkJBKUBxJdCNMi8HSo  
+2019-02-21 17:10:05.218 -08:00 [INF] Request finished in 8.0609ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:10:05.255 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 17:10:14.797 -08:00 [INF] Request finished in 90562.1914ms 200 text/event-stream; charset=utf-8
+2019-02-21 17:12:25.261 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-21 17:12:25.267 -08:00 [INF] webpack building...
+2019-02-21 17:12:25.270 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\components\shared\UnityGame.tsx
+2019-02-21 17:12:26.062 -08:00 [INF] Type checking in progress...
+2019-02-21 17:12:26.065 -08:00 [INF] webpack built f20688a96b2a3d0cca9b in 588ms
+2019-02-21 17:12:26.074 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: f20688a96b2a3d0cca9b
+Version: webpack 4.23.1
+Time: 588ms
+Built at: 02/21/2019 5:12:26 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              0521d4f7c6ca4bde7cc8.hot-update.json   53 bytes               [emitted]         
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.0521d4f7c6ca4bde7cc8.hot-update.js      9 KiB  main-client  [emitted]         main-client
+main-client.0521d4f7c6ca4bde7cc8.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.0521d4f7c6ca4bde7cc8.hot-update.js main-client.js.map main-client.0521d4f7c6ca4bde7cc8.hot-update.js.map
+2019-02-21 17:12:26.078 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-21 17:12:26.102 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/0521d4f7c6ca4bde7cc8.hot-update.json  
+2019-02-21 17:12:26.109 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/0521d4f7c6ca4bde7cc8.hot-update.json  
+2019-02-21 17:12:26.336 -08:00 [INF] Request finished in 250.2061ms 200 application/json; charset=UTF-8
+2019-02-21 17:12:26.339 -08:00 [INF] Request finished in 228.4961ms 200 application/json; charset=UTF-8
+2019-02-21 17:12:26.341 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.0521d4f7c6ca4bde7cc8.hot-update.js  
+2019-02-21 17:12:26.500 -08:00 [INF] Request finished in 8.5802ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:12:26.515 -08:00 [INF] Type checking in progress...
+2019-02-21 17:12:26.538 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.0521d4f7c6ca4bde7cc8.hot-update.js  
+2019-02-21 17:12:26.545 -08:00 [INF] Request finished in 53.7551ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:12:26.593 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.0521d4f7c6ca4bde7cc8.hot-update.js.map  
+2019-02-21 17:12:26.603 -08:00 [INF] Request finished in 7.3814ms 200 application/json; charset=UTF-8
+2019-02-21 17:12:26.654 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.0521d4f7c6ca4bde7cc8.hot-update.js.map  
+2019-02-21 17:12:26.669 -08:00 [INF] Request finished in 8.8514ms 200 application/json; charset=UTF-8
+2019-02-21 17:12:27.896 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:12:27.901 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:12:27.904 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:12:27.907 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.030600000000000002ms.
+2019-02-21 17:12:27.911 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:12:28.360 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 454.7583ms
+2019-02-21 17:12:28.414 -08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: window is not defined
+ReferenceError: window is not defined
+    at UnityGame.render (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:391:726)
+    at i (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:9322)
+    at ot (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:9582)
+    at t.render (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:11957)
+    at t.read (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:11573)
+    at renderToString (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:17162)
+    at renderApp (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:158:496)
+    at D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:158:504
+    at new Promise (<anonymous>)
+    at D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:153:800
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at AspNetCore.Views_Main_Index.ExecuteAsync() in D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\Views\Main\Index.cshtml:line 7
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-02-21 17:12:28.453 -08:00 [INF] Request finished in 558.1342ms 500 text/html; charset=utf-8
+2019-02-21 17:12:29.535 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(191,24):
+2019-02-21 17:12:29.536 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:12:29.539 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:12:29.540 -08:00 [INF] Time: 4071ms
+2019-02-21 17:12:29.542 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(209,20):
+2019-02-21 17:12:29.544 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:12:29.546 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:12:29.549 -08:00 [INF] Time: 4078ms
+2019-02-21 17:12:29.552 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(215,20):
+2019-02-21 17:12:29.554 -08:00 [ERR] 
+TS2304: Cannot find name 'nul'.
+2019-02-21 17:12:29.556 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(191,24):
+2019-02-21 17:12:29.558 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:12:29.560 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(209,20):
+2019-02-21 17:12:29.562 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:12:29.563 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(215,20):
+2019-02-21 17:12:29.565 -08:00 [ERR] 
+TS2304: Cannot find name 'nul'.
+2019-02-21 17:12:35.056 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\components\shared\UnityGame.tsx
+2019-02-21 17:12:35.057 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-21 17:12:35.059 -08:00 [INF] webpack building...
+2019-02-21 17:12:35.592 -08:00 [INF] Type checking in progress...
+2019-02-21 17:12:35.608 -08:00 [INF] webpack built 0ef24421b8591f615ac4 in 341ms
+2019-02-21 17:12:35.634 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 0ef24421b8591f615ac4
+Version: webpack 4.23.1
+Time: 341ms
+Built at: 02/21/2019 5:12:35 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f20688a96b2a3d0cca9b.hot-update.json   53 bytes               [emitted]         
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.f20688a96b2a3d0cca9b.hot-update.js   9.01 KiB  main-client  [emitted]         main-client
+main-client.f20688a96b2a3d0cca9b.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.f20688a96b2a3d0cca9b.hot-update.js main-client.js.map main-client.f20688a96b2a3d0cca9b.hot-update.js.map
+2019-02-21 17:12:35.636 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f20688a96b2a3d0cca9b.hot-update.json  
+2019-02-21 17:12:35.642 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-21 17:12:35.950 -08:00 [INF] Request finished in 298.2982ms 200 application/json; charset=UTF-8
+2019-02-21 17:12:35.958 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.f20688a96b2a3d0cca9b.hot-update.js  
+2019-02-21 17:12:35.987 -08:00 [INF] Request finished in 8.7735ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:12:35.996 -08:00 [INF] Type checking in progress...
+2019-02-21 17:12:36.028 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.f20688a96b2a3d0cca9b.hot-update.js.map  
+2019-02-21 17:12:36.036 -08:00 [INF] Request finished in 23.8997ms 200 application/json; charset=UTF-8
+2019-02-21 17:12:36.104 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:12:36.107 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:12:36.109 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:12:36.111 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0296ms.
+2019-02-21 17:12:36.113 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:12:36.471 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 362.024ms
+2019-02-21 17:12:36.478 -08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: window is not defined
+ReferenceError: window is not defined
+    at UnityGame.render (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:391:726)
+    at i (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:9322)
+    at ot (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:9582)
+    at t.render (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:11957)
+    at t.read (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:11573)
+    at renderToString (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:17162)
+    at renderApp (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:158:496)
+    at D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:158:504
+    at new Promise (<anonymous>)
+    at D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:153:800
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at AspNetCore.Views_Main_Index.ExecuteAsync() in D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\Views\Main\Index.cshtml:line 7
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-02-21 17:12:36.499 -08:00 [INF] Request finished in 394.5848ms 500 text/html; charset=utf-8
+2019-02-21 17:12:38.841 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(191,24):
+2019-02-21 17:12:38.843 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:12:38.845 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:12:38.847 -08:00 [INF] Time: 3588ms
+2019-02-21 17:12:38.849 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(209,30):
+2019-02-21 17:12:38.852 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:12:38.854 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(215,20):
+2019-02-21 17:12:38.856 -08:00 [ERR] 
+TS2304: Cannot find name 'nul'.
+2019-02-21 17:12:38.869 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(191,24):
+2019-02-21 17:12:38.871 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:12:38.874 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:12:38.875 -08:00 [INF] Time: 3617ms
+2019-02-21 17:12:38.877 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(209,30):
+2019-02-21 17:12:38.879 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:12:38.881 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(215,20):
+2019-02-21 17:12:38.883 -08:00 [ERR] 
+TS2304: Cannot find name 'nul'.
+2019-02-21 17:15:03.588 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\components\shared\UnityGame.tsx
+2019-02-21 17:15:03.595 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-21 17:15:03.600 -08:00 [INF] webpack building...
+2019-02-21 17:15:04.369 -08:00 [INF] Type checking in progress...
+2019-02-21 17:15:04.382 -08:00 [INF] webpack built 46b606503a127286167f in 568ms
+2019-02-21 17:15:04.390 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 46b606503a127286167f
+Version: webpack 4.23.1
+Time: 568ms
+Built at: 02/21/2019 5:15:04 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              0ef24421b8591f615ac4.hot-update.json   53 bytes               [emitted]         
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.0ef24421b8591f615ac4.hot-update.js   8.94 KiB  main-client  [emitted]         main-client
+main-client.0ef24421b8591f615ac4.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.0ef24421b8591f615ac4.hot-update.js main-client.js.map main-client.0ef24421b8591f615ac4.hot-update.js.map
+2019-02-21 17:15:04.392 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-21 17:15:04.398 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/0ef24421b8591f615ac4.hot-update.json  
+2019-02-21 17:15:04.663 -08:00 [INF] Request finished in 264.6533ms 200 application/json; charset=UTF-8
+2019-02-21 17:15:04.668 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.0ef24421b8591f615ac4.hot-update.js  
+2019-02-21 17:15:04.696 -08:00 [INF] Request finished in 6.7523ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:15:04.702 -08:00 [INF] Type checking in progress...
+2019-02-21 17:15:04.739 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.0ef24421b8591f615ac4.hot-update.js.map  
+2019-02-21 17:15:04.744 -08:00 [INF] Request finished in 3.7785ms 200 application/json; charset=UTF-8
+2019-02-21 17:15:05.645 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-21 17:15:05.647 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.code.unityweb was not modified
+2019-02-21 17:15:05.650 -08:00 [INF] Request finished in 4.5786ms 304 application/octet-stream
+2019-02-21 17:15:05.658 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-21 17:15:05.661 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb was not modified
+2019-02-21 17:15:05.663 -08:00 [INF] Request finished in 4.3697ms 304 application/octet-stream
+2019-02-21 17:15:05.703 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-21 17:15:05.706 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.data.unityweb was not modified
+2019-02-21 17:15:05.708 -08:00 [INF] Request finished in 4.431ms 304 application/octet-stream
+2019-02-21 17:15:07.454 -08:00 [INF] No type errors found
+2019-02-21 17:15:07.457 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:15:07.459 -08:00 [INF] Time: 3658ms
+2019-02-21 17:15:07.467 -08:00 [INF] No type errors found
+2019-02-21 17:15:07.469 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:15:07.471 -08:00 [INF] Time: 3673ms
+2019-02-21 17:24:22.557 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-21 17:24:22.564 -08:00 [INF] webpack building...
+2019-02-21 17:24:22.994 -08:00 [INF] Type checking in progress...
+2019-02-21 17:24:23.008 -08:00 [INF] webpack built e518f8f8f8ccceb965cb in 246ms
+2019-02-21 17:24:23.014 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: e518f8f8f8ccceb965cb
+Version: webpack 4.23.1
+Time: 246ms
+Built at: 02/21/2019 5:24:22 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              46b606503a127286167f.hot-update.json   53 bytes               [emitted]         
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.46b606503a127286167f.hot-update.js   3.98 KiB  main-client  [emitted]         main-client
+main-client.46b606503a127286167f.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.46b606503a127286167f.hot-update.js main-client.js.map main-client.46b606503a127286167f.hot-update.js.map
+2019-02-21 17:24:23.017 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-21 17:24:23.030 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/46b606503a127286167f.hot-update.json  
+2019-02-21 17:24:23.386 -08:00 [INF] Request finished in 352.4436ms 200 application/json; charset=UTF-8
+2019-02-21 17:24:23.406 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.46b606503a127286167f.hot-update.js  
+2019-02-21 17:24:23.418 -08:00 [INF] Type checking in progress...
+2019-02-21 17:24:23.443 -08:00 [INF] Request finished in 23.6975ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:24:23.472 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.46b606503a127286167f.hot-update.js.map  
+2019-02-21 17:24:23.479 -08:00 [INF] Request finished in 4.1093ms 200 application/json; charset=UTF-8
+2019-02-21 17:24:26.896 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/layouts/GuestLayout.tsx(21,20):
+2019-02-21 17:24:26.898 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:24:26.902 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:24:26.908 -08:00 [INF] Time: 4147ms
+2019-02-21 17:24:26.944 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/layouts/GuestLayout.tsx(21,20):
+2019-02-21 17:24:26.947 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:24:26.949 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:24:26.951 -08:00 [INF] Time: 4194ms
+2019-02-21 17:24:27.505 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:24:27.509 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:24:27.512 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:24:27.515 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0417ms.
+2019-02-21 17:24:27.518 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:24:27.872 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 360.4665ms
+2019-02-21 17:24:27.882 -08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: window is not defined
+ReferenceError: window is not defined
+    at GuestLayout.renderUnity (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:559:638)
+    at GuestLayout.render (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:559:1624)
+    at i (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:9322)
+    at ot (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:9582)
+    at t.render (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:11957)
+    at t.read (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:11573)
+    at renderToString (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:17162)
+    at renderApp (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:158:496)
+    at D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:158:504
+    at new Promise (<anonymous>)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at AspNetCore.Views_Main_Index.ExecuteAsync() in D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\Views\Main\Index.cshtml:line 7
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-02-21 17:24:27.902 -08:00 [INF] Request finished in 396.6381ms 500 text/html; charset=utf-8
+2019-02-21 17:24:27.912 -08:00 [INF] Request finished in 1162292.9684ms 200 text/event-stream; charset=utf-8
+2019-02-21 17:24:28.084 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-21 17:24:28.088 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-21 17:24:28.090 -08:00 [INF] Request finished in 7.275ms 200 image/x-icon
+2019-02-21 17:24:33.910 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\layouts\GuestLayout.tsx
+2019-02-21 17:24:33.914 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-21 17:24:33.917 -08:00 [INF] webpack building...
+2019-02-21 17:24:34.467 -08:00 [INF] Type checking in progress...
+2019-02-21 17:24:34.477 -08:00 [INF] webpack built 885d9df78724966b05e0 in 354ms
+2019-02-21 17:24:34.484 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 885d9df78724966b05e0
+Version: webpack 4.23.1
+Time: 354ms
+Built at: 02/21/2019 5:24:34 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              e518f8f8f8ccceb965cb.hot-update.json   53 bytes               [emitted]         
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.e518f8f8f8ccceb965cb.hot-update.js   3.99 KiB  main-client  [emitted]         main-client
+main-client.e518f8f8f8ccceb965cb.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.e518f8f8f8ccceb965cb.hot-update.js main-client.js.map main-client.e518f8f8f8ccceb965cb.hot-update.js.map
+2019-02-21 17:24:34.487 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-21 17:24:34.509 -08:00 [INF] Type checking in progress...
+2019-02-21 17:24:34.811 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:24:34.813 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:24:34.815 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:24:34.817 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0234ms.
+2019-02-21 17:24:34.819 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:24:35.200 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 385.057ms
+2019-02-21 17:24:35.211 -08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.NodeServices.HostingModels.NodeInvocationException: window is not defined
+ReferenceError: window is not defined
+    at GuestLayout.renderUnity (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:559:638)
+    at GuestLayout.render (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:559:1632)
+    at i (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:9322)
+    at ot (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:9582)
+    at t.render (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:11957)
+    at t.read (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:11573)
+    at renderToString (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\vendor.js:117:17162)
+    at renderApp (D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:158:496)
+    at D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js:158:504
+    at new Promise (<anonymous>)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.HttpNodeInstance.InvokeExportAsync[T](NodeInvocationInfo invocationInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.HostingModels.OutOfProcessNodeInstance.InvokeExportAsync[T](CancellationToken cancellationToken, String moduleName, String exportNameOrNull, Object[] args)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.NodeServices.NodeServicesImpl.InvokeExportWithPossibleRetryAsync[T](String moduleName, String exportedFunctionName, Object[] args, Boolean allowRetry, CancellationToken cancellationToken)
+   at AspNetCore.Views_Main_Index.ExecuteAsync() in D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\Views\Main\Index.cshtml:line 7
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.SpaServices.Webpack.ConditionalProxyMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-02-21 17:24:35.230 -08:00 [INF] Request finished in 420.2579ms 500 text/html; charset=utf-8
+2019-02-21 17:24:35.293 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-21 17:24:35.297 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-21 17:24:35.299 -08:00 [INF] Request finished in 6.5435ms 200 image/x-icon
+2019-02-21 17:24:37.570 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:24:37.573 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/layouts/GuestLayout.tsx(21,30):
+2019-02-21 17:24:37.574 -08:00 [INF] Time: 3457ms
+2019-02-21 17:24:37.576 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:24:37.592 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/layouts/GuestLayout.tsx(21,30):
+2019-02-21 17:24:37.593 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:24:37.595 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:24:37.596 -08:00 [INF] Time: 3478ms
+2019-02-21 17:26:53.124 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\layouts\GuestLayout.tsx
+2019-02-21 17:26:53.131 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-21 17:26:53.137 -08:00 [INF] webpack building...
+2019-02-21 17:26:53.520 -08:00 [INF] Type checking in progress...
+2019-02-21 17:26:53.530 -08:00 [INF] webpack built cae1b1ce8d4c1e375d06 in 188ms
+2019-02-21 17:26:53.558 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: cae1b1ce8d4c1e375d06
+Version: webpack 4.23.1
+Time: 188ms
+Built at: 02/21/2019 5:26:53 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              885d9df78724966b05e0.hot-update.json   53 bytes               [emitted]         
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.885d9df78724966b05e0.hot-update.js   4.42 KiB  main-client  [emitted]         main-client
+main-client.885d9df78724966b05e0.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    872 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.885d9df78724966b05e0.hot-update.js main-client.js.map main-client.885d9df78724966b05e0.hot-update.js.map
+2019-02-21 17:26:53.562 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-21 17:26:53.826 -08:00 [INF] Type checking in progress...
+2019-02-21 17:26:55.870 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:26:55.874 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:26:55.878 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:26:55.880 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0323ms.
+2019-02-21 17:26:55.882 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:26:56.375 -08:00 [INF] Executed ViewResult - view Index executed in 492.9599ms.
+2019-02-21 17:26:56.378 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 501.80800000000005ms
+2019-02-21 17:26:56.381 -08:00 [INF] Request finished in 511.7524ms 200 text/html; charset=utf-8
+2019-02-21 17:26:56.406 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=8XTG5D3puX3RWzkWWkjc1GkAEqqx1blyAYnVpVIlJc0  
+2019-02-21 17:26:56.417 -08:00 [INF] Request finished in 8.6274ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:26:56.763 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-21 17:26:56.767 -08:00 [INF] Request finished in 3.4686ms 200 application/json; charset=UTF-8
+2019-02-21 17:26:56.836 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 17:26:56.857 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-21 17:26:56.862 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-21 17:26:56.864 -08:00 [INF] Request finished in 14.372ms 200 image/x-icon
+2019-02-21 17:26:57.265 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:26:57.267 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/layouts/GuestLayout.tsx(22,20):
+2019-02-21 17:26:57.268 -08:00 [INF] Time: 3938ms
+2019-02-21 17:26:57.271 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:26:57.288 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/layouts/GuestLayout.tsx(22,20):
+2019-02-21 17:26:57.290 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:26:57.292 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:26:57.293 -08:00 [INF] Time: 3958ms
+2019-02-21 17:27:27.043 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\layouts\GuestLayout.tsx
+2019-02-21 17:27:27.049 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-21 17:27:27.052 -08:00 [INF] webpack building...
+2019-02-21 17:27:27.756 -08:00 [INF] Type checking in progress...
+2019-02-21 17:27:27.774 -08:00 [INF] webpack built 6c986d4970223d2b0d16 in 507ms
+2019-02-21 17:27:27.784 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 6c986d4970223d2b0d16
+Version: webpack 4.23.1
+Time: 507ms
+Built at: 02/21/2019 5:27:27 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              cae1b1ce8d4c1e375d06.hot-update.json   53 bytes               [emitted]         
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.cae1b1ce8d4c1e375d06.hot-update.js   4.87 KiB  main-client  [emitted]         main-client
+main-client.cae1b1ce8d4c1e375d06.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    777 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.cae1b1ce8d4c1e375d06.hot-update.js main-client.js.map main-client.cae1b1ce8d4c1e375d06.hot-update.js.map
+2019-02-21 17:27:27.789 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-21 17:27:27.812 -08:00 [INF] Type checking in progress...
+2019-02-21 17:27:27.814 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/cae1b1ce8d4c1e375d06.hot-update.json  
+2019-02-21 17:27:27.821 -08:00 [INF] Request finished in 17.6909ms 200 application/json; charset=UTF-8
+2019-02-21 17:27:27.824 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.cae1b1ce8d4c1e375d06.hot-update.js  
+2019-02-21 17:27:27.828 -08:00 [INF] Request finished in 3.3661ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:27:27.935 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.cae1b1ce8d4c1e375d06.hot-update.js.map  
+2019-02-21 17:27:27.939 -08:00 [INF] Request finished in 4.2344ms 200 application/json; charset=UTF-8
+2019-02-21 17:27:28.196 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:27:28.199 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:27:28.202 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:27:28.206 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0344ms.
+2019-02-21 17:27:28.212 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:27:28.836 -08:00 [INF] Executed ViewResult - view Index executed in 622.70080000000007ms.
+2019-02-21 17:27:28.843 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 637.76380000000006ms
+2019-02-21 17:27:28.848 -08:00 [INF] Request finished in 32003.977ms 200 text/event-stream; charset=utf-8
+2019-02-21 17:27:28.852 -08:00 [INF] Request finished in 650.3271ms 200 text/html; charset=utf-8
+2019-02-21 17:27:28.867 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=s1nf2mB6lWpps-m9bBIE2m3HHguIHeZcnRNpkYBM0HI  
+2019-02-21 17:27:28.880 -08:00 [INF] Request finished in 15.8664ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:27:29.258 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-21 17:27:29.276 -08:00 [INF] Request finished in 11.2189ms 200 application/json; charset=UTF-8
+2019-02-21 17:27:29.313 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 17:27:29.328 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-21 17:27:29.331 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-21 17:27:29.334 -08:00 [INF] Request finished in 7.2446ms 200 image/x-icon
+2019-02-21 17:27:31.210 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:27:31.212 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/layouts/GuestLayout.tsx(22,20):
+2019-02-21 17:27:31.214 -08:00 [INF] Time: 3964ms
+2019-02-21 17:27:31.216 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:27:31.218 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:27:31.220 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/layouts/GuestLayout.tsx(22,20):
+2019-02-21 17:27:31.222 -08:00 [INF] Time: 3962ms
+2019-02-21 17:27:31.225 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:27:48.581 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-21 17:27:48.584 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\layouts\GuestLayout.tsx
+2019-02-21 17:27:48.586 -08:00 [INF] webpack building...
+2019-02-21 17:27:49.167 -08:00 [INF] Type checking in progress...
+2019-02-21 17:27:49.182 -08:00 [INF] webpack built da3dbb0125bec80d315a in 377ms
+2019-02-21 17:27:49.208 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: da3dbb0125bec80d315a
+Version: webpack 4.23.1
+Time: 377ms
+Built at: 02/21/2019 5:27:49 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              6c986d4970223d2b0d16.hot-update.json   53 bytes               [emitted]         
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.6c986d4970223d2b0d16.hot-update.js     98 KiB  main-client  [emitted]         main-client
+main-client.6c986d4970223d2b0d16.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    872 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.6c986d4970223d2b0d16.hot-update.js main-client.js.map main-client.6c986d4970223d2b0d16.hot-update.js.map
+2019-02-21 17:27:49.211 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-21 17:27:49.215 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6c986d4970223d2b0d16.hot-update.json  
+2019-02-21 17:27:49.451 -08:00 [INF] Request finished in 236.2788ms 200 application/json; charset=UTF-8
+2019-02-21 17:27:49.455 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.6c986d4970223d2b0d16.hot-update.js  
+2019-02-21 17:27:49.482 -08:00 [INF] Type checking in progress...
+2019-02-21 17:27:49.488 -08:00 [INF] Request finished in 30.8197ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:27:49.587 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.6c986d4970223d2b0d16.hot-update.js.map  
+2019-02-21 17:27:49.591 -08:00 [INF] Request finished in 4.5402ms 200 application/json; charset=UTF-8
+2019-02-21 17:27:52.288 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:27:52.289 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/layouts/GuestLayout.tsx(22,20):
+2019-02-21 17:27:52.291 -08:00 [INF] Time: 3510ms
+2019-02-21 17:27:52.293 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:27:52.346 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/layouts/GuestLayout.tsx(22,20):
+2019-02-21 17:27:52.348 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:27:52.363 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:27:52.365 -08:00 [INF] Time: 3568ms
+2019-02-21 17:27:56.823 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-21 17:27:56.825 -08:00 [INF] webpack building...
+2019-02-21 17:27:57.380 -08:00 [INF] Type checking in progress...
+2019-02-21 17:27:57.393 -08:00 [INF] webpack built 572924ed09f71b4a8308 in 360ms
+2019-02-21 17:27:57.397 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 572924ed09f71b4a8308
+Version: webpack 4.23.1
+Time: 360ms
+Built at: 02/21/2019 5:27:57 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              da3dbb0125bec80d315a.hot-update.json   53 bytes               [emitted]         
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.da3dbb0125bec80d315a.hot-update.js   3.87 KiB  main-client  [emitted]         main-client
+main-client.da3dbb0125bec80d315a.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.da3dbb0125bec80d315a.hot-update.js main-client.js.map main-client.da3dbb0125bec80d315a.hot-update.js.map
+2019-02-21 17:27:57.401 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-21 17:27:57.402 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/da3dbb0125bec80d315a.hot-update.json  
+2019-02-21 17:27:57.415 -08:00 [INF] Request finished in 9.1708ms 200 application/json; charset=UTF-8
+2019-02-21 17:27:57.417 -08:00 [INF] Type checking in progress...
+2019-02-21 17:27:57.420 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.da3dbb0125bec80d315a.hot-update.js  
+2019-02-21 17:27:57.425 -08:00 [INF] Request finished in 5.2118ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:27:57.561 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-21 17:27:57.563 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.code.unityweb was not modified
+2019-02-21 17:27:57.567 -08:00 [INF] Request finished in 4.8918ms 304 application/octet-stream
+2019-02-21 17:27:57.574 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-21 17:27:57.579 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-21 17:27:57.580 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb was not modified
+2019-02-21 17:27:57.591 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.data.unityweb was not modified
+2019-02-21 17:27:57.595 -08:00 [INF] Request finished in 16.2418ms 304 application/octet-stream
+2019-02-21 17:27:57.599 -08:00 [INF] Request finished in 16.7334ms 304 application/octet-stream
+2019-02-21 17:27:57.716 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.da3dbb0125bec80d315a.hot-update.js.map  
+2019-02-21 17:27:57.746 -08:00 [INF] Request finished in 76.4338ms 200 application/json; charset=UTF-8
+2019-02-21 17:28:04.724 -08:00 [INF] No type errors found
+2019-02-21 17:28:04.730 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:28:04.733 -08:00 [INF] Time: 7637ms
+2019-02-21 17:28:04.810 -08:00 [INF] No type errors found
+2019-02-21 17:28:04.813 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:28:04.816 -08:00 [INF] Time: 7770ms
+2019-02-21 17:28:13.809 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-21 17:28:13.815 -08:00 [INF] webpack building...
+2019-02-21 17:28:14.799 -08:00 [INF] Type checking in progress...
+2019-02-21 17:28:14.845 -08:00 [INF] webpack built c1030c634030d134ecfc in 793ms
+2019-02-21 17:28:14.882 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: c1030c634030d134ecfc
+Version: webpack 4.23.1
+Time: 793ms
+Built at: 02/21/2019 5:28:14 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              572924ed09f71b4a8308.hot-update.json   53 bytes               [emitted]         
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.572924ed09f71b4a8308.hot-update.js   8.96 KiB  main-client  [emitted]         main-client
+main-client.572924ed09f71b4a8308.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.572924ed09f71b4a8308.hot-update.js main-client.js.map main-client.572924ed09f71b4a8308.hot-update.js.map
+2019-02-21 17:28:14.887 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/572924ed09f71b4a8308.hot-update.json  
+2019-02-21 17:28:14.889 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-21 17:28:14.891 -08:00 [INF] Type checking in progress...
+2019-02-21 17:28:14.897 -08:00 [INF] Request finished in 13.9079ms 200 application/json; charset=UTF-8
+2019-02-21 17:28:14.899 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.572924ed09f71b4a8308.hot-update.js  
+2019-02-21 17:28:14.903 -08:00 [INF] Request finished in 3.6566ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:28:14.925 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.572924ed09f71b4a8308.hot-update.js.map  
+2019-02-21 17:28:14.935 -08:00 [INF] Request finished in 7.6323ms 200 application/json; charset=UTF-8
+2019-02-21 17:28:15.038 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-21 17:28:15.041 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-21 17:28:15.042 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.code.unityweb was not modified
+2019-02-21 17:28:15.047 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb was not modified
+2019-02-21 17:28:15.049 -08:00 [INF] Request finished in 9.9614ms 304 application/octet-stream
+2019-02-21 17:28:15.051 -08:00 [INF] Request finished in 12.3543ms 304 application/octet-stream
+2019-02-21 17:28:15.055 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-21 17:28:15.057 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.data.unityweb was not modified
+2019-02-21 17:28:15.062 -08:00 [INF] Request finished in 4.9463ms 304 application/octet-stream
+2019-02-21 17:28:21.965 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:28:22.030 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(191,24):
+2019-02-21 17:28:22.037 -08:00 [INF] Time: 7394ms
+2019-02-21 17:28:22.042 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:28:22.044 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:28:22.048 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(191,24):
+2019-02-21 17:28:22.053 -08:00 [INF] Time: 7534ms
+2019-02-21 17:28:22.057 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:29:38.240 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-21 17:29:38.245 -08:00 [INF] webpack building...
+2019-02-21 17:29:39.145 -08:00 [INF] Type checking in progress...
+2019-02-21 17:29:39.157 -08:00 [INF] webpack built ec7fd63e24301ff75f7e in 665ms
+2019-02-21 17:29:39.166 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: ec7fd63e24301ff75f7e
+Version: webpack 4.23.1
+Time: 665ms
+Built at: 02/21/2019 5:29:39 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              c1030c634030d134ecfc.hot-update.json   53 bytes               [emitted]         
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.c1030c634030d134ecfc.hot-update.js   9.08 KiB  main-client  [emitted]         main-client
+main-client.c1030c634030d134ecfc.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.c1030c634030d134ecfc.hot-update.js main-client.js.map main-client.c1030c634030d134ecfc.hot-update.js.map
+2019-02-21 17:29:39.177 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/c1030c634030d134ecfc.hot-update.json  
+2019-02-21 17:29:39.185 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-21 17:29:39.189 -08:00 [INF] Type checking in progress...
+2019-02-21 17:29:39.197 -08:00 [INF] Request finished in 26.2504ms 200 application/json; charset=UTF-8
+2019-02-21 17:29:39.200 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.c1030c634030d134ecfc.hot-update.js  
+2019-02-21 17:29:39.204 -08:00 [INF] Request finished in 3.2959ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:29:39.221 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.c1030c634030d134ecfc.hot-update.js.map  
+2019-02-21 17:29:39.227 -08:00 [INF] Request finished in 3.6895ms 200 application/json; charset=UTF-8
+2019-02-21 17:29:39.645 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-21 17:29:39.655 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.code.unityweb was not modified
+2019-02-21 17:29:39.657 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-21 17:29:39.659 -08:00 [INF] Request finished in 12.0404ms 304 application/octet-stream
+2019-02-21 17:29:39.661 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb was not modified
+2019-02-21 17:29:39.664 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-21 17:29:39.666 -08:00 [INF] Request finished in 7.5881ms 304 application/octet-stream
+2019-02-21 17:29:39.668 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.data.unityweb was not modified
+2019-02-21 17:29:39.670 -08:00 [INF] Request finished in 7.2538ms 304 application/octet-stream
+2019-02-21 17:29:43.059 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(191,24):
+2019-02-21 17:29:43.303 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:29:43.765 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:29:44.309 -08:00 [INF] Time: 4132ms
+2019-02-21 17:29:44.967 -08:00 [ERR] ERROR in D:/Projects/JayceeGriffithPortfolio/JayceeGriffithPortfolio/ClientApp/components/shared/UnityGame.tsx(191,24):
+2019-02-21 17:29:45.541 -08:00 [INF] Version: typescript 3.0.1
+2019-02-21 17:29:46.135 -08:00 [ERR] 
+TS2339: Property 'supported' does not exist on type 'Window'.
+2019-02-21 17:29:46.758 -08:00 [INF] Time: 4479ms
+2019-02-21 17:29:47.493 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:29:47.657 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:29:47.662 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:29:47.669 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0388ms.
+2019-02-21 17:29:47.674 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:29:48.357 -08:00 [INF] Executed ViewResult - view Index executed in 684.06670000000008ms.
+2019-02-21 17:29:48.361 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 701.0073ms
+2019-02-21 17:29:48.364 -08:00 [INF] Request finished in 1523.454ms 200 text/html; charset=utf-8
+2019-02-21 17:29:48.393 -08:00 [INF] Request finished in 139084.1007ms 200 text/event-stream; charset=utf-8
+2019-02-21 17:29:48.539 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=Ni6NYW2k0b4C9AByEHww42p9K6RrKZfNbwA5bpp1oq8  
+2019-02-21 17:29:48.547 -08:00 [INF] Request finished in 9.6778ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:29:48.924 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 17:29:48.958 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-21 17:29:48.962 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-21 17:29:48.969 -08:00 [INF] Request finished in 5.9523ms 200 image/x-icon
+2019-02-21 17:29:48.997 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-21 17:29:49.001 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-21 17:29:49.004 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.code.unityweb was not modified
+2019-02-21 17:29:49.005 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb was not modified
+2019-02-21 17:29:49.008 -08:00 [INF] Request finished in 8.9242ms 304 application/octet-stream
+2019-02-21 17:29:49.011 -08:00 [INF] Request finished in 8.3154ms 304 application/octet-stream
+2019-02-21 17:29:49.014 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-21 17:29:49.016 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.data.unityweb was not modified
+2019-02-21 17:29:49.019 -08:00 [INF] Request finished in 4.5281ms 304 application/octet-stream
+2019-02-21 17:29:50.656 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-21 17:29:50.659 -08:00 [INF] Request finished in 3.9287ms 200 application/json; charset=UTF-8
+2019-02-21 17:29:51.116 -08:00 [INF] Request finished in 2192.1278ms 200 text/event-stream; charset=utf-8
+2019-02-21 17:30:20.844 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:30:20.847 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:30:20.850 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:30:20.854 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1155ms.
+2019-02-21 17:30:21.054 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:30:21.098 -08:00 [INF] Executed ViewResult - view Index executed in 240.7176ms.
+2019-02-21 17:30:21.100 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 250.40830000000003ms
+2019-02-21 17:30:21.105 -08:00 [INF] Request finished in 258.9944ms 200 text/html; charset=utf-8
+2019-02-21 17:30:21.137 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=Ni6NYW2k0b4C9AByEHww42p9K6RrKZfNbwA5bpp1oq8  
+2019-02-21 17:30:21.147 -08:00 [INF] Request finished in 11.3594ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:30:21.417 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-21 17:30:21.421 -08:00 [INF] Request finished in 4.1747ms 200 application/json; charset=UTF-8
+2019-02-21 17:30:21.483 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 17:30:21.548 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-21 17:30:21.556 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-21 17:30:21.558 -08:00 [INF] Request finished in 10.8581ms 200 image/x-icon
+2019-02-21 17:30:21.603 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-21 17:30:21.606 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.code.unityweb was not modified
+2019-02-21 17:30:21.609 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-21 17:30:21.610 -08:00 [INF] Request finished in 5.8188ms 304 application/octet-stream
+2019-02-21 17:30:21.612 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb was not modified
+2019-02-21 17:30:21.614 -08:00 [INF] Request finished in 6.1015ms 304 application/octet-stream
+2019-02-21 17:30:21.620 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-21 17:30:21.623 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.data.unityweb was not modified
+2019-02-21 17:30:21.626 -08:00 [INF] Request finished in 5.684ms 304 application/octet-stream
+2019-02-21 17:30:21.964 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-21 17:30:21.968 -08:00 [INF] Request finished in 3.5097ms 200 application/json; charset=UTF-8
+2019-02-21 17:30:34.301 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-21 17:30:34.304 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-21 17:30:34.308 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-21 17:30:34.310 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0284ms.
+2019-02-21 17:30:34.312 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-21 17:30:34.323 -08:00 [INF] Executed ViewResult - view Index executed in 9.211ms.
+2019-02-21 17:30:34.326 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 18.4408ms
+2019-02-21 17:30:34.328 -08:00 [INF] Request finished in 28.1447ms 200 text/html; charset=utf-8
+2019-02-21 17:30:34.331 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=Ni6NYW2k0b4C9AByEHww42p9K6RrKZfNbwA5bpp1oq8  
+2019-02-21 17:30:34.342 -08:00 [INF] Request finished in 10.3483ms 200 application/javascript; charset=UTF-8
+2019-02-21 17:30:34.556 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-21 17:30:51.243 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg  
+2019-02-21 17:30:51.246 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/a1d58cf19b77fb6f6917befb472cdc8d.jpg  
+2019-02-21 17:30:51.250 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/ca6e18d297f499728270623baa09432b.jpg  
+2019-02-21 17:30:51.256 -08:00 [INF] Request finished in 11.4652ms 200 image/jpeg; charset=UTF-8
+2019-02-21 17:30:51.263 -08:00 [INF] Request finished in 12.2111ms 200 image/jpeg; charset=UTF-8
+2019-02-21 17:30:51.265 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f2f30dc7704b93cd414dba2533f7a0f7.jpg  
+2019-02-21 17:30:51.266 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6b7dcfac373293aa5eadf6eb0a29418e.jpg  
+2019-02-21 17:30:51.273 -08:00 [INF] Request finished in 5.8775ms 200 image/jpeg; charset=UTF-8
+2019-02-21 17:30:51.277 -08:00 [INF] Request finished in 26.616ms 200 image/jpeg; charset=UTF-8
+2019-02-21 17:30:51.279 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f215b8ab565c09e3da83575440569612.jpg  
+2019-02-21 17:30:51.281 -08:00 [INF] Request finished in 16.6799ms 200 image/jpeg; charset=UTF-8
+2019-02-21 17:30:51.285 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6254da913578421dc62065fede06f3e9.jpg  
+2019-02-21 17:30:51.287 -08:00 [INF] Request finished in 8.1118ms 200 image/jpeg; charset=UTF-8
+2019-02-21 17:30:51.291 -08:00 [INF] Request finished in 7.233ms 200 image/jpeg; charset=UTF-8
+2019-02-21 17:30:53.816 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/d1c37ec98e69508cb302acdd4e208240.jpg  
+2019-02-21 17:30:53.821 -08:00 [INF] Request finished in 4.3144ms 200 image/jpeg; charset=UTF-8
+2019-02-21 17:31:10.530 -08:00 [INF] Request finished in 35969.0571ms 200 text/event-stream; charset=utf-8
+2019-02-21 17:31:10.966 -08:00 [INF] Request finished in 2764634.2497ms 200 text/event-stream; charset=utf-8
+2019-02-21 17:31:10.969 -08:00 [INF] Request finished in 1265714.0217ms 200 text/event-stream; charset=utf-8

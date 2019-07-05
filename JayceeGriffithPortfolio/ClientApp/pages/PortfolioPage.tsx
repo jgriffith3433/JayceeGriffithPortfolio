@@ -4,7 +4,6 @@ import { Helmet } from "react-helmet";
 import { withRouter, NavLink, Redirect } from "react-router-dom";
 var ReactDOM = require('react-dom');
 var Carousel = require('react-responsive-carousel').Carousel;
-import kittenface from "@Images/kittenface.jpg";
 import kittenfull from "@Images/kittenfull.jpg";
 import niccolo from "@Images/niccolo.jpg";
 import boy from "@Images/boy.jpg";
@@ -33,29 +32,20 @@ class PortfolioPage extends React.Component<Props, {}> {
             <div>
                 <Carousel className="col-md" showArrows={true} showThumbs={false} infiniteLoop={true} swipeable={false}>
                     <div>
+                        <img src={gooba} className="w-50 desktop-only-content-inline" />
+                        <img src={gooba} className="w-50 mobile-only-content-inline" />
+                        <p className="legend">
+                            <span>Download and play Life of Gooba | </span>
+                            <a href="https://jgriffith3433.itch.io/lifeofgooba" target="_blank">Itch.io game page</a>
+                        </p>
+                    </div>
+                    <div>
                         <img src={kittenfull} className="w-50 desktop-only-content-inline" />
                         <img src={kittenfull} className="w-75 mobile-only-content-inline" />
                         <p className="legend">
                             <span>Cinema 4D Kitten Fully Rigged </span>
                             <span>Feel free to download the kitten | </span>
                             <a href="https://drive.google.com/open?id=1w56ctmWSgPDhRB7fKY-v-waFzBPImjZy" target="_blank">Kitten Red_Final.zip</a>
-                        </p>
-                    </div>
-                    <div>
-                        <img src={kittenface} className="w-50 desktop-only-content-inline" />
-                        <img src={kittenface} className="w-50 mobile-only-content-inline" />
-                        <p className="legend">
-                            <span>Cinema 4D Kitten Fully Rigged </span>
-                            <span>Feel free to download the kitten | </span>
-                            <a href="https://drive.google.com/open?id=1w56ctmWSgPDhRB7fKY-v-waFzBPImjZy" target="_blank">Kitten Red_Final.zip</a>
-                        </p>
-                    </div>
-                    <div>
-                        <img src={gooba} className="w-50 desktop-only-content-inline" />
-                        <img src={gooba} className="w-50 mobile-only-content-inline" />
-                        <p className="legend">
-                            <span>Download and play Life of Gooba | </span>
-                            <a href="https://jgriffith3433.itch.io/lifeofgooba" target="_blank">Itch.io game page</a>
                         </p>
                     </div>
                     <div>

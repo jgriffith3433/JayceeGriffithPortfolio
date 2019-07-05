@@ -1,0 +1,816 @@
+2019-02-24 17:31:34.476 -08:00 [INF] User profile is available. Using 'C:\Users\jgrif\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-02-24 17:31:42.062 -08:00 [INF] Starting type checking service...
+2019-02-24 17:31:42.070 -08:00 [INF] Using 1 worker with 2048MB memory limit
+2019-02-24 17:31:42.143 -08:00 [INF] Starting type checking service...
+2019-02-24 17:31:42.149 -08:00 [INF] Using 1 worker with 2048MB memory limit
+2019-02-24 17:31:43.242 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-24 17:31:43.633 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-24 17:31:43.655 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-24 17:31:43.674 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.7039ms.
+2019-02-24 17:31:43.712 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-24 17:31:45.069 -08:00 [INF] Executed ViewResult - view Index executed in 1374.0763000000002ms.
+2019-02-24 17:31:45.103 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 1450.0055ms
+2019-02-24 17:31:45.104 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/vendor.js?v=74o1R0R8QWSgfIj19QsZFblHKVq9Bb_uLJB-zGkAbs8  
+2019-02-24 17:31:45.111 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/loading.gif  
+2019-02-24 17:31:45.113 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/vendor.css?v=0wnqM4WbJPSfF26FTDFb_NtpkBf-MiQeohFs45QkYEA  
+2019-02-24 17:31:45.137 -08:00 [INF] Request finished in 1916.8775ms 200 text/html; charset=utf-8
+2019-02-24 17:31:45.177 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/loading.gif'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\loading.gif'
+2019-02-24 17:31:45.180 -08:00 [INF] Request finished in 81.4933ms 200 image/gif
+2019-02-24 17:31:45.183 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=ou2_a1ILGphXjBLSyaBRU6-Box5x5wbSIDxywaXdRWo  
+2019-02-24 17:31:45.389 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.js?v=74o1R0R8QWSgfIj19QsZFblHKVq9Bb_uLJB-zGkAbs8
+2019-02-24 17:31:45.406 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.css?v=0wnqM4WbJPSfF26FTDFb_NtpkBf-MiQeohFs45QkYEA
+2019-02-24 17:31:45.409 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/main-client.js?v=ou2_a1ILGphXjBLSyaBRU6-Box5x5wbSIDxywaXdRWo
+2019-02-24 17:31:55.477 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js
+2019-02-24 17:31:55.485 -08:00 [INF] No type errors found
+2019-02-24 17:31:55.489 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 17:31:55.493 -08:00 [INF] Time: 10699ms
+2019-02-24 17:31:55.820 -08:00 [INF] No type errors found
+2019-02-24 17:31:55.824 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 17:31:55.837 -08:00 [INF] Time: 10781ms
+2019-02-24 17:31:55.839 -08:00 [INF] webpack built ef9e972679797f74621e in 13768ms
+2019-02-24 17:31:55.854 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: ef9e972679797f74621e
+Version: webpack 4.23.1
+Time: 13768ms
+Built at: 02/24/2019 5:31:55 PM
+                               Asset      Size       Chunks                    Chunk Names
+6254da913578421dc62065fede06f3e9.jpg   118 KiB               [emitted]         
+6a50cb30e6d0464aba45ec14263058d2.jpg   425 KiB               [emitted]  [big]  
+6b7dcfac373293aa5eadf6eb0a29418e.jpg  18.4 KiB               [emitted]         
+a1d58cf19b77fb6f6917befb472cdc8d.jpg  27.5 KiB               [emitted]         
+ca6e18d297f499728270623baa09432b.jpg   114 KiB               [emitted]         
+d1c37ec98e69508cb302acdd4e208240.jpg   177 KiB               [emitted]         
+e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg  35.2 KiB               [emitted]         
+f215b8ab565c09e3da83575440569612.jpg  28.8 KiB               [emitted]         
+f2f30dc7704b93cd414dba2533f7a0f7.jpg   120 KiB               [emitted]         
+                      main-client.js   871 KiB  main-client  [emitted]  [big]  main-client
+                  main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-02-24 17:31:55.857 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-24 17:31:55.876 -08:00 [INF] Request finished in 10693.2ms 200 application/javascript; charset=UTF-8
+2019-02-24 17:31:55.936 -08:00 [INF] Sending file. Request path: '/dist/vendor.css'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\vendor.css'
+2019-02-24 17:31:55.938 -08:00 [INF] Sending file. Request path: '/dist/vendor.js'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\dist\vendor.js'
+2019-02-24 17:31:55.943 -08:00 [INF] Request finished in 10832.5589ms 200 text/css
+2019-02-24 17:31:55.944 -08:00 [INF] Request finished in 10845.3411ms 200 application/javascript
+2019-02-24 17:31:56.254 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/UnityLoader.js  
+2019-02-24 17:31:56.255 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-24 17:31:56.350 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/UnityLoader.js'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\UnityLoader.js'
+2019-02-24 17:31:56.352 -08:00 [INF] Request finished in 99.1881ms 200 application/javascript
+2019-02-24 17:31:56.384 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.json  
+2019-02-24 17:31:56.392 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.json'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.json'
+2019-02-24 17:31:56.395 -08:00 [INF] Request finished in 11.3312ms 200 application/json
+2019-02-24 17:31:56.515 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-24 17:31:56.516 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-24 17:31:56.521 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-24 17:31:56.533 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.framework.unityweb'
+2019-02-24 17:31:56.536 -08:00 [INF] Request finished in 22.2748ms 200 application/octet-stream
+2019-02-24 17:31:56.622 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.code.unityweb'
+2019-02-24 17:31:56.628 -08:00 [INF] Request finished in 110.9158ms 200 application/octet-stream
+2019-02-24 17:31:56.633 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.data.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.data.unityweb'
+2019-02-24 17:31:56.636 -08:00 [INF] Request finished in 114.526ms 200 application/octet-stream
+2019-02-24 17:35:20.814 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-24 17:35:20.817 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-24 17:35:20.820 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-24 17:35:20.827 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1773ms.
+2019-02-24 17:35:20.830 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-24 17:35:21.386 -08:00 [INF] Executed ViewResult - view Index executed in 557.433ms.
+2019-02-24 17:35:21.389 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 569.33800000000008ms
+2019-02-24 17:35:21.392 -08:00 [INF] Request finished in 578.603ms 200 text/html; charset=utf-8
+2019-02-24 17:35:21.403 -08:00 [INF] Request finished in 205148.3967ms 200 text/event-stream; charset=utf-8
+2019-02-24 17:35:21.407 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=ROXrLSmXHumOsyNNFMRQSW9pbG2X4aDpvgQLXUtzwTI  
+2019-02-24 17:35:21.418 -08:00 [INF] Request finished in 10.5535ms 200 application/javascript; charset=UTF-8
+2019-02-24 17:35:21.674 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-24 17:35:21.721 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-24 17:35:21.728 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-24 17:35:21.730 -08:00 [INF] Request finished in 9.4344ms 200 image/x-icon
+2019-02-24 17:35:21.766 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-24 17:35:21.768 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-24 17:35:21.774 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-24 17:35:21.792 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.framework.unityweb'
+2019-02-24 17:35:21.807 -08:00 [INF] Request finished in 28.0552ms 200 application/octet-stream
+2019-02-24 17:35:21.832 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.data.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.data.unityweb'
+2019-02-24 17:35:21.836 -08:00 [INF] Request finished in 62.1204ms 200 application/octet-stream
+2019-02-24 17:35:21.840 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.code.unityweb'
+2019-02-24 17:35:21.843 -08:00 [INF] Request finished in 78.0824ms 200 application/octet-stream
+2019-02-24 17:36:27.548 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/a1d58cf19b77fb6f6917befb472cdc8d.jpg  
+2019-02-24 17:36:27.553 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg  
+2019-02-24 17:36:27.556 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/ca6e18d297f499728270623baa09432b.jpg  
+2019-02-24 17:36:27.559 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f2f30dc7704b93cd414dba2533f7a0f7.jpg  
+2019-02-24 17:36:27.577 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6b7dcfac373293aa5eadf6eb0a29418e.jpg  
+2019-02-24 17:36:27.582 -08:00 [INF] Request finished in 27.5906ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:36:27.600 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f215b8ab565c09e3da83575440569612.jpg  
+2019-02-24 17:36:27.600 -08:00 [INF] Request finished in 13.9902ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:36:27.610 -08:00 [INF] Request finished in 60.8116ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:36:27.612 -08:00 [INF] Request finished in 65.2843ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:36:27.615 -08:00 [INF] Request finished in 27.6497ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:36:27.617 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6254da913578421dc62065fede06f3e9.jpg  
+2019-02-24 17:36:27.625 -08:00 [INF] Request finished in 62.0796ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:36:27.627 -08:00 [INF] Request finished in 10.3878ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:37:24.124 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/portfolio  
+2019-02-24 17:37:24.128 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-24 17:37:24.130 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-24 17:37:24.133 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.053200000000000004ms.
+2019-02-24 17:37:24.136 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-24 17:37:24.156 -08:00 [INF] Executed ViewResult - view Index executed in 19.8003ms.
+2019-02-24 17:37:24.159 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 27.9849ms
+2019-02-24 17:37:24.162 -08:00 [INF] Request finished in 38.2264ms 200 text/html; charset=utf-8
+2019-02-24 17:37:24.179 -08:00 [INF] Request finished in 122505.3127ms 200 text/event-stream; charset=utf-8
+2019-02-24 17:37:24.188 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg  
+2019-02-24 17:37:24.196 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/a1d58cf19b77fb6f6917befb472cdc8d.jpg  
+2019-02-24 17:37:24.200 -08:00 [INF] Request finished in 12.5483ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:37:24.209 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=ROXrLSmXHumOsyNNFMRQSW9pbG2X4aDpvgQLXUtzwTI  
+2019-02-24 17:37:24.212 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6b7dcfac373293aa5eadf6eb0a29418e.jpg  
+2019-02-24 17:37:24.215 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/ca6e18d297f499728270623baa09432b.jpg  
+2019-02-24 17:37:24.219 -08:00 [INF] Request finished in 14.9005ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:37:24.222 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f2f30dc7704b93cd414dba2533f7a0f7.jpg  
+2019-02-24 17:37:24.253 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f215b8ab565c09e3da83575440569612.jpg  
+2019-02-24 17:37:24.260 -08:00 [INF] Request finished in 18.0546ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:37:24.270 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6254da913578421dc62065fede06f3e9.jpg  
+2019-02-24 17:37:24.272 -08:00 [INF] Request finished in 45.7064ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:37:24.276 -08:00 [INF] Request finished in 66.4071ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:37:24.282 -08:00 [INF] Request finished in 14.0479ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:37:24.284 -08:00 [INF] Request finished in 69.2193ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:37:24.288 -08:00 [INF] Request finished in 79.1329ms 200 application/javascript; charset=UTF-8
+2019-02-24 17:37:24.559 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-24 17:37:24.626 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-24 17:37:24.629 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-24 17:37:24.632 -08:00 [INF] Request finished in 5.6952ms 200 image/x-icon
+2019-02-24 17:37:24.662 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-24 17:37:24.663 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-24 17:37:24.666 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-24 17:37:24.676 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.framework.unityweb'
+2019-02-24 17:37:24.679 -08:00 [INF] Request finished in 16.74ms 200 application/octet-stream
+2019-02-24 17:37:24.703 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.data.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.data.unityweb'
+2019-02-24 17:37:24.706 -08:00 [INF] Request finished in 40.3442ms 200 application/octet-stream
+2019-02-24 17:37:24.711 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.code.unityweb'
+2019-02-24 17:37:24.714 -08:00 [INF] Request finished in 52.6798ms 200 application/octet-stream
+2019-02-24 17:38:30.256 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-24 17:38:30.262 -08:00 [INF] Request finished in 6.068ms 200 application/json; charset=UTF-8
+2019-02-24 17:39:30.839 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-24 17:39:30.844 -08:00 [INF] Request finished in 4.6406ms 200 application/json; charset=UTF-8
+2019-02-24 17:39:46.396 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/d1c37ec98e69508cb302acdd4e208240.jpg  
+2019-02-24 17:39:46.403 -08:00 [INF] Request finished in 11.6294ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:40:26.083 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-24 17:40:26.087 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-24 17:40:26.089 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-24 17:40:26.092 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0567ms.
+2019-02-24 17:40:26.098 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-24 17:40:26.112 -08:00 [INF] Executed ViewResult - view Index executed in 15.984900000000001ms.
+2019-02-24 17:40:26.116 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 24.9482ms
+2019-02-24 17:40:26.120 -08:00 [INF] Request finished in 35.8852ms 200 text/html; charset=utf-8
+2019-02-24 17:40:26.134 -08:00 [INF] Request finished in 181572.7497ms 200 text/event-stream; charset=utf-8
+2019-02-24 17:40:26.138 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=ROXrLSmXHumOsyNNFMRQSW9pbG2X4aDpvgQLXUtzwTI  
+2019-02-24 17:40:26.164 -08:00 [INF] Request finished in 27.2531ms 200 application/javascript; charset=UTF-8
+2019-02-24 17:40:26.371 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-24 17:40:26.415 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-24 17:40:26.420 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-24 17:40:26.424 -08:00 [INF] Request finished in 9.9597ms 200 image/x-icon
+2019-02-24 17:40:26.456 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-24 17:40:26.459 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-24 17:40:26.462 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-24 17:40:26.484 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.framework.unityweb'
+2019-02-24 17:40:26.491 -08:00 [INF] Request finished in 27.5273ms 200 application/octet-stream
+2019-02-24 17:40:26.524 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.data.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.data.unityweb'
+2019-02-24 17:40:26.527 -08:00 [INF] Request finished in 65.3075ms 200 application/octet-stream
+2019-02-24 17:40:26.534 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.code.unityweb'
+2019-02-24 17:40:26.538 -08:00 [INF] Request finished in 80.8526ms 200 application/octet-stream
+2019-02-24 17:40:39.680 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-24 17:40:39.686 -08:00 [INF] Request finished in 6.5287ms 200 application/json; charset=UTF-8
+2019-02-24 17:40:50.472 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg  
+2019-02-24 17:40:50.474 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/a1d58cf19b77fb6f6917befb472cdc8d.jpg  
+2019-02-24 17:40:50.476 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f2f30dc7704b93cd414dba2533f7a0f7.jpg  
+2019-02-24 17:40:50.479 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/ca6e18d297f499728270623baa09432b.jpg  
+2019-02-24 17:40:50.483 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6b7dcfac373293aa5eadf6eb0a29418e.jpg  
+2019-02-24 17:40:50.497 -08:00 [INF] Request finished in 15.9943ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:40:50.516 -08:00 [INF] Request finished in 27.8408ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:40:50.518 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f215b8ab565c09e3da83575440569612.jpg  
+2019-02-24 17:40:50.520 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6254da913578421dc62065fede06f3e9.jpg  
+2019-02-24 17:40:50.531 -08:00 [INF] Request finished in 42.3151ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:40:50.534 -08:00 [INF] Request finished in 17.9124ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:40:50.536 -08:00 [INF] Request finished in 50.9191ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:40:50.539 -08:00 [INF] Request finished in 58.8391ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:40:50.540 -08:00 [INF] Request finished in 17.4133ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:41:14.437 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6a50cb30e6d0464aba45ec14263058d2.jpg  
+2019-02-24 17:41:14.446 -08:00 [INF] Request finished in 7.3178ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:41:46.568 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/d1c37ec98e69508cb302acdd4e208240.jpg  
+2019-02-24 17:41:46.574 -08:00 [INF] Request finished in 6.7997ms 200 image/jpeg; charset=UTF-8
+2019-02-24 17:42:11.239 -08:00 [INF] Request finished in 104869.0747ms 200 text/event-stream; charset=utf-8
+2019-02-24 20:37:49.308 -08:00 [INF] User profile is available. Using 'C:\Users\jgrif\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-02-24 20:37:51.543 -08:00 [INF] Starting type checking service...
+2019-02-24 20:37:51.546 -08:00 [INF] Using 1 worker with 2048MB memory limit
+2019-02-24 20:37:51.592 -08:00 [INF] Starting type checking service...
+2019-02-24 20:37:51.595 -08:00 [INF] Using 1 worker with 2048MB memory limit
+2019-02-24 20:37:52.602 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-24 20:37:52.845 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-24 20:37:52.864 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-24 20:37:52.879 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.2799ms.
+2019-02-24 20:37:52.976 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-24 20:37:54.051 -08:00 [INF] Executed ViewResult - view Index executed in 1158.3232ms.
+2019-02-24 20:37:54.072 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 1218.5323ms
+2019-02-24 20:37:54.092 -08:00 [INF] Request finished in 1491.3225ms 200 text/html; charset=utf-8
+2019-02-24 20:37:54.104 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=ou2_a1ILGphXjBLSyaBRU6-Box5x5wbSIDxywaXdRWo  
+2019-02-24 20:37:54.319 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/main-client.js?v=ou2_a1ILGphXjBLSyaBRU6-Box5x5wbSIDxywaXdRWo
+2019-02-24 20:38:01.127 -08:00 [INF] Node will restart because file changed: D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\ClientApp\dist\main-server.js
+2019-02-24 20:38:01.254 -08:00 [INF] No type errors found
+2019-02-24 20:38:01.271 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:38:01.274 -08:00 [INF] Time: 8916ms
+2019-02-24 20:38:01.282 -08:00 [INF] webpack built ef9e972679797f74621e in 9718ms
+2019-02-24 20:38:01.465 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: ef9e972679797f74621e
+Version: webpack 4.23.1
+Time: 9718ms
+Built at: 02/24/2019 8:38:01 PM
+                               Asset      Size       Chunks                    Chunk Names
+6254da913578421dc62065fede06f3e9.jpg   118 KiB               [emitted]         
+6a50cb30e6d0464aba45ec14263058d2.jpg   425 KiB               [emitted]  [big]  
+6b7dcfac373293aa5eadf6eb0a29418e.jpg  18.4 KiB               [emitted]         
+a1d58cf19b77fb6f6917befb472cdc8d.jpg  27.5 KiB               [emitted]         
+ca6e18d297f499728270623baa09432b.jpg   114 KiB               [emitted]         
+d1c37ec98e69508cb302acdd4e208240.jpg   177 KiB               [emitted]         
+e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg  35.2 KiB               [emitted]         
+f215b8ab565c09e3da83575440569612.jpg  28.8 KiB               [emitted]         
+f2f30dc7704b93cd414dba2533f7a0f7.jpg   120 KiB               [emitted]         
+                      main-client.js   871 KiB  main-client  [emitted]  [big]  main-client
+                  main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-02-24 20:38:01.469 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-24 20:38:01.472 -08:00 [INF] No type errors found
+2019-02-24 20:38:01.477 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:38:01.480 -08:00 [INF] Time: 8813ms
+2019-02-24 20:38:01.504 -08:00 [INF] Request finished in 7402.8131ms 200 application/javascript; charset=UTF-8
+2019-02-24 20:38:01.691 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-24 20:38:01.774 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-24 20:38:01.777 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-24 20:38:01.784 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-24 20:38:01.798 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.framework.unityweb'
+2019-02-24 20:38:01.800 -08:00 [INF] Request finished in 23.8884ms 200 application/octet-stream
+2019-02-24 20:38:01.921 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.data.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.data.unityweb'
+2019-02-24 20:38:01.923 -08:00 [INF] Request finished in 138.9145ms 200 application/octet-stream
+2019-02-24 20:38:01.933 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.code.unityweb'
+2019-02-24 20:38:01.935 -08:00 [INF] Request finished in 161.5093ms 200 application/octet-stream
+2019-02-24 20:39:50.772 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-24 20:39:50.778 -08:00 [INF] webpack building...
+2019-02-24 20:39:51.391 -08:00 [INF] Type checking in progress...
+2019-02-24 20:39:51.410 -08:00 [INF] webpack built 5b3f4cfde2f684860775 in 440ms
+2019-02-24 20:39:51.414 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 5b3f4cfde2f684860775
+Version: webpack 4.23.1
+Time: 440ms
+Built at: 02/24/2019 8:39:51 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              ef9e972679797f74621e.hot-update.json   53 bytes               [emitted]         
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.ef9e972679797f74621e.hot-update.js   9.36 KiB  main-client  [emitted]         main-client
+main-client.ef9e972679797f74621e.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.ef9e972679797f74621e.hot-update.js main-client.js.map main-client.ef9e972679797f74621e.hot-update.js.map
+2019-02-24 20:39:51.421 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-24 20:39:51.430 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/ef9e972679797f74621e.hot-update.json  
+2019-02-24 20:39:51.632 -08:00 [INF] Request finished in 206.7777ms 200 application/json; charset=UTF-8
+2019-02-24 20:39:51.635 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.ef9e972679797f74621e.hot-update.js  
+2019-02-24 20:39:51.967 -08:00 [INF] Request finished in 332.6235ms 200 application/javascript; charset=UTF-8
+2019-02-24 20:39:52.010 -08:00 [INF] Type checking in progress...
+2019-02-24 20:39:52.101 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-24 20:39:52.103 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-24 20:39:52.106 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb was not modified
+2019-02-24 20:39:52.107 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.code.unityweb was not modified
+2019-02-24 20:39:52.110 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-24 20:39:52.112 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.data.unityweb was not modified
+2019-02-24 20:39:52.118 -08:00 [INF] Request finished in 16.3661ms 304 application/octet-stream
+2019-02-24 20:39:52.121 -08:00 [INF] Request finished in 16.3538ms 304 application/octet-stream
+2019-02-24 20:39:52.122 -08:00 [INF] Request finished in 6.2235ms 304 application/octet-stream
+2019-02-24 20:39:58.098 -08:00 [INF] No type errors found
+2019-02-24 20:39:58.101 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:39:58.103 -08:00 [INF] Time: 7138ms
+2019-02-24 20:39:58.951 -08:00 [INF] No type errors found
+2019-02-24 20:39:58.953 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:39:58.954 -08:00 [INF] Time: 8003ms
+2019-02-24 20:40:03.392 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js.map  
+2019-02-24 20:40:03.403 -08:00 [INF] Request finished in 11.0055ms 200 application/json; charset=UTF-8
+2019-02-24 20:40:03.419 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.ef9e972679797f74621e.hot-update.js.map  
+2019-02-24 20:40:03.424 -08:00 [INF] Request finished in 5.2829ms 200 application/json; charset=UTF-8
+2019-02-24 20:40:04.981 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg  
+2019-02-24 20:40:04.983 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/a1d58cf19b77fb6f6917befb472cdc8d.jpg  
+2019-02-24 20:40:04.986 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/ca6e18d297f499728270623baa09432b.jpg  
+2019-02-24 20:40:04.988 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f2f30dc7704b93cd414dba2533f7a0f7.jpg  
+2019-02-24 20:40:04.992 -08:00 [INF] Request finished in 11.0913ms 200 image/jpeg; charset=UTF-8
+2019-02-24 20:40:04.999 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6b7dcfac373293aa5eadf6eb0a29418e.jpg  
+2019-02-24 20:40:05.003 -08:00 [INF] Request finished in 15.9619ms 200 image/jpeg; charset=UTF-8
+2019-02-24 20:40:05.011 -08:00 [INF] Request finished in 20.9648ms 200 image/jpeg; charset=UTF-8
+2019-02-24 20:40:05.013 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f215b8ab565c09e3da83575440569612.jpg  
+2019-02-24 20:40:05.014 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6254da913578421dc62065fede06f3e9.jpg  
+2019-02-24 20:40:05.017 -08:00 [INF] Request finished in 28.4617ms 200 image/jpeg; charset=UTF-8
+2019-02-24 20:40:05.021 -08:00 [INF] Request finished in 23.7958ms 200 image/jpeg; charset=UTF-8
+2019-02-24 20:40:05.023 -08:00 [INF] Request finished in 15.0577ms 200 image/jpeg; charset=UTF-8
+2019-02-24 20:40:05.025 -08:00 [INF] Request finished in 12.425ms 200 image/jpeg; charset=UTF-8
+2019-02-24 20:41:05.868 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-24 20:41:05.884 -08:00 [INF] webpack building...
+2019-02-24 20:41:06.913 -08:00 [INF] Type checking in progress...
+2019-02-24 20:41:06.924 -08:00 [INF] webpack built 27e07e75d135473716b5 in 826ms
+2019-02-24 20:41:06.947 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 27e07e75d135473716b5
+Version: webpack 4.23.1
+Time: 826ms
+Built at: 02/24/2019 8:41:06 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              5b3f4cfde2f684860775.hot-update.json   53 bytes               [emitted]         
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.5b3f4cfde2f684860775.hot-update.js   9.36 KiB  main-client  [emitted]         main-client
+main-client.5b3f4cfde2f684860775.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.5b3f4cfde2f684860775.hot-update.js main-client.js.map main-client.5b3f4cfde2f684860775.hot-update.js.map
+2019-02-24 20:41:06.950 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-24 20:41:06.979 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/5b3f4cfde2f684860775.hot-update.json  
+2019-02-24 20:41:07.451 -08:00 [INF] Request finished in 371.9348ms 200 application/json; charset=UTF-8
+2019-02-24 20:41:07.462 -08:00 [INF] Type checking in progress...
+2019-02-24 20:41:07.469 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.5b3f4cfde2f684860775.hot-update.js  
+2019-02-24 20:41:07.488 -08:00 [INF] Request finished in 23.511ms 200 application/javascript; charset=UTF-8
+2019-02-24 20:41:07.703 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.5b3f4cfde2f684860775.hot-update.js.map  
+2019-02-24 20:41:07.710 -08:00 [INF] Request finished in 6.6675ms 200 application/json; charset=UTF-8
+2019-02-24 20:41:07.777 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-24 20:41:07.778 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-24 20:41:07.780 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.code.unityweb was not modified
+2019-02-24 20:41:07.784 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb was not modified
+2019-02-24 20:41:07.785 -08:00 [INF] Request finished in 10.1652ms 304 application/octet-stream
+2019-02-24 20:41:07.787 -08:00 [INF] Request finished in 10.5879ms 304 application/octet-stream
+2019-02-24 20:41:07.805 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-24 20:41:07.810 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.data.unityweb was not modified
+2019-02-24 20:41:07.817 -08:00 [INF] Request finished in 16.6526ms 304 application/octet-stream
+2019-02-24 20:41:14.996 -08:00 [INF] No type errors found
+2019-02-24 20:41:15.160 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:41:15.165 -08:00 [INF] Time: 8689ms
+2019-02-24 20:41:15.169 -08:00 [INF] No type errors found
+2019-02-24 20:41:15.174 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:41:15.177 -08:00 [INF] Time: 8717ms
+2019-02-24 20:41:32.015 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-24 20:41:32.031 -08:00 [INF] webpack building...
+2019-02-24 20:41:33.447 -08:00 [INF] Type checking in progress...
+2019-02-24 20:41:33.515 -08:00 [INF] webpack built a44df5f8229994e3fbce in 1226ms
+2019-02-24 20:41:33.530 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/27e07e75d135473716b5.hot-update.json  
+2019-02-24 20:41:33.561 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: a44df5f8229994e3fbce
+Version: webpack 4.23.1
+Time: 1226ms
+Built at: 02/24/2019 8:41:33 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              27e07e75d135473716b5.hot-update.json   53 bytes               [emitted]         
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.27e07e75d135473716b5.hot-update.js   9.08 KiB  main-client  [emitted]         main-client
+main-client.27e07e75d135473716b5.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.27e07e75d135473716b5.hot-update.js main-client.js.map main-client.27e07e75d135473716b5.hot-update.js.map
+2019-02-24 20:41:33.571 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-24 20:41:33.576 -08:00 [INF] Type checking in progress...
+2019-02-24 20:41:33.582 -08:00 [INF] Request finished in 66.3561ms 200 application/json; charset=UTF-8
+2019-02-24 20:41:33.603 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.27e07e75d135473716b5.hot-update.js  
+2019-02-24 20:41:33.609 -08:00 [INF] Request finished in 10.1448ms 200 application/javascript; charset=UTF-8
+2019-02-24 20:41:33.784 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.27e07e75d135473716b5.hot-update.js.map  
+2019-02-24 20:41:33.791 -08:00 [INF] Request finished in 9.9348ms 200 application/json; charset=UTF-8
+2019-02-24 20:41:33.991 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-24 20:41:34.001 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-24 20:41:34.005 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.code.unityweb was not modified
+2019-02-24 20:41:34.008 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb was not modified
+2019-02-24 20:41:34.010 -08:00 [INF] Request finished in 25.8193ms 304 application/octet-stream
+2019-02-24 20:41:34.014 -08:00 [INF] Request finished in 21.1096ms 304 application/octet-stream
+2019-02-24 20:41:34.021 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-24 20:41:34.026 -08:00 [INF] The file /JayceeGriffithWebsiteGame/Build.data.unityweb was not modified
+2019-02-24 20:41:34.028 -08:00 [INF] Request finished in 11.5186ms 304 application/octet-stream
+2019-02-24 20:41:41.442 -08:00 [INF] No type errors found
+2019-02-24 20:41:41.914 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:41:42.028 -08:00 [INF] Time: 8709ms
+2019-02-24 20:41:42.031 -08:00 [INF] No type errors found
+2019-02-24 20:41:42.034 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:41:42.039 -08:00 [INF] Time: 9245ms
+2019-02-24 20:46:07.647 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-24 20:46:07.654 -08:00 [INF] webpack building...
+2019-02-24 20:46:07.926 -08:00 [INF] Type checking in progress...
+2019-02-24 20:46:08.045 -08:00 [INF] Type checking in progress...
+2019-02-24 20:46:08.098 -08:00 [INF] webpack built 0643071c7d3e9fc563aa in 201ms
+2019-02-24 20:46:08.108 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 0643071c7d3e9fc563aa
+Version: webpack 4.23.1
+Time: 201ms
+Built at: 02/24/2019 8:46:08 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              a44df5f8229994e3fbce.hot-update.json   53 bytes               [emitted]         
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.a44df5f8229994e3fbce.hot-update.js    4.5 KiB  main-client  [emitted]         main-client
+main-client.a44df5f8229994e3fbce.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    872 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.a44df5f8229994e3fbce.hot-update.js main-client.js.map main-client.a44df5f8229994e3fbce.hot-update.js.map
+2019-02-24 20:46:08.112 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-24 20:46:08.115 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/a44df5f8229994e3fbce.hot-update.json  
+2019-02-24 20:46:08.133 -08:00 [INF] Request finished in 17.7381ms 200 application/json; charset=UTF-8
+2019-02-24 20:46:08.141 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.a44df5f8229994e3fbce.hot-update.js  
+2019-02-24 20:46:08.146 -08:00 [INF] Request finished in 5.8156ms 200 application/javascript; charset=UTF-8
+2019-02-24 20:46:12.182 -08:00 [INF] No type errors found
+2019-02-24 20:46:12.184 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:46:12.185 -08:00 [INF] Time: 4335ms
+2019-02-24 20:46:12.237 -08:00 [INF] No type errors found
+2019-02-24 20:46:12.239 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:46:12.240 -08:00 [INF] Time: 4393ms
+2019-02-24 20:46:47.510 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-24 20:46:47.518 -08:00 [INF] webpack building...
+2019-02-24 20:46:48.543 -08:00 [INF] Type checking in progress...
+2019-02-24 20:46:48.569 -08:00 [INF] webpack built bc2e0eccad40c778b41b in 822ms
+2019-02-24 20:46:48.578 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: bc2e0eccad40c778b41b
+Version: webpack 4.23.1
+Time: 822ms
+Built at: 02/24/2019 8:46:48 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              0643071c7d3e9fc563aa.hot-update.json   53 bytes               [emitted]         
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              ca6e18d297f499728270623baa09432b.jpg    114 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.0643071c7d3e9fc563aa.hot-update.js   10.4 KiB  main-client  [emitted]         main-client
+main-client.0643071c7d3e9fc563aa.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    872 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.0643071c7d3e9fc563aa.hot-update.js main-client.js.map main-client.0643071c7d3e9fc563aa.hot-update.js.map
+2019-02-24 20:46:48.580 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-24 20:46:48.582 -08:00 [INF] Type checking in progress...
+2019-02-24 20:46:48.584 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/0643071c7d3e9fc563aa.hot-update.json  
+2019-02-24 20:46:48.600 -08:00 [INF] Request finished in 15.3935ms 200 application/json; charset=UTF-8
+2019-02-24 20:46:48.604 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.0643071c7d3e9fc563aa.hot-update.js  
+2019-02-24 20:46:48.617 -08:00 [INF] Request finished in 6.7045ms 200 application/javascript; charset=UTF-8
+2019-02-24 20:46:51.866 -08:00 [INF] No type errors found
+2019-02-24 20:46:51.869 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:46:51.871 -08:00 [INF] Time: 4163ms
+2019-02-24 20:46:51.944 -08:00 [INF] No type errors found
+2019-02-24 20:46:51.947 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:46:51.948 -08:00 [INF] Time: 4238ms
+2019-02-24 20:47:04.496 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-24 20:47:04.499 -08:00 [INF] webpack building...
+2019-02-24 20:47:05.390 -08:00 [INF] Type checking in progress...
+2019-02-24 20:47:05.410 -08:00 [INF] webpack built d98eb1d30089e2a5d9e5 in 697ms
+2019-02-24 20:47:05.418 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: d98eb1d30089e2a5d9e5
+Version: webpack 4.23.1
+Time: 697ms
+Built at: 02/24/2019 8:47:05 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              bc2e0eccad40c778b41b.hot-update.json   53 bytes               [emitted]         
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.bc2e0eccad40c778b41b.hot-update.js   9.21 KiB  main-client  [emitted]         main-client
+main-client.bc2e0eccad40c778b41b.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    870 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.bc2e0eccad40c778b41b.hot-update.js main-client.js.map main-client.bc2e0eccad40c778b41b.hot-update.js.map
+2019-02-24 20:47:05.426 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-24 20:47:05.430 -08:00 [INF] Type checking in progress...
+2019-02-24 20:47:05.437 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/bc2e0eccad40c778b41b.hot-update.json  
+2019-02-24 20:47:05.451 -08:00 [INF] Request finished in 13.307ms 200 application/json; charset=UTF-8
+2019-02-24 20:47:05.454 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.bc2e0eccad40c778b41b.hot-update.js  
+2019-02-24 20:47:05.458 -08:00 [INF] Request finished in 3.6482ms 200 application/javascript; charset=UTF-8
+2019-02-24 20:47:08.330 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-24 20:47:08.344 -08:00 [INF] webpack building...
+2019-02-24 20:47:09.042 -08:00 [INF] Type checking in progress...
+2019-02-24 20:47:09.064 -08:00 [INF] webpack built 91648bd2b4d92b7a846c in 542ms
+2019-02-24 20:47:09.073 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 91648bd2b4d92b7a846c
+Version: webpack 4.23.1
+Time: 542ms
+Built at: 02/24/2019 8:47:09 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              d98eb1d30089e2a5d9e5.hot-update.json   53 bytes               [emitted]         
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.d98eb1d30089e2a5d9e5.hot-update.js   9.16 KiB  main-client  [emitted]         main-client
+main-client.d98eb1d30089e2a5d9e5.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    870 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.d98eb1d30089e2a5d9e5.hot-update.js main-client.js.map main-client.d98eb1d30089e2a5d9e5.hot-update.js.map
+2019-02-24 20:47:09.074 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-24 20:47:09.076 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/d98eb1d30089e2a5d9e5.hot-update.json  
+2019-02-24 20:47:09.078 -08:00 [INF] Type checking in progress...
+2019-02-24 20:47:09.081 -08:00 [INF] Request finished in 5.4869ms 200 application/json; charset=UTF-8
+2019-02-24 20:47:09.083 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.d98eb1d30089e2a5d9e5.hot-update.js  
+2019-02-24 20:47:09.088 -08:00 [INF] Request finished in 3.6418ms 200 application/javascript; charset=UTF-8
+2019-02-24 20:47:12.421 -08:00 [INF] No type errors found
+2019-02-24 20:47:12.423 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:47:12.425 -08:00 [INF] Time: 3919ms
+2019-02-24 20:47:12.491 -08:00 [INF] No type errors found
+2019-02-24 20:47:12.493 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:47:12.495 -08:00 [INF] Time: 3991ms
+2019-02-24 20:47:32.339 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6a50cb30e6d0464aba45ec14263058d2.jpg  
+2019-02-24 20:47:32.346 -08:00 [INF] Request finished in 6.5803ms 200 image/jpeg; charset=UTF-8
+2019-02-24 20:48:16.000 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-24 20:48:16.005 -08:00 [INF] webpack building...
+2019-02-24 20:48:16.895 -08:00 [INF] Type checking in progress...
+2019-02-24 20:48:16.918 -08:00 [INF] webpack built 1b9f75976f08fa204c43 in 693ms
+2019-02-24 20:48:16.927 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 1b9f75976f08fa204c43
+Version: webpack 4.23.1
+Time: 693ms
+Built at: 02/24/2019 8:48:16 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              91648bd2b4d92b7a846c.hot-update.json   53 bytes               [emitted]         
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.91648bd2b4d92b7a846c.hot-update.js   5.76 KiB  main-client  [emitted]         main-client
+main-client.91648bd2b4d92b7a846c.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    870 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.91648bd2b4d92b7a846c.hot-update.js main-client.js.map main-client.91648bd2b4d92b7a846c.hot-update.js.map
+2019-02-24 20:48:16.934 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/91648bd2b4d92b7a846c.hot-update.json  
+2019-02-24 20:48:16.935 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-24 20:48:16.938 -08:00 [INF] Type checking in progress...
+2019-02-24 20:48:16.943 -08:00 [INF] Request finished in 16.1582ms 200 application/json; charset=UTF-8
+2019-02-24 20:48:16.948 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.91648bd2b4d92b7a846c.hot-update.js  
+2019-02-24 20:48:16.952 -08:00 [INF] Request finished in 3.4319ms 200 application/javascript; charset=UTF-8
+2019-02-24 20:48:20.327 -08:00 [INF] No type errors found
+2019-02-24 20:48:20.330 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:48:20.332 -08:00 [INF] Time: 4141ms
+2019-02-24 20:48:20.384 -08:00 [INF] No type errors found
+2019-02-24 20:48:20.387 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:48:20.389 -08:00 [INF] Time: 4200ms
+2019-02-24 20:48:28.311 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/d1c37ec98e69508cb302acdd4e208240.jpg  
+2019-02-24 20:48:28.322 -08:00 [INF] Request finished in 11.3549ms 200 image/jpeg; charset=UTF-8
+2019-02-24 20:48:50.004 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-24 20:48:50.009 -08:00 [INF] webpack building...
+2019-02-24 20:48:50.950 -08:00 [INF] Type checking in progress...
+2019-02-24 20:48:50.965 -08:00 [INF] webpack built fdbd8ea8146927d2e10a in 732ms
+2019-02-24 20:48:50.967 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: fdbd8ea8146927d2e10a
+Version: webpack 4.23.1
+Time: 732ms
+Built at: 02/24/2019 8:48:50 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              1b9f75976f08fa204c43.hot-update.json   53 bytes               [emitted]         
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.1b9f75976f08fa204c43.hot-update.js   5.19 KiB  main-client  [emitted]         main-client
+main-client.1b9f75976f08fa204c43.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.1b9f75976f08fa204c43.hot-update.js main-client.js.map main-client.1b9f75976f08fa204c43.hot-update.js.map
+2019-02-24 20:48:50.973 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-24 20:48:50.981 -08:00 [INF] Type checking in progress...
+2019-02-24 20:48:50.997 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/1b9f75976f08fa204c43.hot-update.json  
+2019-02-24 20:48:51.003 -08:00 [INF] Request finished in 5.374ms 200 application/json; charset=UTF-8
+2019-02-24 20:48:51.011 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.1b9f75976f08fa204c43.hot-update.js  
+2019-02-24 20:48:51.017 -08:00 [INF] Request finished in 6.4393ms 200 application/javascript; charset=UTF-8
+2019-02-24 20:48:53.646 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-24 20:48:53.661 -08:00 [INF] webpack building...
+2019-02-24 20:48:54.372 -08:00 [INF] Type checking in progress...
+2019-02-24 20:48:54.386 -08:00 [INF] webpack built 6f12cf3736479c150f52 in 557ms
+2019-02-24 20:48:54.414 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 6f12cf3736479c150f52
+Version: webpack 4.23.1
+Time: 557ms
+Built at: 02/24/2019 8:48:54 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+              fdbd8ea8146927d2e10a.hot-update.json   53 bytes               [emitted]         
+    main-client.fdbd8ea8146927d2e10a.hot-update.js   5.38 KiB  main-client  [emitted]         main-client
+main-client.fdbd8ea8146927d2e10a.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.fdbd8ea8146927d2e10a.hot-update.js main-client.js.map main-client.fdbd8ea8146927d2e10a.hot-update.js.map
+2019-02-24 20:48:54.416 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/fdbd8ea8146927d2e10a.hot-update.json  
+2019-02-24 20:48:54.425 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-24 20:48:54.433 -08:00 [INF] Type checking in progress...
+2019-02-24 20:48:54.437 -08:00 [INF] Request finished in 24.8263ms 200 application/json; charset=UTF-8
+2019-02-24 20:48:54.446 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.fdbd8ea8146927d2e10a.hot-update.js  
+2019-02-24 20:48:54.459 -08:00 [INF] Request finished in 12.0727ms 200 application/javascript; charset=UTF-8
+2019-02-24 20:48:59.768 -08:00 [INF] No type errors found
+2019-02-24 20:48:59.771 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:48:59.772 -08:00 [INF] Time: 5937ms
+2019-02-24 20:49:00.106 -08:00 [INF] No type errors found
+2019-02-24 20:49:00.108 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:49:00.110 -08:00 [INF] Time: 6279ms
+2019-02-24 20:49:07.925 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-24 20:49:07.927 -08:00 [INF] webpack building...
+2019-02-24 20:49:08.712 -08:00 [INF] Type checking in progress...
+2019-02-24 20:49:08.728 -08:00 [INF] webpack built 74c479c22e71c5751edb in 588ms
+2019-02-24 20:49:08.731 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 74c479c22e71c5751edb
+Version: webpack 4.23.1
+Time: 588ms
+Built at: 02/24/2019 8:49:08 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              6254da913578421dc62065fede06f3e9.jpg    118 KiB                                 
+              6a50cb30e6d0464aba45ec14263058d2.jpg    425 KiB                          [big]  
+              6b7dcfac373293aa5eadf6eb0a29418e.jpg   18.4 KiB                                 
+              6f12cf3736479c150f52.hot-update.json   53 bytes               [emitted]         
+              a1d58cf19b77fb6f6917befb472cdc8d.jpg   27.5 KiB                                 
+              d1c37ec98e69508cb302acdd4e208240.jpg    177 KiB                                 
+              e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg   35.2 KiB                                 
+              f215b8ab565c09e3da83575440569612.jpg   28.8 KiB                                 
+              f2f30dc7704b93cd414dba2533f7a0f7.jpg    120 KiB                                 
+    main-client.6f12cf3736479c150f52.hot-update.js   5.96 KiB  main-client  [emitted]         main-client
+main-client.6f12cf3736479c150f52.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js    871 KiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.6f12cf3736479c150f52.hot-update.js main-client.js.map main-client.6f12cf3736479c150f52.hot-update.js.map
+2019-02-24 20:49:08.734 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-24 20:49:08.742 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6f12cf3736479c150f52.hot-update.json  
+2019-02-24 20:49:08.744 -08:00 [INF] Type checking in progress...
+2019-02-24 20:49:08.756 -08:00 [INF] Request finished in 13.5464ms 200 application/json; charset=UTF-8
+2019-02-24 20:49:08.765 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.6f12cf3736479c150f52.hot-update.js  
+2019-02-24 20:49:08.772 -08:00 [INF] Request finished in 4.5886ms 200 application/javascript; charset=UTF-8
+2019-02-24 20:49:12.573 -08:00 [INF] No type errors found
+2019-02-24 20:49:12.576 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:49:12.578 -08:00 [INF] Time: 4452ms
+2019-02-24 20:49:12.650 -08:00 [INF] No type errors found
+2019-02-24 20:49:12.653 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:49:12.655 -08:00 [INF] Time: 4531ms
+2019-02-24 20:49:57.420 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiling...
+2019-02-24 20:49:57.424 -08:00 [INF] webpack building...
+2019-02-24 20:49:58.213 -08:00 [INF] Type checking in progress...
+2019-02-24 20:49:58.226 -08:00 [INF] webpack built 74c479c22e71c5751edb in 595ms
+2019-02-24 20:49:58.231 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: 74c479c22e71c5751edb
+Version: webpack 4.23.1
+Time: 595ms
+Built at: 02/24/2019 8:49:58 PM
+                               Asset      Size       Chunks         Chunk Names
+6254da913578421dc62065fede06f3e9.jpg   118 KiB                      
+6a50cb30e6d0464aba45ec14263058d2.jpg   425 KiB               [big]  
+6b7dcfac373293aa5eadf6eb0a29418e.jpg  18.4 KiB                      
+a1d58cf19b77fb6f6917befb472cdc8d.jpg  27.5 KiB                      
+d1c37ec98e69508cb302acdd4e208240.jpg   177 KiB                      
+e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg  35.2 KiB                      
+f215b8ab565c09e3da83575440569612.jpg  28.8 KiB                      
+f2f30dc7704b93cd414dba2533f7a0f7.jpg   120 KiB                      
+                      main-client.js   871 KiB  main-client  [big]  main-client
+                  main-client.js.map  29.9 KiB  main-client         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-02-24 20:49:58.234 -08:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2019-02-24 20:49:58.236 -08:00 [INF] Type checking in progress...
+2019-02-24 20:50:02.578 -08:00 [INF] No type errors found
+2019-02-24 20:50:02.582 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:50:02.585 -08:00 [INF] Time: 4968ms
+2019-02-24 20:50:02.589 -08:00 [INF] No type errors found
+2019-02-24 20:50:02.593 -08:00 [INF] Version: typescript 3.0.1
+2019-02-24 20:50:02.596 -08:00 [INF] Time: 4977ms
+2019-02-24 20:56:45.296 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/  
+2019-02-24 20:56:45.300 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-24 20:56:45.302 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-24 20:56:45.304 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1095ms.
+2019-02-24 20:56:45.309 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-24 20:56:45.818 -08:00 [INF] Executed ViewResult - view Index executed in 508.53150000000005ms.
+2019-02-24 20:56:45.820 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 517.9811ms
+2019-02-24 20:56:45.824 -08:00 [INF] Request finished in 530.9767ms 200 text/html; charset=utf-8
+2019-02-24 20:56:45.834 -08:00 [INF] Request finished in 1124143.2092ms 200 text/event-stream; charset=utf-8
+2019-02-24 20:56:45.855 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=myTxG_AJ3BS879AAyWidoqY-JuIObiYoy-lgYADSGuU  
+2019-02-24 20:56:45.865 -08:00 [INF] Request finished in 9.2028ms 200 application/javascript; charset=UTF-8
+2019-02-24 20:56:46.085 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-24 20:56:46.491 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-24 20:56:46.498 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-24 20:56:46.500 -08:00 [INF] Request finished in 9.3623ms 200 image/x-icon
+2019-02-24 20:56:46.520 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-24 20:56:46.523 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-24 20:56:46.529 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-24 20:56:46.557 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.framework.unityweb'
+2019-02-24 20:56:46.561 -08:00 [INF] Request finished in 36.3813ms 200 application/octet-stream
+2019-02-24 20:56:46.590 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.data.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.data.unityweb'
+2019-02-24 20:56:46.593 -08:00 [INF] Request finished in 64.2255ms 200 application/octet-stream
+2019-02-24 20:56:46.598 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.code.unityweb'
+2019-02-24 20:56:46.601 -08:00 [INF] Request finished in 81.6939ms 200 application/octet-stream
+2019-02-24 20:57:11.998 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg  
+2019-02-24 20:57:12.000 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f2f30dc7704b93cd414dba2533f7a0f7.jpg  
+2019-02-24 20:57:12.003 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6b7dcfac373293aa5eadf6eb0a29418e.jpg  
+2019-02-24 20:57:12.004 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/a1d58cf19b77fb6f6917befb472cdc8d.jpg  
+2019-02-24 20:57:12.009 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f215b8ab565c09e3da83575440569612.jpg  
+2019-02-24 20:57:12.018 -08:00 [INF] Request finished in 17.7889ms 200 image/jpeg; charset=UTF-8
+2019-02-24 20:57:12.035 -08:00 [INF] Request finished in 28.6367ms 200 image/jpeg; charset=UTF-8
+2019-02-24 20:57:12.042 -08:00 [INF] Request finished in 19.2743ms 200 image/jpeg; charset=UTF-8
+2019-02-24 20:57:12.045 -08:00 [INF] Request finished in 28.6247ms 200 image/jpeg; charset=UTF-8
+2019-02-24 20:57:12.050 -08:00 [INF] Request finished in 37.7167ms 200 image/jpeg; charset=UTF-8
+2019-02-24 20:57:12.053 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6254da913578421dc62065fede06f3e9.jpg  
+2019-02-24 20:57:12.061 -08:00 [INF] Request finished in 5.1794ms 200 image/jpeg; charset=UTF-8
+2019-02-24 21:01:52.565 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/portfolio  
+2019-02-24 21:01:52.569 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-24 21:01:52.571 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-24 21:01:52.573 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.027200000000000002ms.
+2019-02-24 21:01:52.574 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-24 21:01:52.591 -08:00 [INF] Executed ViewResult - view Index executed in 14.988100000000001ms.
+2019-02-24 21:01:52.594 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 22.2603ms
+2019-02-24 21:01:52.597 -08:00 [INF] Request finished in 32.4787ms 200 text/html; charset=utf-8
+2019-02-24 21:01:52.602 -08:00 [INF] Request finished in 306517.0224ms 200 text/event-stream; charset=utf-8
+2019-02-24 21:01:52.613 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg  
+2019-02-24 21:01:52.627 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f2f30dc7704b93cd414dba2533f7a0f7.jpg  
+2019-02-24 21:01:52.637 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/a1d58cf19b77fb6f6917befb472cdc8d.jpg  
+2019-02-24 21:01:52.640 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6b7dcfac373293aa5eadf6eb0a29418e.jpg  
+2019-02-24 21:01:52.642 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=myTxG_AJ3BS879AAyWidoqY-JuIObiYoy-lgYADSGuU  
+2019-02-24 21:01:52.659 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f215b8ab565c09e3da83575440569612.jpg  
+2019-02-24 21:01:52.674 -08:00 [INF] Request finished in 60.3863ms 200 image/jpeg; charset=UTF-8
+2019-02-24 21:01:52.681 -08:00 [INF] Request finished in 59.0385ms 200 image/jpeg; charset=UTF-8
+2019-02-24 21:01:52.687 -08:00 [INF] Request finished in 46.201ms 200 image/jpeg; charset=UTF-8
+2019-02-24 21:01:52.690 -08:00 [INF] Request finished in 40.4342ms 200 image/jpeg; charset=UTF-8
+2019-02-24 21:01:52.697 -08:00 [INF] Request finished in 30.1162ms 200 image/jpeg; charset=UTF-8
+2019-02-24 21:01:52.715 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6254da913578421dc62065fede06f3e9.jpg  
+2019-02-24 21:01:52.720 -08:00 [INF] Request finished in 40.1385ms 200 image/jpeg; charset=UTF-8
+2019-02-24 21:01:52.722 -08:00 [INF] Request finished in 80.5648ms 200 application/javascript; charset=UTF-8
+2019-02-24 21:01:52.986 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-24 21:01:53.039 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-24 21:01:53.045 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-24 21:01:53.048 -08:00 [INF] Request finished in 8.8152ms 200 image/x-icon
+2019-02-24 21:01:53.080 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-24 21:01:53.084 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-24 21:01:53.086 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-24 21:01:53.096 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.framework.unityweb'
+2019-02-24 21:01:53.109 -08:00 [INF] Request finished in 20.6751ms 200 application/octet-stream
+2019-02-24 21:01:53.139 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.data.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.data.unityweb'
+2019-02-24 21:01:53.142 -08:00 [INF] Request finished in 58.8985ms 200 application/octet-stream
+2019-02-24 21:01:53.149 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.code.unityweb'
+2019-02-24 21:01:53.151 -08:00 [INF] Request finished in 78.024ms 200 application/octet-stream
+2019-02-24 21:06:00.959 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/portfolio  
+2019-02-24 21:06:00.962 -08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio)
+2019-02-24 21:06:00.966 -08:00 [INF] Executing action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) - Validation state: "Valid"
+2019-02-24 21:06:00.969 -08:00 [INF] Executed action method JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.031900000000000005ms.
+2019-02-24 21:06:00.971 -08:00 [INF] Executing ViewResult, running view Index.
+2019-02-24 21:06:00.985 -08:00 [INF] Executed ViewResult - view Index executed in 13.705300000000001ms.
+2019-02-24 21:06:00.989 -08:00 [INF] Executed action JayceeGriffithPortfolio.Controllers.MainController.Index (JayceeGriffithPortfolio) in 22.8385ms
+2019-02-24 21:06:00.996 -08:00 [INF] Request finished in 35.074ms 200 text/html; charset=utf-8
+2019-02-24 21:06:01.023 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f2f30dc7704b93cd414dba2533f7a0f7.jpg  
+2019-02-24 21:06:01.030 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/main-client.js?v=myTxG_AJ3BS879AAyWidoqY-JuIObiYoy-lgYADSGuU  
+2019-02-24 21:06:01.031 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/a1d58cf19b77fb6f6917befb472cdc8d.jpg  
+2019-02-24 21:06:01.039 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/e2b29d705fb34bbfc88be3bd0dfd2e3f.jpg  
+2019-02-24 21:06:01.041 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6b7dcfac373293aa5eadf6eb0a29418e.jpg  
+2019-02-24 21:06:01.043 -08:00 [INF] Request finished in 248055.8171ms 200 text/event-stream; charset=utf-8
+2019-02-24 21:06:01.045 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/f215b8ab565c09e3da83575440569612.jpg  
+2019-02-24 21:06:01.056 -08:00 [INF] Request finished in 38.5788ms 200 image/jpeg; charset=UTF-8
+2019-02-24 21:06:01.061 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/6254da913578421dc62065fede06f3e9.jpg  
+2019-02-24 21:06:01.064 -08:00 [INF] Request finished in 40.5269ms 200 image/jpeg; charset=UTF-8
+2019-02-24 21:06:01.066 -08:00 [INF] Request finished in 17.5922ms 200 image/jpeg; charset=UTF-8
+2019-02-24 21:06:01.071 -08:00 [INF] Request finished in 31.1377ms 200 image/jpeg; charset=UTF-8
+2019-02-24 21:06:01.077 -08:00 [INF] Request finished in 44.7332ms 200 image/jpeg; charset=UTF-8
+2019-02-24 21:06:01.081 -08:00 [INF] Request finished in 21.3261ms 200 image/jpeg; charset=UTF-8
+2019-02-24 21:06:01.084 -08:00 [INF] Request finished in 59.9066ms 200 application/javascript; charset=UTF-8
+2019-02-24 21:06:01.270 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/dist/__webpack_hmr  
+2019-02-24 21:06:01.311 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/favicon.ico  
+2019-02-24 21:06:01.317 -08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\favicon.ico'
+2019-02-24 21:06:01.320 -08:00 [INF] Request finished in 9.4397ms 200 image/x-icon
+2019-02-24 21:06:01.418 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb  
+2019-02-24 21:06:01.423 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb  
+2019-02-24 21:06:01.425 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62868/JayceeGriffithWebsiteGame/Build.data.unityweb  
+2019-02-24 21:06:01.439 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.framework.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.framework.unityweb'
+2019-02-24 21:06:01.450 -08:00 [INF] Request finished in 20.5048ms 200 application/octet-stream
+2019-02-24 21:06:01.470 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.data.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.data.unityweb'
+2019-02-24 21:06:01.473 -08:00 [INF] Request finished in 50.0306ms 200 application/octet-stream
+2019-02-24 21:06:01.476 -08:00 [INF] Sending file. Request path: '/JayceeGriffithWebsiteGame/Build.wasm.code.unityweb'. Physical path: 'D:\Projects\JayceeGriffithPortfolio\JayceeGriffithPortfolio\wwwroot\JayceeGriffithWebsiteGame\Build.wasm.code.unityweb'
+2019-02-24 21:06:01.478 -08:00 [INF] Request finished in 60.5077ms 200 application/octet-stream
+2019-02-24 21:06:45.215 -08:00 [INF] Request finished in 43945.6258ms 200 text/event-stream; charset=utf-8

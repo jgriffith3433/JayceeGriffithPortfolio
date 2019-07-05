@@ -21,7 +21,7 @@ export default class GuestLayout extends React.Component<Props, {}> {
             <div id="guestLayout" className="layout">
                 <TopMenu />
                 <div className="container container-content">
-                    <div style={{ height: '75%;' }}>
+                    <div style={{ height: '80%;' }}>
                         {/*this.props.children*/}
                         {
                             <PerfectScrollbar option={{ suppressScrollX: "true" }}>

@@ -46,8 +46,25 @@
         </div>
     </div>
     <script>
+        try {
+            if (typeof WebAssembly === "object" && typeof WebAssembly.instantiate === "function") {
+                const module = new WebAssembly.Module(Uint8Array.of(0x0, 0x61, 0x73, 0x6d, 0x01, 0x00, 0x00, 0x00));
+                if (module instanceof WebAssembly.Module) {
+                    var inst = new WebAssembly.Instance(module) instanceof WebAssembly.Instance;
+                    window.supported = true;
+                } else {
+                    window.supported = false;
+                }
+            }
+        } catch (e) {
+            window.supported = false;
+        }
+        if (!window.supported) {
+            var preloader = document.getElementById("preloader");
+            preloader.classList.add('hidden');
+        }
         var currentEx = -1;
-        var excerpts = [
+        /*var excerpts = [
             "C#",
             "JavaScript",
             "HTML5",
@@ -70,8 +87,21 @@
             "Azure Services",
             "Entity Framework",
             "Adobe suite"
+        ];*/
+        var excerpts = [
+            "I'm loading the website for you...",
+            "WebGL and WebAssembly are still early web technologies...",
+            "It might take a minute...",
+            "It is CPU and GPU intensive, requires a bit of RAM...",
+            "So it looks best on PC...",
+            "But I made it still work on mobile...",
+            "But not safari, sorry ios...",
+            "Still loading...",
+            "And loading...",
+            "And still loading...",
+            "Just a little longer..."
         ];
-        var waitTime = 350;
+        var waitTime = 4000;
         var showNextLoadingExcerpt = function () {
             var preloader = document.getElementById("preloader");
             if (preloader) {

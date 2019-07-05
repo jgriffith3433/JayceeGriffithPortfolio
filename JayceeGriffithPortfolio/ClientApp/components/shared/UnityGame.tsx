@@ -188,7 +188,13 @@ class UnityGame extends React.Component<IUnityGameProps, {}> {
                     }
                 }
             });
-            ReactDOM.render(<Unity unityContent={this.JGWGame} />, document.getElementById("unityGame"));
+
+            if (window['supported']) {
+                ReactDOM.render(<Unity unityContent={this.JGWGame} />, document.getElementById("unityGame"));
+            } else {
+                var unityGameElem = document.getElementById("unityGame");
+                unityGameElem.parentNode.removeChild(unityGameElem);
+            }
         }
     };
 
