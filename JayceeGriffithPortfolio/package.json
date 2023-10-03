@@ -22,7 +22,7 @@
     "aspnet-webpack-react": "^4.0.0",
     "babel-loader": "^8.0.4",
     "case-sensitive-paths-webpack-plugin": "^2.1.2",
-    "css-loader": "^0.28.4",
+    "css-loader": "^6.8.1",
     "event-source-polyfill": "^0.0.16",
     "file-loader": "2.0.0",
     "fork-ts-checker-webpack-plugin": "0.5.0",
